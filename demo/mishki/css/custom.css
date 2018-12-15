@@ -50,6 +50,7 @@ h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top:
 .form input[type=checkbox] {
    height: 18px;width: 11%;float: left;
 }
+.mishki-mob img{width: 100%;height:auto;}
 .banner{
     border: 1px;
     border-style:solid;
@@ -63,7 +64,22 @@ h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top:
 .banner-block{margin-top: 20px;font-family: 'Bebas Neue Bold';font-size: 24px;}
 .banner-block img{margin-top: 10px;margin-right: 15px;float: left;width: 44px;height: 44px;}
 /*Planshet*/
+@media (max-width: 1199px) {
+  .phone{font-size:20px;}  
+.man p{font-size: 8px;}
+.form button{font-size:10px;}
+h4{font-size: 12px;}  
+.form h3{font-size:23px;}
+.m-1{margin-left: 100px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
+.m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;}  
+}
 @media (max-width: 997px) {
+.form h3{font-size:27px;}  
+.man p{font-size: 12px;}
+.form button{font-size:12px;}
+h4{font-size: 16px;}  
+.phone{font-size:24px;}  
  .man img{float:none;margin: 0;} 
  .man{text-align: center;margin-top: 50px;}
  .form{margin-top: 400px;}
@@ -78,13 +94,17 @@ h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top:
 .m-1{margin-left: 70px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
 .m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
 .m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;} 
+.form{margin-top: 400px;}
 }
 
   /*Mobile and */
 @media (max-width: 650px) {
-.block-border{width: 130px;height: 130px;}  
-.m-1{margin-left: 0px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
-.m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
-.m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;} 
-.mishki .img-2{width: 93px;height: 103px;position: absolute;z-index: 1;margin-top: -70px;margin-left: -80px;}
+h2{font-size: 54px;margin-bottom: 0px;}
+.form{margin-top: 330px;}
+}
+
+  /*Mobile and */
+@media (max-width: 480px) {
+h2{font-size: 34px;margin-bottom: 0px;}
+.form{margin-top: 200px;}
 }
