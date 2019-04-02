@@ -1,0 +1,128 @@
+
+@font-face {
+	font-family: 'Avenir Next Cyr Bold';
+	src: url('../fonts/AvenirNextCyr/AvenirNextCyr-Bold.eot');
+	src: local('../fonts/AvenirNextCyr/Avenir Next Cyr Bold'), local('AvenirNextCyr-Bold'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Bold.woff') format('woff'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Avenir Next Cyr Medium';
+	src: url('AvenirNextCyr-Medium.eot');
+	src: local('Avenir Next Cyr Medium'), local('AvenirNextCyr-Medium'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Medium.woff') format('woff'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next Cyr Regular';
+	src: url('AvenirNextCyr-Regular.eot');
+	src: local('Avenir Next Cyr Regular'), local('AvenirNextCyr-Regular'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Regular.woff') format('woff'),
+		url('../fonts/AvenirNextCyr/AvenirNextCyr-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  color: #fff;
+  min-height: 1000px;
+  line-height: 1.5 
+}
+
+a{color: #fff;}
+a:hover,a:focus{color: #fff;}
+img{width: 100%;height: auto;}
+
+/*PC version*/
+@media (min-width: 768px){
+
+.navbar-default {margin-top: 30px;background-color: transparent;border-color:transparent;}
+#navbar{padding: 10px;}
+.navbar-default .navbar-nav>li>a{font-family: 'Avenir Next Cyr Medium'; text-transform: uppercase;color: #fff;}
+.navbar-default .navbar-nav>li>a:hover{color: #fff; font-weight: bold;transition: 0.15s;margin-bottom: 20px;}
+.navbar-default .navbar-nav>li>a:focus{color: #fff; font-weight: bold;transition: 0.15s;margin-bottom: 20px;}
+.navbar-default .navbar-nav>li>a>span:hover{border-bottom: 2px #DC251F solid;}
+.navbar-default .navbar-nav>li>a>span:focus{border-bottom: 2px #DC251F solid;}
+.header-main{background-image:url(../img/header.jpg);background-size: cover;height: 700px; background-repeat: no-repeat;}
+.header-main::before {
+ content:'';
+ width: 100%;
+ height: 700px;
+ left: 0;
+ top: 0;
+ position: absolute;
+ background-color:rgba(0,0,0,.6);
+}
+
+
+.info-menu{font-size: 14px;font-family:'Avenir Next Cyr Regular';}
+.navbar-fixed-bottom, .navbar-fixed-top{position: absolute;}
+
+h1{font-size: 52px;line-height: 1.2; }
+h2{margin: 0;text-transform: uppercase;border-left: 3px #DC251F solid;font-family:'Avenir Next Cyr Regular';font-weight: bold;padding-left: 8px;}
+.header-title{
+	margin-top: 249px;
+	font-family:'Avenir Next Cyr Bold';
+	text-transform: uppercase;
+}
+
+.header-container{width: 70%;margin: 0 auto;}
+.header-info{margin-top: 20px;padding-left: 10px;font-size: 16px;font-family:'Avenir Next Cyr Regular';border-left: 3px #DC251F solid;}
+.header-button{margin-top: 50px;text-align: center;background-color: #DC251F;padding: 15px 10px;text-transform: uppercase;font-family:'Avenir Next Cyr Bold';font-size: 15px;}
+
+
+.section-new{
+	height: 800px;
+	background-color: #262626;
+	padding: 100px;
+}
+.new-text{padding: 30px 0;font-size: 14px;font-family:'Avenir Next Cyr Regular';}
+.new-post img{margin-bottom: 20px;}
+.new-post a{font-family:'Avenir Next Cyr Bold';font-size: 19px;}
+.footer{padding: 60px 0;height: 400px;background-color: #0C0C0C;border-top: 5px #DC251F solid;}
+.footer-title{font-family:'Avenir Next Cyr Bold';font-size: 19px;}
+.footer-ul{list-style-type: none;padding: 20px 0;line-height: 30px;}
+.footer-ul a{color: #9B9B9B;font-size: 14px;}
+.footer-ul a:hover{color: #fff;text-decoration: none;}
+.text-footer{font-family:'Avenir Next Cyr Regular';font-size: 14px;}
+.cc{text-align: right;}
+.social{list-style-type: none;padding-left: 0;}
+.social li{float: left;padding-left: 0;padding-right: 20px;}
+.social img{width: 28px;height: 28px;}
+.hover{display: none;}
+.no-hover:{}
+}/*PC version End*/
+
+/*Planshet version end*/
+@media (max-width: 992px){}
+@media (max-width: 1199px){
+	.logo{width: 200px;height: auto;}
+  .navbar-nav{font-size: 14px;}
+  .info-menu{font-size: 12px;}
+  .header-container{width: 100%;margin: 0 auto;}
+.header-main{background-image:url(../img/header.jpg);background-size: cover;height: 650px; background-repeat: no-repeat;}
+.header-main::before {
+ content:'';
+ width: 100%;
+ height: 650px;
+ left: 0;
+ top: 0;
+ position: absolute;
+ background-color:rgba(0,0,0,.6);
+}  
+}
+
+}
+/*Planshet version end*/
