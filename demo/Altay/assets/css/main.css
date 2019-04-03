@@ -1,4 +1,5 @@
 
+
 @font-face {
 	font-family: 'Avenir Next Cyr Bold';
 	src: url('../fonts/AvenirNextCyr/AvenirNextCyr-Bold.eot');
@@ -40,14 +41,20 @@ body {
   min-height: 1000px;
   line-height: 1.5 
 }
-
+.hover{display:none;}
 a{color: #fff;}
 a:hover,a:focus{color: #fff;}
 img{width: 100%;height: auto;}
 
+.m-70{margin-top: 70px;}
+
+
+.form-control{margin-top: 20px;background-color: #262626;border-radius: 0px;padding: 25px;}
+.contact-form{padding-top: 1px;}
+.btn-default{text-transform: uppercase;background: #DC251F;margin-top: 30px;font-size: 16px;font-family: 'Avenir Next Cyr Bold';color: #fff;border-color: #DC251F;padding: 10px 30px;}
 /*PC version*/
 @media (min-width: 768px){
-
+.video-post{padding-top: 30px;}
 .navbar-default {margin-top: 30px;background-color: transparent;border-color:transparent;}
 #navbar{padding: 10px;}
 .navbar-default .navbar-nav>li>a{font-family: 'Avenir Next Cyr Medium'; text-transform: uppercase;color: #fff;}
@@ -84,6 +91,12 @@ img{width: 100%;height: auto;}
 .navbar-fixed-bottom, .navbar-fixed-top{position: absolute;}
 
 h1{font-size: 52px;line-height: 1.2; }
+h4{margin-top: 0;font-size: 20px;font-family:'Avenir Next Cyr Bold';margin-bottom: 20px;}
+.contact-post{font-size: 14px;}
+.contact-social{width: 18px;height: 18px;float: left;}
+.bold{font-weight: 700;font-size: 16px;margin-left: 30px;}
+.tt{margin-left: 30px;}
+.contact-map{width: 100%;height: auto;margin-top: 40px;}
 h2{margin: 0;text-transform: uppercase;border-left: 3px #DC251F solid;font-family:'Avenir Next Cyr Regular';font-weight: bold;padding-left: 8px;}
 .header-title{
 	margin-top: 249px;
@@ -96,9 +109,9 @@ h2{margin: 0;text-transform: uppercase;border-left: 3px #DC251F solid;font-famil
 .header-button{margin-top: 50px;text-align: center;background-color: #DC251F;padding: 15px 10px;text-transform: uppercase;font-family:'Avenir Next Cyr Bold';font-size: 15px;}
 .breadcrumb-title h2{margin-top: 170px;font-weight: bold;font-size: 52px;}
 
-.section-new,.section-about{
+.section-new,.section-about,.section-contact{
 	background-color: #262626;
-	padding: 100px 0;
+	padding: 70px 0;
 }
 .about-title{font-size: 14px;}
 .about-post img{padding-top: 20px;}
@@ -116,8 +129,6 @@ h2{margin: 0;text-transform: uppercase;border-left: 3px #DC251F solid;font-famil
 .social{list-style-type: none;padding-left: 0;}
 .social li{float: left;padding-left: 0;padding-right: 20px;}
 .social img{width: 28px;height: 28px;}
-.hover{display: none;}
-.no-hover:{}
 }/*PC version End*/
 
 /*Planshet version end*/
