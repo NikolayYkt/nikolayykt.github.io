@@ -1,0 +1,83 @@
+body,h2{color: #fff;}
+
+
+.block-nikoweb{
+   padding-top: 50px;
+}
+.block-nikoweb .carousel-control-prev-icon{
+  background-image: url(img/icons/two-left-arrows.svg)
+}
+
+.block-nikoweb .carousel-control-next-icon{
+  background-image: url(img/icons/fast-forward.svg)
+}
+
+.item_small {
+	width: 128px; 
+	height: auto;
+	border-radius: 4px;
+}
+
+.bg-light{
+	background-color: #16161c!important;
+}
+.navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link {
+  color:#fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+	color:#fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+	color:#ddd;
+}
+
+.navbar-dark .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link.disabled{
+   color:#ddd;
+} 
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+	color:#ddd;
+}
+
+.accordion-button{
+	background-color: #2d343e;
+	color: #fff;
+}
+.accordion-item{
+	background-color: #424752;
+}
+.accordion-button:not(.collapsed){
+	color: rgba(255,255,255,.25);
+	background-color: #424752;
+}
+
+.h2-nikoweb{
+	text-align: center;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+
+.fa-instagram,.fa-whatsapp, .fa-skype{
+	padding-left:7px;
+	padding-right: 7px;	
+}
+.insta{cursor: pointer;}
+
+
+.modal-body,.modal-header,.modal-footer{
+	background-color: #424752;
+}
+
+@media (max-width: 576px) { 
+	.col{
+   flex: none;
+	}
+.item_small {
+	width: 64px; 
+	height: auto;
+	border-radius: 4px;
+}
+
+}
