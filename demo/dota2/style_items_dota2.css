@@ -70,6 +70,10 @@ body,h2{color: #fff;}
 	background-color: #424752;
 }
 
+.tab-pane p{
+	padding-top:15px;
+}
+
 @media (max-width: 576px) { 
 	.col{
    flex: none;
@@ -78,6 +82,11 @@ body,h2{color: #fff;}
 	width: 64px; 
 	height: auto;
 	border-radius: 4px;
+}
+
+.tab-pane p,.mb-3{
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 }
