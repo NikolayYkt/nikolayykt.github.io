@@ -1,6 +1,5 @@
 body,h2{color: #fff;}
 
-
 .block-nikoweb{
    padding-top: 50px;
 }
@@ -69,10 +68,19 @@ body,h2{color: #fff;}
 .modal-body,.modal-header,.modal-footer{
 	background-color: #424752;
 }
-
 .tab-pane p{
 	padding-top:15px;
 	text-align:justify;
+}
+.footer{margin-top: 50px;}
+.footer .copy{margin-bottom: 0;padding-top: 25px;padding-bottom: 25px;}
+
+
+
+@media (max-width: 991px) { 
+.footer{margin-top: 50px;padding-top: 20px;}
+.footer .copy{margin-bottom: 0;padding-top: 0;padding-bottom: 25px;}
+
 }
 
 @media (max-width: 576px) { 
