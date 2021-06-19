@@ -121,10 +121,11 @@ header{
   height: 100%;
   padding-top: 20px; 
 }
+.full-new{padding: 20px 0 0 0;}
 .wrapper-photo{min-height: 330px;}
 .full-new a{color:#AF4425; font-family: Georgia; font-size: 16px;font-weight: 700}
 
-.content{flex: 1 0 auto;padding-top: 5px; line-height: 1.3em;}
+.content{flex: 1 0 auto;line-height: 1.3em;}
 
 .divide40{height: 40px;}
 .divide20{height: 20px;}
@@ -132,8 +133,13 @@ header{
   margin-right: 20px;
 }
 
+.text-post{
+  background-color: #F6EDCE;
+  padding: 15px 15px 15px 15px;
+}
+
 .post {
-  padding: 10px 0 0 0;
+  padding: 15px 0 0 0;
   box-sizing: border-box;
   word-wrap: break-word;
   overflow: hidden;
@@ -149,6 +155,8 @@ header{
   line-height: 1.5em;
   color: #333;
   text-align: justify;
+  background-color:#F6EDCE;
+  padding: 0 15px 15px 15px;
 }
 
 .mini img,  .small img, .mini-post img{
@@ -161,7 +169,7 @@ header{
 h2 a{color: #AF4425;}
 h2 a:hover,h2 a:focus{color: #AF4425;}
 h2{
-  margin:0;padding: 10px 0 0 0;
+  margin:0;padding: 10px 0 10px 0;
   color: #000;
   font-size: 20px;
   font-weight: 700;
@@ -237,7 +245,10 @@ header h1,header h1:hover,header h1:focus{
 .bx-wrapper{margin-top: -5px !important;}
 .bx-clone{position: absolute;}
 
+
 @media (min-width: 768px) {
+
+.navbar-nav{display: flex;}
 
 .bxslider img{
   max-width: 100%;
@@ -281,7 +292,7 @@ header h1,header h1:hover,header h1:focus{
    padding: 30px 0 0 15px;
 }
 
-.mini-post{margin-left: 15px; padding: 0 15px 15px 15px;}
+.mini-post{background: #F6EDCE; margin-left: 15px; padding: 0 15px 15px 15px;}
 
 .widget-content{
   margin-top: 10px;
@@ -297,7 +308,7 @@ header h1,header h1:hover,header h1:focus{
 
 
 .widget-gallery{
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 20px;
   background-color: #F6EDCE;
   box-sizing: border-box;
@@ -509,6 +520,7 @@ box-shadow: none;
 .bxslider_gallery img{width: 100%;height: 200px;}
 .bxslider,.bxslider_gallery{text-align:center;}
 }
+
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
