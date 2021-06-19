@@ -99,12 +99,15 @@ header{
   min-height: 232px;
   background-image: url("img/header.jpg");
   background-size: cover;
+  flex: 0 0 auto;
 }
 
 .footer-top{
+  flex: 0 0 auto;	
   min-height: 102px;
   background-color: #AF4425;
   text-align: center;
+  margin-top: 30px;
 }
 
 .footer-bottom{
@@ -113,13 +116,15 @@ header{
 }
 
 .wrapper{
-  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding-top: 20px; 
 }
 .wrapper-photo{min-height: 330px;}
 .full-new a{color:#AF4425; font-family: Georgia; font-size: 16px;font-weight: 700}
 
-.content{padding-top: 5px; line-height: 1.3em;}
+.content{flex: 1 0 auto;padding-top: 5px; line-height: 1.3em;}
 
 .divide40{height: 40px;}
 .divide20{height: 20px;}
@@ -382,7 +387,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { display: block; }
 .footer-top .container-fluid{
   padding-right: 75px;
   padding-left: 55px;
-  margin-top: 40px;
 }
 
 }
