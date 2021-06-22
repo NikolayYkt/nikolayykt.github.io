@@ -12,6 +12,9 @@ body {
     overflow-x: hidden;
 }
 
+#page{overflow: hidden;display: flex; flex-direction: column; min-height: 100vh;}
+#footer{margin-top: auto;}
+
 .news .post{
     padding-bottom: 25px;
 }
