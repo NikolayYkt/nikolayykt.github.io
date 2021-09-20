@@ -57,7 +57,7 @@ document.write('</div><!--page-content-->');
 }
 
 
-function content_page(real,bb){
+function content_page(real,bb,str){
   a = '';
   if (real == 1){a = 'wp-content/uploads/2021/09/blich_16-1024x554.jpg';}
   else if (real == 3){a = 'wp-content/uploads/2021/09/blich_7-1024x554.jpg';}
@@ -68,7 +68,7 @@ document.write('<section class="py-4">');
   document.write('<div class="container">');
 document.write('<article id="post-2" class="post-2 page type-page status-publish hentry">');
       document.write(' <header class="d-lg-none d-xl-block d-xl-none d-md-none d-lg-block">');
-   document.write(' <h4 class="mt-4">Выпадающее меню</h4> </header><!-- .entry-header -->');
+   document.write(' <h4 class="mt-4">'+str+'</h4> </header><!-- .entry-header -->');
  document.write(' <div class="entry-content"> ');
 document.write('<p>Это пример страницы. От записей в блоге она отличается тем, что остаётся на одном месте и отображается в меню сайта (в большинстве тем). На странице «Детали» владельцы сайтов обычно рассказывают о себе потенциальным посетителям. Например, так:</p>');
 document.write('<p>Привет! Днём я курьер, а вечером — подающий надежды актёр. Это мой блог. Я живу в Ростове-на-Дону, люблю своего пса Джека и пинаколаду. (И ещё попадать под дождь.)</p>');
