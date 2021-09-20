@@ -69,7 +69,7 @@ if (real == 1|| real == 9){i='wp-content/uploads/2021/08/blich_3.jpg';}
 else if (real == 2){i='wp-content/uploads/2021/09/blich_23.jpg';d = 'single.html';}
 else if (real == 3){i='wp-content/uploads/2021/09/blich_16.jpg';d = 'single.html';}
 else if (real == 4){i='wp-content/uploads/2021/09/blich_6.jpg';d = 'single.html';}
-else if (real == 5){i='http://first/wp-content/uploads/2021/09/blich_23.jpg';d = 'single.html';}
+else if (real == 5){i='wp-content/uploads/2021/09/blich_23.jpg';d = 'single.html';}
 else if (real == 6){i='wp-content/uploads/2021/09/blich_17.jpg';d = 'single.html';}
 else if (real == 7){i='wp-content/uploads/2021/09/blich_7.jpg';d = 'single.html';}
 else if (real == 8){i='wp-content/uploads/2021/08/blich_3.jpg';d = 'single-3.html';}
