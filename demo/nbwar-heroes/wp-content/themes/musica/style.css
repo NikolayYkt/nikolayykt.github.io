@@ -1,0 +1,107 @@
+/*!
+Theme Name: musicA
+Author: Nikolay Web
+Author URI: http://GetUnitXNikolay@yandex.ru
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: musica
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+/*Wordpress style*/
+.wp-block-image{margin: 0;}
+/*Wordpress end style*/
+/* Nikolay Web */
+body{font-family: muller, sans-serif;margin: 0;padding: 0;}
+a, a:link, a:visited, a:hover, a:active,a:focus{
+	font-size: 15px;
+    color: #010101;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{margin: 0;}
+#page{
+	display: flex;
+	min-height: 100%;
+	overflow: hidden;
+	flex-direction: column;
+	background: #FFFAFA;
+}
+.container {
+    max-width: 1400px;
+    position: relative;
+    margin: auto;
+    padding: 0 15px;
+}
+#site-main{margin: 20px;}
+.has-text-align-center{color: green;}
+/*colonki*/
+.col-9{width: 90%;}.col-8{width: 80%;}
+.col-7{width: 70%;}.col-6{width: 60%;}
+.col-5{width: 50%;}.col-4{width: 40%;}
+.col-3{width: 30%;}.col-2{width: 20%;}
+.col-1{width: 10%;}.col-10{width: 100%;}
+.row{display: flex;flex-wrap: wrap;}
+.row-a{display: flex;flex-wrap: wrap;}
+.block-guid{padding: 0 10px;}
+/*colonki end*/
+/*style content*/
+.red{color: #FF0000;}.green{color:#008000;}.blue{color: #0000FF;}
+#widget-area,#widget-area-right,#content{padding: 20px 10px;}
+#widget-area{margin-right: 15px;padding: 10px 0;}#widget-area-right{margin-left: 15px;padding: 10px 0;}
+#site-footer{margin-top: 15px;}
+#site-header,#widget-area,#widget-area-right,#site-footer,#content{
+	background-color: #fff;
+  box-shadow: 0 0 10px #ddd;}
+#content .row{justify-content: center;}
+.entry-title{text-align:center;font-size: 1.5em;}
+.aa{padding: 0 0px 50px 0;}
+.entry-title{font-size: 25px;}
+.hero {font-size: 25px;padding: 0 0px 50px 0;}
+.post-thumbnail img{width: 48px;height:48px;}
+/*style content end*/
+/*menu*/
+.top-menu{display: flex;}
+.menu{display: flex;flex-wrap: wrap;}
+.logo{width: 10%;}
+.logo img{max-width: 100%;}
+.menu ul li{text-decoration: none;list-style: none;padding: 0 10px;}
+.sub-menu{display: none;position: absolute;z-index: 20;background: #fff;box-shadow: 0 0 10px #ddd;padding: 10px;}
+/*menu end*/
+/*style widget*/
+#widget-area h2,#widget-area-right h2,.entry-title,h1{
+	line-height: 1.5;
+}
+.entry-footer a{padding: 0 5px;}
+/*style widget end*/
+
+
+
+@media (max-width: 992px){
+	.container {
+		max-width: 750px;
+	}
+}
+@media (max-width: 767px){
+	.container {
+		max-width: none;
+	}
+}
+@media (max-width: 1200px){
+	.container {
+		max-width: 970px;
+	}
+	.hidden{display:none;}
+	.col-2{width: 30%;}
+	.col-3{width: 40%;}
+	.col-4{width: 50%;}
+	.col-5{width: 60%;}
+	.col-6{width: 70%;}
+	.col-7{width: 80%;}
+	.col-8{width: 90%;}
+	.col-9{width: 100%;}
+}
