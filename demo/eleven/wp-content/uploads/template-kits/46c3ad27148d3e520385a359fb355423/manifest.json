@@ -1,0 +1,1161 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Burgeon - Template Kit for Business Startup",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/show.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Login Page",
+            "screenshot": "screenshots\/login-page.jpg",
+            "source": "templates\/login-page.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/login-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Career",
+            "screenshot": "screenshots\/career.jpg",
+            "source": "templates\/career.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/career\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Help Center",
+            "screenshot": "screenshots\/help-center.jpg",
+            "source": "templates\/help-center.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/help-center\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Burgeon v1 - Single Post",
+            "screenshot": "screenshots\/burgeon-v1-single-post.jpg",
+            "source": "templates\/burgeon-v1-single-post.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/?elementor_library=burgeon-v1-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Burgeon v1 - Archive",
+            "screenshot": "screenshots\/burgeon-v1-archive.jpg",
+            "source": "templates\/burgeon-v1-archive.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/?elementor_library=burgeon-v1-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Burgeon v1 - Error 404",
+            "screenshot": "screenshots\/burgeon-v1-error-404.jpg",
+            "source": "templates\/burgeon-v1-error-404.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/?elementor_library=burgeon-v1-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Burgeon v1 - Footer",
+            "screenshot": "screenshots\/burgeon-v1-footer.jpg",
+            "source": "templates\/burgeon-v1-footer.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/?elementor_library=burgeon-v1-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Burgeon v1 - Header",
+            "screenshot": "screenshots\/burgeon-v1-header.jpg",
+            "source": "templates\/burgeon-v1-header.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/burgeon\/?elementor_library=burgeon-v1-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Element Pack Lite - Addons for Elementor",
+            "version": "3.7.0",
+            "file": "bdthemes-element-pack-lite\/bdthemes-element-pack-lite.php",
+            "author": "BdThemes"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Premium Addons for Elementor",
+            "version": "4.8.4",
+            "file": "premium-addons-for-elementor\/premium-addons-for-elementor.php",
+            "author": "Leap13"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Logo_3.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo_3-800x183.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/burgeon-v1-footer.json",
+                    "name": "Burgeon v1 - Footer"
+                }
+            ],
+            "filesize": 16290,
+            "dimensions": [
+                1069,
+                245
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo_2.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo_2-800x218.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/burgeon-v1-header.json",
+                    "name": "Burgeon v1 - Header"
+                }
+            ],
+            "filesize": 12961,
+            "dimensions": [
+                1022,
+                278
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "BG2.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/BG2-800x376.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                },
+                {
+                    "source": "templates\/burgeon-v1-error-404.json",
+                    "name": "Burgeon v1 - Error 404"
+                }
+            ],
+            "filesize": 98713,
+            "dimensions": [
+                1048,
+                493
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/metaball-holographic-liquid-bubbles-backgrounds-H83D8S3"
+        },
+        {
+            "filename": "Dashboard_2-e1642670764379.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Dashboard_2-800x566.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/burgeon-v1-archive.json",
+                    "name": "Burgeon v1 - Archive"
+                }
+            ],
+            "filesize": 212451,
+            "dimensions": [
+                550,
+                389
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/dashboard-widgets-ui-kit-template-7N8E43"
+        },
+        {
+            "filename": "young-employee-in-casualwear-keeping-legs-on-table-while-scrolling-in-smartphone.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/young-employee-in-casualwear-keeping-legs-on-table-while-scrolling-in-smartphone-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 90014,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-65CK4AF"
+        },
+        {
+            "filename": "BG6-e1642670795771.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/BG6-800x569.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 54771,
+            "dimensions": [
+                920,
+                654
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/sales-dashboard-ui-design-8TWZ3ZB"
+        },
+        {
+            "filename": "BG-Worldmap-e1642670972939.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/BG-Worldmap-e1642670972939.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 269715,
+            "dimensions": [
+                640,
+                392
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/business-dotted-world-map-C3EU3G7"
+        },
+        {
+            "filename": "Logo-Monstra.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo-Monstra.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 6525,
+            "dimensions": [
+                500,
+                117
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo_Bimbink_2.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo_Bimbink_2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 11587,
+            "dimensions": [
+                461,
+                104
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo_masterykit-2.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo_masterykit-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 22454,
+            "dimensions": [
+                735,
+                216
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo_metta_-pccf2zxc2dg0ea1huqj1dvbjxx1b3kblqw0g5bxji8.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/logo_metta_-pccf2zxc2dg0ea1huqj1dvbjxx1b3kblqw0g5bxji8.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 6594,
+            "dimensions": [
+                180,
+                55
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-kreatifa-1.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/logo-kreatifa-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 9933,
+            "dimensions": [
+                525,
+                140
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo_Techit_6_white.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo_Techit_6_white.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 2351,
+            "dimensions": [
+                332,
+                93
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo_vanguard-pd2h97tnnnsx4vdap7z7jcp6bed2cyfn0elzrzwnwg.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/logo_vanguard-pd2h97tnnnsx4vdap7z7jcp6bed2cyfn0elzrzwnwg.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 4933,
+            "dimensions": [
+                151,
+                45
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-bikepro_.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/logo-bikepro_.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 5294,
+            "dimensions": [
+                375,
+                216
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo-Carbon-1.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo-Carbon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 12862,
+            "dimensions": [
+                461,
+                136
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "hasto-logo.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/hasto-logo.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 16737,
+            "dimensions": [
+                550,
+                150
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "group-of-people-team-support-startup-business.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/group-of-people-team-support-startup-business-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                }
+            ],
+            "filesize": 79404,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P7UFHGP"
+        },
+        {
+            "filename": "BG5-1.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/BG5-1-800x347.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 9614,
+            "dimensions": [
+                1048,
+                455
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "C4.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/C4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 119814,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "C1.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/C1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 89313,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/optimistic-positive-handsome-bearded-man-FXXXGY4"
+        },
+        {
+            "filename": "C3.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/C3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 129877,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-confident-male-entrepreneur-with-postive-smi-BDAU9DK"
+        },
+        {
+            "filename": "C2.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/C2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 189804,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "Browser_front_01x_Blue-e1642671034586.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Browser_front_01x_Blue-800x450.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 176853,
+            "dimensions": [
+                720,
+                405
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ui-ux-design-team-working-with-web-browser-website-7XL4V8K"
+        },
+        {
+            "filename": "Team_2.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Team_2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 93457,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SE4FCHH"
+        },
+        {
+            "filename": "Team_5.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Team_5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 104486,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-349U7HD"
+        },
+        {
+            "filename": "Team_3.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Team_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 106261,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CUWYCGG"
+        },
+        {
+            "filename": "start-up-business-team-in-the-office-2.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/start-up-business-team-in-the-office-2-800x498.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 115449,
+            "dimensions": [
+                1080,
+                673
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PCCJNUM"
+        },
+        {
+            "filename": "BG1.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/BG1-800x238.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/burgeon-v1-footer.json",
+                    "name": "Burgeon v1 - Footer"
+                }
+            ],
+            "filesize": 75102,
+            "dimensions": [
+                1047,
+                312
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/metaball-holographic-liquid-bubbles-backgrounds-H83D8S3"
+        },
+        {
+            "filename": "Google-Play_button.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Google-Play_button.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/burgeon-v1-footer.json",
+                    "name": "Burgeon v1 - Footer"
+                }
+            ],
+            "filesize": 5221,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "App-Store_button.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/App-Store_button.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/burgeon-v1-footer.json",
+                    "name": "Burgeon v1 - Footer"
+                }
+            ],
+            "filesize": 3406,
+            "dimensions": [
+                216,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "computer-showing-stock-market-diagram-on-desk-in-startup-office.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/computer-showing-stock-market-diagram-on-desk-in-startup-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/login-page.json",
+                    "name": "Login Page"
+                }
+            ],
+            "filesize": 121778,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-VPL2YHF"
+        },
+        {
+            "filename": "BG3-2.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/BG3-2-800x187.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/career.json",
+                    "name": "Career"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/burgeon-v1-archive.json",
+                    "name": "Burgeon v1 - Archive"
+                }
+            ],
+            "filesize": 60360,
+            "dimensions": [
+                1048,
+                245
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/abstract-liquid-shapes-5DM3X4A"
+        },
+        {
+            "filename": "startup-business-team.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/startup-business-team-800x526.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 87462,
+            "dimensions": [
+                1080,
+                710
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-NAYYMXF"
+        },
+        {
+            "filename": "Team_4.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Team_4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 89514,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LXDSGEZ"
+        },
+        {
+            "filename": "Team_1.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Team_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 81730,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MTNVM24"
+        },
+        {
+            "filename": "Team_6.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Team_6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 125558,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-TUR4QYP"
+        },
+        {
+            "filename": "R2.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/R2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/burgeon-v1-single-post.json",
+                    "name": "Burgeon v1 - Single Post"
+                }
+            ],
+            "filesize": 105535,
+            "dimensions": [
+                443,
+                443
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "Logo_4.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/burgeon\/wp-content\/uploads\/sites\/47\/2022\/01\/Logo_4-800x183.png",
+            "templates": [
+                {
+                    "source": "templates\/burgeon-v1-header.json",
+                    "name": "Burgeon v1 - Header"
+                }
+            ],
+            "filesize": 13078,
+            "dimensions": [
+                1069,
+                245
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

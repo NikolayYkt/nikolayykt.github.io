@@ -1,0 +1,981 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Rocee - Plumbing Service & Maintanence Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Under Maintanence",
+            "screenshot": "screenshots\/under-maintanence.jpg",
+            "source": "templates\/under-maintanence.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/under-maintanence\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/home-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm | Contact Form",
+            "screenshot": "screenshots\/metform-contact-form.jpg",
+            "source": "templates\/metform-contact-form.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/metform-contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm | Fast Quote Form",
+            "screenshot": "screenshots\/metform-fast-quote-form.jpg",
+            "source": "templates\/metform-fast-quote-form.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/metform-fast-quote-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm | Make a Quotation Form",
+            "screenshot": "screenshots\/metform-make-a-quotation-form.jpg",
+            "source": "templates\/metform-make-a-quotation-form.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/metform-make-a-quotation-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm | Submit FAQ Form",
+            "screenshot": "screenshots\/metform-submit-faq-form.jpg",
+            "source": "templates\/metform-submit-faq-form.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/metform-submit-faq-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm | Subscribe Form",
+            "screenshot": "screenshots\/metform-subscribe-form.jpg",
+            "source": "templates\/metform-subscribe-form.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/metform-subscribe-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Block | Footer",
+            "screenshot": "screenshots\/block-footer.jpg",
+            "source": "templates\/block-footer.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/block-footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Block | Header",
+            "screenshot": "screenshots\/block-header.jpg",
+            "source": "templates\/block-header.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/block-header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Work Gallery",
+            "screenshot": "screenshots\/work-gallery.jpg",
+            "source": "templates\/work-gallery.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/work-gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonial",
+            "screenshot": "screenshots\/testimonial.jpg",
+            "source": "templates\/testimonial.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/testimonial\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Make a Quotation",
+            "screenshot": "screenshots\/make-a-quotation.jpg",
+            "source": "templates\/make-a-quotation.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/make-a-quotation\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Pricing",
+            "screenshot": "screenshots\/our-pricing.jpg",
+            "source": "templates\/our-pricing.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/our-pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Detail Service",
+            "screenshot": "screenshots\/detail-service.jpg",
+            "source": "templates\/detail-service.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/detail-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Services",
+            "screenshot": "screenshots\/our-services.jpg",
+            "source": "templates\/our-services.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/our-services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/home-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Block | Offcanvas Menu",
+            "screenshot": "screenshots\/block-offcanvas-menu.jpg",
+            "source": "templates\/block-offcanvas-menu.json",
+            "preview_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/template-kit\/block-offcanvas-menu\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.1.0",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "website-creator.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/website-creator-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/under-maintanence.json",
+                    "name": "Under Maintanence"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 311432,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QMN4L8F"
+        },
+        {
+            "filename": "fococlipping-20220117-111355-1.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/fococlipping-20220117-111355-1-800x1066.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 198394,
+            "dimensions": [
+                936,
+                1247
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4CZ3E5S"
+        },
+        {
+            "filename": "fococlipping-20220117-13471-1.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/fococlipping-20220117-13471-1-800x634.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 440861,
+            "dimensions": [
+                1640,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F4XSZV9"
+        },
+        {
+            "filename": "fococlipping-20220117-13510-1.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/fococlipping-20220117-13510-1-800x761.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 224715,
+            "dimensions": [
+                1001,
+                952
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GU2YWK8"
+        },
+        {
+            "filename": "bathroom-plumbing-work.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/bathroom-plumbing-work-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/work-gallery.json",
+                    "name": "Work Gallery"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 301493,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HQRJL9W"
+        },
+        {
+            "filename": "plumbing-service-work.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/plumbing-service-work-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/work-gallery.json",
+                    "name": "Work Gallery"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 297164,
+            "dimensions": [
+                2000,
+                1331
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PHQAU8E"
+        },
+        {
+            "filename": "male-plumber-and-female-customer-in-the-kitchen.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/male-plumber-and-female-customer-in-the-kitchen-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/work-gallery.json",
+                    "name": "Work Gallery"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 310282,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-EKTSSW7"
+        },
+        {
+            "filename": "team-of-multi-ethnic-plumbers.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/team-of-multi-ethnic-plumbers-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-pricing.json",
+                    "name": "Our Pricing"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 332478,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WR8R8JQ"
+        },
+        {
+            "filename": "plumber-shows-pipe-wrenches-in-plumbering-store.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/plumber-shows-pipe-wrenches-in-plumbering-store-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 313097,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4CZ3E5S"
+        },
+        {
+            "filename": "smiling-handsome-plumber-standing-with-crossed-arms-and-looking-at-camera-in-kitchen.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/smiling-handsome-plumber-standing-with-crossed-arms-and-looking-at-camera-in-kitchen-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/work-gallery.json",
+                    "name": "Work Gallery"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/make-a-quotation.json",
+                    "name": "Make a Quotation"
+                },
+                {
+                    "source": "templates\/our-pricing.json",
+                    "name": "Our Pricing"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 330031,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Y99Z6GE"
+        },
+        {
+            "filename": "plumber-in-uniform-holds-wrench-handyman.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/plumber-in-uniform-holds-wrench-handyman-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/make-a-quotation.json",
+                    "name": "Make a Quotation"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 268044,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-M29UADW"
+        },
+        {
+            "filename": "Rocee-Logo-Black.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/Rocee-Logo-Black.png",
+            "templates": [
+                {
+                    "source": "templates\/block-header.json",
+                    "name": "Block | Header"
+                }
+            ],
+            "filesize": 8635,
+            "dimensions": [
+                520,
+                151
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "plumber-fixing-kitchen-sink.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/plumber-fixing-kitchen-sink-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/work-gallery.json",
+                    "name": "Work Gallery"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 283621,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F4XSZV9"
+        },
+        {
+            "filename": "image-of-plumber-man-with-equipment-and-clipboard-working-in-apartment.jpg",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/image-of-plumber-man-with-equipment-and-clipboard-working-in-apartment-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/work-gallery.json",
+                    "name": "Work Gallery"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail Service"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 385576,
+            "dimensions": [
+                2000,
+                1334
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GU2YWK8"
+        },
+        {
+            "filename": "logoipsum-logo-52.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/logoipsum-logo-52.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2941,
+            "dimensions": [
+                170,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-51.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/logoipsum-logo-51.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3061,
+            "dimensions": [
+                167,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-55.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/logoipsum-logo-55.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3178,
+            "dimensions": [
+                168,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-54.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/logoipsum-logo-54.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2684,
+            "dimensions": [
+                170,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-53.png",
+            "thumbnail_url": "https:\/\/elkit.nirmanavisual.com\/rocee\/wp-content\/uploads\/sites\/2\/2022\/01\/logoipsum-logo-53.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3390,
+            "dimensions": [
+                169,
+                42
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

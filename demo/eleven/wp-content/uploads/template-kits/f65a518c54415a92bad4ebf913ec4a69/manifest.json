@@ -1,0 +1,705 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Autumn - Shopping E-Commerce Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Autumn - Home - Hero Layout Block 1",
+            "screenshot": "screenshots\/autumn-home-hero-layout-block-1.jpg",
+            "source": "templates\/autumn-home-hero-layout-block-1.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/autumn-home-hero-layout-block\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Autumn - Home - Hero Layout Block 2",
+            "screenshot": "screenshots\/autumn-home-hero-layout-block-2.jpg",
+            "source": "templates\/autumn-home-hero-layout-block-2.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/autumn-home-hero-layout-block-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pop Up Menu",
+            "screenshot": "screenshots\/pop-up-menu.jpg",
+            "source": "templates\/pop-up-menu.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=pop-up-menu",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Page",
+            "screenshot": "screenshots\/about-page.jpg",
+            "source": "templates\/about-page.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/about-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Shop Page",
+            "screenshot": "screenshots\/shop-page.jpg",
+            "source": "templates\/shop-page.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=shop-page",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive\/shop_page"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: Shop Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Product",
+            "screenshot": "screenshots\/single-product.jpg",
+            "source": "templates\/single-product.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Account Page",
+            "screenshot": "screenshots\/account-page.jpg",
+            "source": "templates\/account-page.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/account-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Checkout Page",
+            "screenshot": "screenshots\/checkout-page.jpg",
+            "source": "templates\/checkout-page.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/checkout-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Cart Page",
+            "screenshot": "screenshots\/cart-page.jpg",
+            "source": "templates\/cart-page.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/cart-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Post",
+            "screenshot": "screenshots\/archive-post.jpg",
+            "source": "templates\/archive-post.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=archive-post",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Page",
+            "screenshot": "screenshots\/contact-page.jpg",
+            "source": "templates\/contact-page.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/template-kit\/contact-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Error 404 Page",
+            "screenshot": "screenshots\/error-404-page.jpg",
+            "source": "templates\/error-404-page.json",
+            "preview_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/?elementor_library=error-404-page",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.5.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Premium Addons for Elementor",
+            "version": "4.8.3",
+            "file": "premium-addons-for-elementor\/premium-addons-for-elementor.php",
+            "author": "Leap13"
+        },
+        {
+            "name": "Qi Addons For Elementor",
+            "version": "1.5.1",
+            "file": "qi-addons-for-elementor\/class-qiaddonsforelementor.php",
+            "author": "Qode Interactive"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "6.1.1",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "7.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/7-800x767.jpg",
+            "templates": [
+                {
+                    "source": "templates\/autumn-home-hero-layout-block-1.json",
+                    "name": "Autumn - Home - Hero Layout Block 1"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single Product"
+                }
+            ],
+            "filesize": 172533,
+            "dimensions": [
+                1200,
+                1150
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/paris-lady-in-fashion-SW7KQDU"
+        },
+        {
+            "filename": "8.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/8-800x767.jpg",
+            "templates": [
+                {
+                    "source": "templates\/autumn-home-hero-layout-block-1.json",
+                    "name": "Autumn - Home - Hero Layout Block 1"
+                },
+                {
+                    "source": "templates\/shop-page.json",
+                    "name": "Shop Page"
+                }
+            ],
+            "filesize": 117332,
+            "dimensions": [
+                1321,
+                1266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/woman-fashion-portrait-382B8V9"
+        },
+        {
+            "filename": "9.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/9-800x767.jpg",
+            "templates": [
+                {
+                    "source": "templates\/autumn-home-hero-layout-block-1.json",
+                    "name": "Autumn - Home - Hero Layout Block 1"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                }
+            ],
+            "filesize": 131663,
+            "dimensions": [
+                1321,
+                1266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fashion-urban-girl-CD8X5BT"
+        },
+        {
+            "filename": "10.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/10-800x1531.jpg",
+            "templates": [
+                {
+                    "source": "templates\/autumn-home-hero-layout-block-1.json",
+                    "name": "Autumn - Home - Hero Layout Block 1"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                }
+            ],
+            "filesize": 174562,
+            "dimensions": [
+                1012,
+                1937
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fashion-girl-with-short-hair-TEKWJSC"
+        },
+        {
+            "filename": "11.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/11-800x767.jpg",
+            "templates": [
+                {
+                    "source": "templates\/autumn-home-hero-layout-block-1.json",
+                    "name": "Autumn - Home - Hero Layout Block 1"
+                },
+                {
+                    "source": "templates\/autumn-home-hero-layout-block-2.json",
+                    "name": "Autumn - Home - Hero Layout Block 2"
+                },
+                {
+                    "source": "templates\/about-page.json",
+                    "name": "About Page"
+                },
+                {
+                    "source": "templates\/error-404-page.json",
+                    "name": "Error 404 Page"
+                }
+            ],
+            "filesize": 151636,
+            "dimensions": [
+                1321,
+                1266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/woman-fashion-portrait-HUZMW5P"
+        },
+        {
+            "filename": "12.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/12-800x767.jpg",
+            "templates": [
+                {
+                    "source": "templates\/autumn-home-hero-layout-block-1.json",
+                    "name": "Autumn - Home - Hero Layout Block 1"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/contact-page.json",
+                    "name": "Contact Page"
+                }
+            ],
+            "filesize": 139110,
+            "dimensions": [
+                1321,
+                1266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fashion-girl-BPUMRZY"
+        },
+        {
+            "filename": "5.png",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/5.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 2226,
+            "dimensions": [
+                500,
+                350
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "user.png",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/user.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 16137,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/user_747376?term=user&page=1&position=1&page=1&position=1&related_id=747376&origin=search"
+        },
+        {
+            "filename": "19.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/19-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 162788,
+            "dimensions": [
+                950,
+                950
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-fashion-sensual-brunette-girl-with-long-h-PJWK7H5"
+        },
+        {
+            "filename": "18.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/18-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 121232,
+            "dimensions": [
+                950,
+                950
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-fashionable-white-man-wearing-leather-jacket-63DNTAR"
+        },
+        {
+            "filename": "20.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/20-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 135851,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fashion-portrait-9A9VHDG"
+        },
+        {
+            "filename": "14.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/14-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 70107,
+            "dimensions": [
+                950,
+                950
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/brown-leather-bag-isolated-PQFGX46"
+        },
+        {
+            "filename": "17.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/17-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 58940,
+            "dimensions": [
+                950,
+                950
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/luxury-leather-female-bag-isolated-on-white-backgr-P72Y986"
+        },
+        {
+            "filename": "37.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/37-800x1531.jpg",
+            "templates": [
+                {
+                    "source": "templates\/account-page.json",
+                    "name": "Account Page"
+                },
+                {
+                    "source": "templates\/checkout-page.json",
+                    "name": "Checkout Page"
+                },
+                {
+                    "source": "templates\/cart-page.json",
+                    "name": "Cart Page"
+                }
+            ],
+            "filesize": 654505,
+            "dimensions": [
+                1012,
+                1937
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/paris-lady-in-fashion-elegant-outfit-7TTZSSZ"
+        },
+        {
+            "filename": "34.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/34-800x1531.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 191988,
+            "dimensions": [
+                1012,
+                1937
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/tomboy-style-urban-fashion-model-black-outfit-P3PX2WB"
+        },
+        {
+            "filename": "27.jpg",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/27-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 126028,
+            "dimensions": [
+                950,
+                950
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fashion-girl-UM7UMY4"
+        },
+        {
+            "filename": "6.png",
+            "thumbnail_url": "https:\/\/rockboystudio.com\/template-demo\/autumn\/wp-content\/uploads\/sites\/11\/2022\/01\/6-800x130.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-page.json",
+                    "name": "Contact Page"
+                }
+            ],
+            "filesize": 11701,
+            "dimensions": [
+                1141,
+                186
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

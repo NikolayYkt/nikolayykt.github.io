@@ -1,0 +1,1445 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Vapixo",
+    "page_builder": "elementor",
+    "kit_version": "1.0.1",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Products",
+            "screenshot": "screenshots\/products.jpg",
+            "source": "templates\/products.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/products\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.jpg",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Customer Reviews",
+            "screenshot": "screenshots\/customer-reviews.jpg",
+            "source": "templates\/customer-reviews.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/customer-reviews\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Store Locator",
+            "screenshot": "screenshots\/store-locator.jpg",
+            "source": "templates\/store-locator.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/store-locator\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Careers",
+            "screenshot": "screenshots\/careers.jpg",
+            "source": "templates\/careers.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/careers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Theme Builder \u2013 Footer (Elementor Pro)",
+            "screenshot": "screenshots\/theme-builder-footer-elementor-pro-.jpg",
+            "source": "templates\/theme-builder-footer-elementor-pro-.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/?elementor_library=theme-builder-footer-elementor-pro",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Theme Builder \u2013 Header (Elementor Pro)",
+            "screenshot": "screenshots\/theme-builder-header-elementor-pro-.jpg",
+            "source": "templates\/theme-builder-header-elementor-pro-.json",
+            "preview_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/?elementor_library=theme-builder-header-elementor-pro",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.5.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "vaping-flavored-e-liquid-from-an-electronic-cigare-A5AHZU5.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vaping-flavored-e-liquid-from-an-electronic-cigare-A5AHZU5-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 121974,
+            "dimensions": [
+                1920,
+                1281
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A5AHZU5"
+        },
+        {
+            "filename": "play-icon.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/play-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 1102,
+            "dimensions": [
+                83,
+                83
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "smoke-element-overlays-ZQPTZ2G-1.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/smoke-element-overlays-ZQPTZ2G-1-600x659.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                },
+                {
+                    "source": "templates\/store-locator.json",
+                    "name": "Store Locator"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 74739,
+            "dimensions": [
+                716,
+                787
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZQPTZ2G"
+        },
+        {
+            "filename": "home-image-3.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/home-image-3-600x850.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 127001,
+            "dimensions": [
+                1024,
+                1450
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-pretty-woman-in-red-cap-smoke-an-electronic--3CF85Y6"
+        },
+        {
+            "filename": "home-image-1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/home-image-1-600x850.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 129982,
+            "dimensions": [
+                1024,
+                1450
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-flavored-e-liquid-from-an-electronic-cigare-L5G5XDD"
+        },
+        {
+            "filename": "smoke-element-overlays-ZQPTZ2G-2.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/smoke-element-overlays-ZQPTZ2G-2-600x568.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 109852,
+            "dimensions": [
+                1024,
+                970
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZQPTZ2G"
+        },
+        {
+            "filename": "8c.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/8c-600x568.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 152849,
+            "dimensions": [
+                1159,
+                1098
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZQPTZ2G"
+        },
+        {
+            "filename": "bg-gradient-1.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/bg-gradient-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 36569,
+            "dimensions": [
+                472,
+                514
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "vape-kit-mockup-AQ58J9U.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vape-kit-mockup-AQ58J9U-600x1341.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 162943,
+            "dimensions": [
+                700,
+                1564
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vape-kit-mockup-AQ58J9U"
+        },
+        {
+            "filename": "product-01.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/product-01-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 46626,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-device-4GU69RK"
+        },
+        {
+            "filename": "product-02.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/product-02-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 150675,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vape-and-vape-oil-PNHSLGV"
+        },
+        {
+            "filename": "product-03.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/product-03-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 47440,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-device-VXK9N3F"
+        },
+        {
+            "filename": "vaping-flavored-e-liquid-from-an-electronic-cigare.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vaping-flavored-e-liquid-from-an-electronic-cigare-600x398.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 71917,
+            "dimensions": [
+                1024,
+                680
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-flavored-e-liquid-from-an-electronic-cigare-USLQNHT"
+        },
+        {
+            "filename": "waist-up-portrait-of-woman-putting-finger-to-lips-Q4GRUTL.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/waist-up-portrait-of-woman-putting-finger-to-lips-Q4GRUTL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                },
+                {
+                    "source": "templates\/store-locator.json",
+                    "name": "Store Locator"
+                }
+            ],
+            "filesize": 70942,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q4GRUTL"
+        },
+        {
+            "filename": "face-of-young-handsome-man-looking-back-VQ5CDCZ.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/face-of-young-handsome-man-looking-back-VQ5CDCZ.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                },
+                {
+                    "source": "templates\/store-locator.json",
+                    "name": "Store Locator"
+                }
+            ],
+            "filesize": 45831,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VQ5CDCZ"
+        },
+        {
+            "filename": "logo-1d.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logo-1d.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 8701,
+            "dimensions": [
+                130,
+                130
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/crocodile-vapor-logo-mascot-CZKJVUV"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 6253,
+            "dimensions": [
+                130,
+                130
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vape-king-PFPSJB"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 11154,
+            "dimensions": [
+                130,
+                130
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/gentle-vape-mascot-logo-DQKY3DS"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 5728,
+            "dimensions": [
+                130,
+                130
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vapor-chimp-vape-e-cigarette-logo-A7J8JS"
+        },
+        {
+            "filename": "bg-cta.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/bg-cta-600x188.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/store-locator.json",
+                    "name": "Store Locator"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 69300,
+            "dimensions": [
+                1920,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZQPTZ2G"
+        },
+        {
+            "filename": "vaping-e-liquid-from-an-electronic-cigarette-2021-08-27-08-40-08-utc-1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vaping-e-liquid-from-an-electronic-cigarette-2021-08-27-08-40-08-utc-1-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 96662,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-e-liquid-from-an-electronic-cigarette-7DVZQUD"
+        },
+        {
+            "filename": "pretty-young-hipster-asian-woman-in-black-hat-vape-2022-01-10-22-17-22-utc-1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/pretty-young-hipster-asian-woman-in-black-hat-vape-2022-01-10-22-17-22-utc-1-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 118219,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pretty-young-hipster-asian-woman-in-black-hat-vape-FF39DXX"
+        },
+        {
+            "filename": "about-image-1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/about-image-1-600x850.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 79231,
+            "dimensions": [
+                1024,
+                1450
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-device-mech-mod-copper-surface-polish-proce-2KMANEZ"
+        },
+        {
+            "filename": "like-shapes.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/like-shapes.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 3099,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/iconsax.io\/"
+        },
+        {
+            "filename": "medal-star.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/medal-star.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 3492,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/iconsax.io\/"
+        },
+        {
+            "filename": "messages-2.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/messages-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2763,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/iconsax.io\/"
+        },
+        {
+            "filename": "bg-counter.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/bg-counter-600x222.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 175824,
+            "dimensions": [
+                1920,
+                711
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-flavored-e-liquid-from-an-electronic-cigare-5DYMPMC"
+        },
+        {
+            "filename": "Product-01.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/Product-01-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 81931,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vape-kit-mockup-AQ58J9U"
+        },
+        {
+            "filename": "Product-03.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/Product-03-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 103920,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vape-liquid-dropper-bottle-mock-up-KXW47E"
+        },
+        {
+            "filename": "Product-02.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/Product-02-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 77728,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/eliquid-bottle-mockup-v-50ml-c-W2ZE4HC"
+        },
+        {
+            "filename": "Product-6.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/Product-6-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 79618,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vape-liquid-dropper-bottle-mock-up-KXW47E"
+        },
+        {
+            "filename": "Product-5.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/Product-5-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 82584,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/eliquid-bottle-mockup-v-50ml-c-W2ZE4HC"
+        },
+        {
+            "filename": "Product-4.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/Product-4-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/products.json",
+                    "name": "Products"
+                }
+            ],
+            "filesize": 91114,
+            "dimensions": [
+                1024,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/vape-kit-mockup-AQ58J9U"
+        },
+        {
+            "filename": "icon-service-1g.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/icon-service-1g.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2989,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/iconsax.io\/"
+        },
+        {
+            "filename": "shopping-cart.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/shopping-cart.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2191,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/iconsax.io\/"
+        },
+        {
+            "filename": "empty-wallet.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/empty-wallet.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 2609,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/iconsax.io\/"
+        },
+        {
+            "filename": "logoipsum-1a.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logoipsum-1a.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 3838,
+            "dimensions": [
+                250,
+                63
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum-3.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logoipsum-3.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 4779,
+            "dimensions": [
+                250,
+                47
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum-2.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logoipsum-2.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 1886,
+            "dimensions": [
+                250,
+                62
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum-4.png",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/logoipsum-4.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 5031,
+            "dimensions": [
+                250,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "vaping-flavored-e-liquid-from-an-electronic-cigare-1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vaping-flavored-e-liquid-from-an-electronic-cigare-1-600x526.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 79560,
+            "dimensions": [
+                1024,
+                897
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-flavored-e-liquid-from-an-electronic-cigare-L5G5XDD"
+        },
+        {
+            "filename": "posing-for-a-camera-young-beautiful-man-with-curl-2021-09-03-14-42-52-utc.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/posing-for-a-camera-young-beautiful-man-with-curl-2021-09-03-14-42-52-utc-600x471.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 177381,
+            "dimensions": [
+                1024,
+                804
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/posing-for-a-camera-young-beautiful-man-with-curly-3BKHZNF"
+        },
+        {
+            "filename": "cute-make-up-studio-shot-in-dark-studio-with-neon-2021-08-30-03-55-16-utc.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/cute-make-up-studio-shot-in-dark-studio-with-neon-2021-08-30-03-55-16-utc-600x550.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 79651,
+            "dimensions": [
+                1024,
+                939
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cute-make-up-studio-shot-in-dark-studio-with-neon--U8TZYEJ"
+        },
+        {
+            "filename": "portrait-of-relaxed-african-american-man-in-colorf-2021-08-28-19-06-14-utc.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/portrait-of-relaxed-african-american-man-in-colorf-2021-08-28-19-06-14-utc-600x548.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 79584,
+            "dimensions": [
+                1024,
+                935
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-relaxed-african-american-man-in-colorf-PPSVJHG"
+        },
+        {
+            "filename": "vaping-flavored-e-liquid-from-an-electronic-cigare-2021-08-27-08-13-37-utc-1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vaping-flavored-e-liquid-from-an-electronic-cigare-2021-08-27-08-13-37-utc-1-600x333.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 178671,
+            "dimensions": [
+                1800,
+                999
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-flavored-e-liquid-from-an-electronic-cigare-4XAJGX6"
+        },
+        {
+            "filename": "team-photo-3.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/team-photo-3-600x586.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 64127,
+            "dimensions": [
+                1024,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-handsome-self-confident-busines-STUQYTL"
+        },
+        {
+            "filename": "face-of-young-persian-businessman-in-suit-LLNH96K.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/face-of-young-persian-businessman-in-suit-LLNH96K.jpg",
+            "templates": [
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 63013,
+            "dimensions": [
+                300,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LLNH96K"
+        },
+        {
+            "filename": "team-photo-01.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/team-photo-01-600x586.jpg",
+            "templates": [
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 100530,
+            "dimensions": [
+                1024,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/busy-male-enterpreneur-work-with-papers-or-documen-J64HJXC"
+        },
+        {
+            "filename": "team-photo-6.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/team-photo-6-600x586.jpg",
+            "templates": [
+                {
+                    "source": "templates\/customer-reviews.json",
+                    "name": "Customer Reviews"
+                }
+            ],
+            "filesize": 62423,
+            "dimensions": [
+                1024,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "store-3.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/store-3-600x645.jpg",
+            "templates": [
+                {
+                    "source": "templates\/store-locator.json",
+                    "name": "Store Locator"
+                }
+            ],
+            "filesize": 110968,
+            "dimensions": [
+                1024,
+                1100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-pretty-woman-in-red-cap-smoke-an-electronic--H94V2KJ"
+        },
+        {
+            "filename": "store-1.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/store-1-600x645.jpg",
+            "templates": [
+                {
+                    "source": "templates\/store-locator.json",
+                    "name": "Store Locator"
+                }
+            ],
+            "filesize": 102106,
+            "dimensions": [
+                1024,
+                1100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/brutal-bearded-man-in-sunglasses-smoke-an-electron-YMMFZCH"
+        },
+        {
+            "filename": "store-2.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/store-2-600x645.jpg",
+            "templates": [
+                {
+                    "source": "templates\/store-locator.json",
+                    "name": "Store Locator"
+                }
+            ],
+            "filesize": 77962,
+            "dimensions": [
+                1024,
+                1100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-pretty-woman-in-cap-smoke-an-electronic-ciga-UB9X4XX"
+        },
+        {
+            "filename": "vaping-man-in-a-cloud-of-vapor-in-a-vape-bar.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vaping-man-in-a-cloud-of-vapor-in-a-vape-bar-600x746.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 77041,
+            "dimensions": [
+                1024,
+                1274
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-man-in-a-cloud-of-vapor-in-a-vape-bar-W3NJKAB"
+        },
+        {
+            "filename": "vaping-e-liquid-from-an-electronic-cigarette-2a.jpg",
+            "thumbnail_url": "https:\/\/templatekit.tokokoo.com\/vapekit\/wp-content\/uploads\/sites\/18\/2022\/01\/vaping-e-liquid-from-an-electronic-cigarette-2a-600x783.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 144668,
+            "dimensions": [
+                1024,
+                1336
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/vaping-e-liquid-from-an-electronic-cigarette-M4CDF7Z"
+        }
+    ]
+}

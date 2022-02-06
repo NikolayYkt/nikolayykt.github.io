@@ -1,0 +1,4607 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Masden - Charity & Donation",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header style 01",
+            "screenshot": "screenshots\/header-style-01.jpg",
+            "source": "templates\/header-style-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/header-style-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header style 02",
+            "screenshot": "screenshots\/header-style-02.jpg",
+            "source": "templates\/header-style-02.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/header-style-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header style 03",
+            "screenshot": "screenshots\/header-style-03.jpg",
+            "source": "templates\/header-style-03.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/header-style-03\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header style 04",
+            "screenshot": "screenshots\/header-style-04.jpg",
+            "source": "templates\/header-style-04.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/header-style-04\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer style 01",
+            "screenshot": "screenshots\/footer-style-01.jpg",
+            "source": "templates\/footer-style-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/footer-style-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer style 02",
+            "screenshot": "screenshots\/footer-style-02.jpg",
+            "source": "templates\/footer-style-02.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/footer-style-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Form Email Block for Section Footer style 01",
+            "screenshot": "screenshots\/form-email-block-for-section-footer-style-01.jpg",
+            "source": "templates\/form-email-block-for-section-footer-style-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/form-email-block-for-section-footer-style-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Form Donation Block for Page Home 01",
+            "screenshot": "screenshots\/form-donation-block-for-page-home-01.jpg",
+            "source": "templates\/form-donation-block-for-page-home-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/form-donation-block-for-page-home-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Form Donation Block for Page Home 02",
+            "screenshot": "screenshots\/form-donation-block-for-page-home-02.jpg",
+            "source": "templates\/form-donation-block-for-page-home-02.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/form-donation-block-for-page-home-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Form Message Block for Page Faqs",
+            "screenshot": "screenshots\/form-message-block-for-page-faqs.jpg",
+            "source": "templates\/form-message-block-for-page-faqs.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/form-message-block-for-page-faqs\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Form Message Block for Page Contact Us",
+            "screenshot": "screenshots\/form-message-block-for-page-contact-us.jpg",
+            "source": "templates\/form-message-block-for-page-contact-us.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/form-message-block-for-page-contact-us\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Popular Causes Block 01 for Page Home 01",
+            "screenshot": "screenshots\/slider-popular-causes-block-01-for-page-home-01.jpg",
+            "source": "templates\/slider-popular-causes-block-01-for-page-home-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-popular-causes-block-01-for-page-home-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Testimonial Block for Page Home 01",
+            "screenshot": "screenshots\/slider-testimonial-block-for-page-home-01.jpg",
+            "source": "templates\/slider-testimonial-block-for-page-home-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-testimonial-block-for-page-home-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Tab Photo Gallery Block for Page Home 01",
+            "screenshot": "screenshots\/tab-photo-gallery-block-for-page-home-01.jpg",
+            "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/tab-photo-gallery-block-for-page-home-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Popular Causes Block 01 for Page Home 02",
+            "screenshot": "screenshots\/slider-popular-causes-block-01-for-page-home-02.jpg",
+            "source": "templates\/slider-popular-causes-block-01-for-page-home-02.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-popular-causes-block-01-for-page-home-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Testimonial Block 01 for Page Home 02",
+            "screenshot": "screenshots\/slider-testimonial-block-01-for-page-home-02.jpg",
+            "source": "templates\/slider-testimonial-block-01-for-page-home-02.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-testimonial-block-01-for-page-home-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Tab About Block for Page Home 03",
+            "screenshot": "screenshots\/tab-about-block-for-page-home-03.jpg",
+            "source": "templates\/tab-about-block-for-page-home-03.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/tab-about-block-for-page-home-03\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Icon Box Block 01 for Page Home 03",
+            "screenshot": "screenshots\/slider-icon-box-block-01-for-page-home-03.jpg",
+            "source": "templates\/slider-icon-box-block-01-for-page-home-03.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-icon-box-block-01-for-page-home-03\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Icon Box Block 02 for Page Home 03",
+            "screenshot": "screenshots\/slider-icon-box-block-02-for-page-home-03.jpg",
+            "source": "templates\/slider-icon-box-block-02-for-page-home-03.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-icon-box-block-02-for-page-home-03\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Testimonial Block for Page Home 03",
+            "screenshot": "screenshots\/slider-testimonial-block-for-page-home-03.jpg",
+            "source": "templates\/slider-testimonial-block-for-page-home-03.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-testimonial-block-for-page-home-03\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Popular Causes Block 01 for Page Home 04",
+            "screenshot": "screenshots\/slider-popular-causes-block-01-for-page-home-04.jpg",
+            "source": "templates\/slider-popular-causes-block-01-for-page-home-04.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-popular-causes-block-01-for-page-home-04\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Testimonial Block 01 for Page Home 04",
+            "screenshot": "screenshots\/slider-testimonial-block-01-for-page-home-04.jpg",
+            "source": "templates\/slider-testimonial-block-01-for-page-home-04.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-testimonial-block-01-for-page-home-04\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Icon Box Block 01 for Page About Us",
+            "screenshot": "screenshots\/slider-icon-box-block-01-for-page-about-us.jpg",
+            "source": "templates\/slider-icon-box-block-01-for-page-about-us.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-icon-box-block-01-for-page-about-us\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Icon Box Block 02 for Page About Us",
+            "screenshot": "screenshots\/slider-icon-box-block-02-for-page-about-us.jpg",
+            "source": "templates\/slider-icon-box-block-02-for-page-about-us.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-icon-box-block-02-for-page-about-us\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Slider Testimonial Block 01 for Page About Us",
+            "screenshot": "screenshots\/slider-testimonial-block-01-for-page-about-us.jpg",
+            "source": "templates\/slider-testimonial-block-01-for-page-about-us.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/slider-testimonial-block-01-for-page-about-us\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Tab Gallery Block for Page Photo Gallery",
+            "screenshot": "screenshots\/tab-gallery-block-for-page-photo-gallery.jpg",
+            "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/tab-gallery-block-for-page-photo-gallery\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 01",
+            "screenshot": "screenshots\/home-01.jpg",
+            "source": "templates\/home-01.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/home-01\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 02",
+            "screenshot": "screenshots\/home-02.jpg",
+            "source": "templates\/home-02.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/home-02\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 03",
+            "screenshot": "screenshots\/home-03.jpg",
+            "source": "templates\/home-03.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/home-03\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 04",
+            "screenshot": "screenshots\/home-04.jpg",
+            "source": "templates\/home-04.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/home-04\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/events\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Volunteer",
+            "screenshot": "screenshots\/volunteer.jpg",
+            "source": "templates\/volunteer.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/volunteer\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.jpg",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Donation Grid",
+            "screenshot": "screenshots\/donation-grid.jpg",
+            "source": "templates\/donation-grid.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/donation-grid\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Photo Gallery",
+            "screenshot": "screenshots\/photo-gallery.jpg",
+            "source": "templates\/photo-gallery.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/photo-gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog Standard",
+            "screenshot": "screenshots\/blog-standard.jpg",
+            "source": "templates\/blog-standard.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/blog-standard\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/surielementor.com\/masdenkit\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.5.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.1.0",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Sticky Header Effects for Elementor",
+            "version": "1.4.7",
+            "file": "sticky-header-effects-for-elementor\/sticky-header-effects-for-elementor.php",
+            "author": "Rwattner"
+        },
+        {
+            "name": "Themesflat Addons For Elementor",
+            "version": "1.8.6",
+            "file": "themesflat-addons-for-elementor\/themesflat-addons-for-elementor.php",
+            "author": "Themesflat"
+        }
+    ],
+    "images": [
+        {
+            "filename": "logo-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/logo-01.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-01.json",
+                    "name": "Header style 01"
+                },
+                {
+                    "source": "templates\/header-style-02.json",
+                    "name": "Header style 02"
+                },
+                {
+                    "source": "templates\/header-style-03.json",
+                    "name": "Header style 03"
+                },
+                {
+                    "source": "templates\/header-style-04.json",
+                    "name": "Header style 04"
+                }
+            ],
+            "filesize": 3071,
+            "dimensions": [
+                172,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-masden-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/logo-masden-01.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-02.json",
+                    "name": "Header style 02"
+                }
+            ],
+            "filesize": 3110,
+            "dimensions": [
+                172,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-masden-04.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/logo-masden-04.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-03.json",
+                    "name": "Header style 03"
+                }
+            ],
+            "filesize": 3071,
+            "dimensions": [
+                172,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-masden-06.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/logo-masden-06.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-04.json",
+                    "name": "Header style 04"
+                }
+            ],
+            "filesize": 3112,
+            "dimensions": [
+                172,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "bg-top-bar.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/bg-top-bar-800x35.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-04.json",
+                    "name": "Header style 04"
+                }
+            ],
+            "filesize": 1355,
+            "dimensions": [
+                1634,
+                71
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "phone.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/phone.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-04.json",
+                    "name": "Header style 04"
+                }
+            ],
+            "filesize": 1084,
+            "dimensions": [
+                40,
+                40
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "map.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/map.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-04.json",
+                    "name": "Header style 04"
+                }
+            ],
+            "filesize": 1273,
+            "dimensions": [
+                40,
+                40
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "envelope.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/envelope.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-04.json",
+                    "name": "Header style 04"
+                }
+            ],
+            "filesize": 1140,
+            "dimensions": [
+                39,
+                39
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "logo-masden-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/logo-masden-02.png",
+            "templates": [
+                {
+                    "source": "templates\/footer-style-02.json",
+                    "name": "Footer style 02"
+                }
+            ],
+            "filesize": 4121,
+            "dimensions": [
+                223,
+                65
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "img_causes_Home01-PE8Y7XM.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_causes_Home01-PE8Y7XM.jpg",
+            "templates": [
+                {
+                    "source": "templates\/slider-popular-causes-block-01-for-page-home-01.json",
+                    "name": "Slider Popular Causes Block 01 for Page Home 01"
+                }
+            ],
+            "filesize": 54386,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PE8Y7XM"
+        },
+        {
+            "filename": "img_testimonial_Home01-PLBHAXA.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_testimonial_Home01-PLBHAXA.jpg",
+            "templates": [
+                {
+                    "source": "templates\/slider-testimonial-block-for-page-home-01.json",
+                    "name": "Slider Testimonial Block for Page Home 01"
+                },
+                {
+                    "source": "templates\/slider-testimonial-block-01-for-page-home-02.json",
+                    "name": "Slider Testimonial Block 01 for Page Home 02"
+                },
+                {
+                    "source": "templates\/slider-testimonial-block-01-for-page-home-04.json",
+                    "name": "Slider Testimonial Block 01 for Page Home 04"
+                },
+                {
+                    "source": "templates\/slider-testimonial-block-01-for-page-about-us.json",
+                    "name": "Slider Testimonial Block 01 for Page About Us"
+                }
+            ],
+            "filesize": 4142,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PLBHAXA"
+        },
+        {
+            "filename": "quote.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/quote.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-testimonial-block-for-page-home-01.json",
+                    "name": "Slider Testimonial Block for Page Home 01"
+                },
+                {
+                    "source": "templates\/slider-testimonial-block-01-for-page-about-us.json",
+                    "name": "Slider Testimonial Block 01 for Page About Us"
+                }
+            ],
+            "filesize": 1883,
+            "dimensions": [
+                70,
+                54
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_gallery_Home01_t20_GJL8Ae.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_gallery_Home01_t20_GJL8Ae.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 48705,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/e4ee8811-6027-4354-968d-e9d9e3cf75ad"
+        },
+        {
+            "filename": "img_gallery_Home01_t20_lRp1gw.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_gallery_Home01_t20_lRp1gw.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 38974,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/4573c4f3-59f8-4951-babc-55a01cec7a43"
+        },
+        {
+            "filename": "img_gallery_Home01-6UCY9BJ.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_gallery_Home01-6UCY9BJ.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 48279,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6UCY9BJ"
+        },
+        {
+            "filename": "img_gallery_Home01-t20_XzxJ76.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_gallery_Home01-t20_XzxJ76.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 40346,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/2c876b90-fec2-4d0a-a306-edd2c7f45f6f"
+        },
+        {
+            "filename": "img_gallery_Home01-t20_9ePJzB.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_gallery_Home01-t20_9ePJzB.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 55575,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/ab9b7f9f-76df-4ae0-911b-454b4fbeb584"
+        },
+        {
+            "filename": "img-photo-06.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img-photo-06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 120687,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/pixabay.com\/photos\/lion-forest-animal-wildlife-wood-2606351\/"
+        },
+        {
+            "filename": "img_gallery_Home01_t20_bz6Qgm.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_gallery_Home01_t20_bz6Qgm.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 42859,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/d973789f-feed-418c-9e5c-0dad24435d46"
+        },
+        {
+            "filename": "img_gallery_Home01-t20_nX6yNO.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img_gallery_Home01-t20_nX6yNO.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-photo-gallery-block-for-page-home-01.json",
+                    "name": "Tab Photo Gallery Block for Page Home 01"
+                }
+            ],
+            "filesize": 38842,
+            "dimensions": [
+                300,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/bc415821-0779-4df1-a8a1-4f4ac0c90463"
+        },
+        {
+            "filename": "img_causes_Home02-3XDABZG.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_causes_Home02-3XDABZG.jpg",
+            "templates": [
+                {
+                    "source": "templates\/slider-popular-causes-block-01-for-page-home-02.json",
+                    "name": "Slider Popular Causes Block 01 for Page Home 02"
+                }
+            ],
+            "filesize": 38325,
+            "dimensions": [
+                300,
+                320
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3XDABZG"
+        },
+        {
+            "filename": "recycling.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/recycling.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-popular-causes-block-01-for-page-home-02.json",
+                    "name": "Slider Popular Causes Block 01 for Page Home 02"
+                }
+            ],
+            "filesize": 1207,
+            "dimensions": [
+                32,
+                32
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "quote-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/quote-01.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-testimonial-block-01-for-page-home-02.json",
+                    "name": "Slider Testimonial Block 01 for Page Home 02"
+                }
+            ],
+            "filesize": 1884,
+            "dimensions": [
+                70,
+                54
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "nature-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/nature-1.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-icon-box-block-01-for-page-home-03.json",
+                    "name": "Slider Icon Box Block 01 for Page Home 03"
+                }
+            ],
+            "filesize": 3338,
+            "dimensions": [
+                75,
+                75
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-animal-06.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/slider-icon-box-block-02-for-page-home-03.json",
+                    "name": "Slider Icon Box Block 02 for Page Home 03"
+                }
+            ],
+            "filesize": 111364,
+            "dimensions": [
+                300,
+                334
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/GQIGk5L1Ppk"
+        },
+        {
+            "filename": "ecological.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/ecological.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-icon-box-block-02-for-page-home-03.json",
+                    "name": "Slider Icon Box Block 02 for Page Home 03"
+                }
+            ],
+            "filesize": 3241,
+            "dimensions": [
+                84,
+                76
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_testimonial_Home03-P7697GN.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_testimonial_Home03-P7697GN.jpg",
+            "templates": [
+                {
+                    "source": "templates\/slider-testimonial-block-for-page-home-03.json",
+                    "name": "Slider Testimonial Block for Page Home 03"
+                }
+            ],
+            "filesize": 10581,
+            "dimensions": [
+                80,
+                80
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P7697GN"
+        },
+        {
+            "filename": "quote-03.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/quote-03.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-testimonial-block-for-page-home-03.json",
+                    "name": "Slider Testimonial Block for Page Home 03"
+                }
+            ],
+            "filesize": 1627,
+            "dimensions": [
+                64,
+                49
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-causes-06-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-causes-06-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/slider-popular-causes-block-01-for-page-home-04.json",
+                    "name": "Slider Popular Causes Block 01 for Page Home 04"
+                }
+            ],
+            "filesize": 112658,
+            "dimensions": [
+                410,
+                325
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/QLrCVMOt0JQ"
+        },
+        {
+            "filename": "quote.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/quote.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-testimonial-block-01-for-page-home-04.json",
+                    "name": "Slider Testimonial Block 01 for Page Home 04"
+                }
+            ],
+            "filesize": 1886,
+            "dimensions": [
+                70,
+                54
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-fruit.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/icon-fruit.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-icon-box-block-01-for-page-about-us.json",
+                    "name": "Slider Icon Box Block 01 for Page About Us"
+                },
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1950,
+            "dimensions": [
+                50,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_WhatWeDo_About_t20_kR9KVK.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_WhatWeDo_About_t20_kR9KVK.jpg",
+            "templates": [
+                {
+                    "source": "templates\/slider-icon-box-block-02-for-page-about-us.json",
+                    "name": "Slider Icon Box Block 02 for Page About Us"
+                }
+            ],
+            "filesize": 122596,
+            "dimensions": [
+                300,
+                348
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/633a98fe-a18f-42a9-974a-6b121b77c173"
+        },
+        {
+            "filename": "icon-medicine.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/icon-medicine.png",
+            "templates": [
+                {
+                    "source": "templates\/slider-icon-box-block-02-for-page-about-us.json",
+                    "name": "Slider Icon Box Block 02 for Page About Us"
+                },
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1575,
+            "dimensions": [
+                52,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_Gallery-t20_GJL8Ae.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery-t20_GJL8Ae.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 219272,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/e4ee8811-6027-4354-968d-e9d9e3cf75ad"
+        },
+        {
+            "filename": "img-pollution-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-pollution-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 220557,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/NRfNe4ys_bM"
+        },
+        {
+            "filename": "img_Gallery-U5XN6C6.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery-U5XN6C6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 142847,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-U5XN6C6"
+        },
+        {
+            "filename": "img_Gallery-UMGFTED.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery-UMGFTED.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 289910,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UMGFTED"
+        },
+        {
+            "filename": "img_Gallery_t20_V7YzA7.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery_t20_V7YzA7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 242214,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/9949f979-4602-4795-a4fe-75d5eaea94b4"
+        },
+        {
+            "filename": "img_Gallery-6UCY9BJ.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery-6UCY9BJ.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 238355,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6UCY9BJ"
+        },
+        {
+            "filename": "img-pollution-03.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-pollution-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 229421,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/F0dmGPe2KG0"
+        },
+        {
+            "filename": "img-pollution-04.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-pollution-04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 364610,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/5RwM_ST58WA"
+        },
+        {
+            "filename": "img_Gallery-PX6NYRK.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery-PX6NYRK.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 171994,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PX6NYRK"
+        },
+        {
+            "filename": "photo-10.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/photo-10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 119455,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/xxuvhvGORmI"
+        },
+        {
+            "filename": "img_Gallery-PCDX625.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery-PCDX625.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 124220,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PCDX625"
+        },
+        {
+            "filename": "img_Gallery-SBD3FLD.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Gallery-SBD3FLD.jpg",
+            "templates": [
+                {
+                    "source": "templates\/tab-gallery-block-for-page-photo-gallery.json",
+                    "name": "Tab Gallery Block for Page Photo Gallery"
+                }
+            ],
+            "filesize": 177607,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SBD3FLD"
+        },
+        {
+            "filename": "bg-overlay.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/bg-overlay.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 25669,
+            "dimensions": [
+                693,
+                640
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "line-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/line-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 342,
+            "dimensions": [
+                37,
+                7
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_banner_Home01-t20_b6GeGV.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_banner_Home01-t20_b6GeGV-800x478.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 285532,
+            "dimensions": [
+                1058,
+                632
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/09fa2887-9207-49af-9e1a-4eb378be1eb5"
+        },
+        {
+            "filename": "icon-star.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/icon-star.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 4495,
+            "dimensions": [
+                152,
+                152
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_about_Home01-twenty20_67c49900.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_about_Home01-twenty20_67c49900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 107810,
+            "dimensions": [
+                710,
+                505
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/67c49900-7143-4029-a0bf-fcf377df159a"
+        },
+        {
+            "filename": "img-dot.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img-dot.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3312,
+            "dimensions": [
+                58,
+                261
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "line-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/line-02.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 402,
+            "dimensions": [
+                32,
+                7
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img-phone.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img-phone.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1434,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "line-03.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/line-03.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 398,
+            "dimensions": [
+                32,
+                7
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_make_Home01_t20_V7YzA7.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_make_Home01_t20_V7YzA7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 112921,
+            "dimensions": [
+                660,
+                448
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/9949f979-4602-4795-a4fe-75d5eaea94b4"
+        },
+        {
+            "filename": "text-eart.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/text-eart.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1527,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg-service.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/bg-service-800x398.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 97795,
+            "dimensions": [
+                1920,
+                956
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-education.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/icon-education.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1633,
+            "dimensions": [
+                50,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-house.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/icon-house.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1767,
+            "dimensions": [
+                54,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-map.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img-map-800x307.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 61542,
+            "dimensions": [
+                1780,
+                684
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-phone-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/img-phone-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1432,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "bg-carousel.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/bg-carousel-800x74.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 157896,
+            "dimensions": [
+                1920,
+                178
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "partner-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/partner-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 4189,
+            "dimensions": [
+                157,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/partner-02.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 4092,
+            "dimensions": [
+                163,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-03.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/partner-03.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 4030,
+            "dimensions": [
+                149,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-05.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/partner-05.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 4185,
+            "dimensions": [
+                169,
+                58
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-06.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/partner-06.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 5188,
+            "dimensions": [
+                211,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "img_testimonial_Home01-PX6NYRK.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_testimonial_Home01-PX6NYRK-800x605.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 120454,
+            "dimensions": [
+                875,
+                662
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PX6NYRK"
+        },
+        {
+            "filename": "charity.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/charity.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3521,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "volunteer.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/volunteer.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 3317,
+            "dimensions": [
+                80,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "debit-card.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/debit-card.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2707,
+            "dimensions": [
+                80,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "solidarity.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2021\/12\/solidarity.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2960,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "david-marcu-78A265wPiO4-unsplash-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/david-marcu-78A265wPiO4-unsplash-1-800x349.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 363969,
+            "dimensions": [
+                1920,
+                837
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/78A265wPiO4"
+        },
+        {
+            "filename": "img-charity.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-charity.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 273447,
+            "dimensions": [
+                480,
+                406
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/pHANr-CpbYM"
+        },
+        {
+            "filename": "line-06.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/line-06.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 400,
+            "dimensions": [
+                32,
+                7
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "nature.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/nature.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 2387,
+            "dimensions": [
+                56,
+                56
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "agronomy.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/agronomy.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 2321,
+            "dimensions": [
+                56,
+                56
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-company-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-company-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 406946,
+            "dimensions": [
+                630,
+                782
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/sxWyOaHJb0s"
+        },
+        {
+            "filename": "star-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/star-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 2229,
+            "dimensions": [
+                80,
+                80
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "clean-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/clean-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 2167,
+            "dimensions": [
+                85,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "partner-07.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/partner-07.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2749,
+            "dimensions": [
+                157,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-08.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/partner-08.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 3567,
+            "dimensions": [
+                163,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-09.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/partner-09.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 3498,
+            "dimensions": [
+                149,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-10.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/partner-10.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 3720,
+            "dimensions": [
+                169,
+                58
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "partner-11.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/partner-11.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 4802,
+            "dimensions": [
+                211,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "img-choose-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-choose-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 224255,
+            "dimensions": [
+                300,
+                453
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/02a4DSekRVg"
+        },
+        {
+            "filename": "img-choose-06.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-choose-06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 332816,
+            "dimensions": [
+                410,
+                674
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/tQpypKA92k8"
+        },
+        {
+            "filename": "bg-feedback.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/bg-feedback-800x225.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 39741,
+            "dimensions": [
+                1920,
+                540
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img-events-01.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-events-01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 19560,
+            "dimensions": [
+                156,
+                101
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oM4uCeXpKSc"
+        },
+        {
+            "filename": "img-events-03.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-events-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 27047,
+            "dimensions": [
+                155,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-photo\/asian-woman-wearing-thai-dress-costume-traditional-according-thai-culture-pha-dok-siew-waterfall-chiang-mai-thailand_13250729.htm"
+        },
+        {
+            "filename": "img_event_Home02_t20_bz6Qgm.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_event_Home02_t20_bz6Qgm.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 10530,
+            "dimensions": [
+                155,
+                100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/d973789f-feed-418c-9e5c-0dad24435d46"
+        },
+        {
+            "filename": "img-events-02.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-events-02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 13408,
+            "dimensions": [
+                155,
+                101
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/xxuvhvGORmI"
+        },
+        {
+            "filename": "img-events-04.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-events-04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 25892,
+            "dimensions": [
+                155,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/mERlBKFGJiQ"
+        },
+        {
+            "filename": "img-events-06.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-events-06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 21953,
+            "dimensions": [
+                155,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-photo\/beautiful-landscape-ella-sri-lanka_8071785.htm"
+        },
+        {
+            "filename": "img-pollution-01.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-pollution-01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 315487,
+            "dimensions": [
+                422,
+                595
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.shutterstock.com\/image-photo\/famous-nine-arch-bridge-ella-demodara-1474840397"
+        },
+        {
+            "filename": "img-banner-04.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-banner-04-800x433.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 243215,
+            "dimensions": [
+                1920,
+                1040
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/EunFGVJLPmQ"
+        },
+        {
+            "filename": "img-banner-06.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-banner-06-800x433.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 219900,
+            "dimensions": [
+                1920,
+                1040
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/DaPabnoYMKc"
+        },
+        {
+            "filename": "img-banner-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-banner-05-800x433.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 149716,
+            "dimensions": [
+                1920,
+                1040
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/H3U_HA1arI4"
+        },
+        {
+            "filename": "bg-overlay.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/bg-overlay-800x433.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 10652,
+            "dimensions": [
+                1920,
+                1039
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "igloo.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/igloo.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 2106,
+            "dimensions": [
+                49,
+                49
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "polar-bear.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/polar-bear.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 1987,
+            "dimensions": [
+                53,
+                49
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "planet-earth.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/planet-earth.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 2717,
+            "dimensions": [
+                51,
+                51
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "environment.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/environment.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 2100,
+            "dimensions": [
+                55,
+                49
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-animal-01.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 153991,
+            "dimensions": [
+                315,
+                380
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/IDO_a-dxrCY"
+        },
+        {
+            "filename": "img-animal-03.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 126937,
+            "dimensions": [
+                386,
+                250
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/_9a-3NO5KJE"
+        },
+        {
+            "filename": "img-animal-02.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 85520,
+            "dimensions": [
+                250,
+                276
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/hLqbiEUTNf4"
+        },
+        {
+            "filename": "img-animal-04.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 112335,
+            "dimensions": [
+                315,
+                380
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/F0dmGPe2KG0"
+        },
+        {
+            "filename": "line-06-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/line-06-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 405,
+            "dimensions": [
+                32,
+                7
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img-animal-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 113655,
+            "dimensions": [
+                520,
+                228
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oM4uCeXpKSc"
+        },
+        {
+            "filename": "img-map-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-map-02-800x399.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 58637,
+            "dimensions": [
+                1296,
+                647
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img-animal-07.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-07.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 257286,
+            "dimensions": [
+                520,
+                325
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/8vILaM48J_g"
+        },
+        {
+            "filename": "img-animal-08.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-08.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 164264,
+            "dimensions": [
+                520,
+                325
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/jBjQA3LU9Dc"
+        },
+        {
+            "filename": "img-animal-09.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-09.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 193439,
+            "dimensions": [
+                520,
+                325
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/5RBXc7R-YWs"
+        },
+        {
+            "filename": "img-animal-10.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 177077,
+            "dimensions": [
+                520,
+                325
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/XObb1sV-hns"
+        },
+        {
+            "filename": "img-animal-11.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-11-800x705.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 149931,
+            "dimensions": [
+                960,
+                846
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/two-rhinoceros-walking-on-brown-field-4005190\/"
+        },
+        {
+            "filename": "img-animal-12.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-animal-12-800x132.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 165130,
+            "dimensions": [
+                1070,
+                177
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/4F42IqLRjf4"
+        },
+        {
+            "filename": "gallery-animail-01.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/gallery-animail-01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 92249,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/photo-of-lion-lying-on-ground-1912176\/"
+        },
+        {
+            "filename": "gallery-animail-02.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/gallery-animail-02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 112439,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/selective-focus-photography-of-brown-gazelle-1109896\/"
+        },
+        {
+            "filename": "gallery-animail-03.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/gallery-animail-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 149924,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com"
+        },
+        {
+            "filename": "gallery-animail-04.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/gallery-animail-04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 81829,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/0XNo6LICDJU"
+        },
+        {
+            "filename": "gallery-animail-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/gallery-animail-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 139125,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/two-brown-horses-feeding-on-grass-1543827\/"
+        },
+        {
+            "filename": "gallery-animail-06.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/gallery-animail-06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 91289,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/close-up-shot-of-a-giraffe-7515453\/"
+        },
+        {
+            "filename": "img_slide_Home04-CCKVH8G.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_slide_Home04-CCKVH8G-800x321.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 373635,
+            "dimensions": [
+                1920,
+                770
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CCKVH8G"
+        },
+        {
+            "filename": "campaign-cleaning-our-environment-happy-diverse-women-pick-up-plastic-bottles.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/campaign-cleaning-our-environment-happy-diverse-women-pick-up-plastic-bottles-800x321.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 143082,
+            "dimensions": [
+                1920,
+                770
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5NTNQYR"
+        },
+        {
+            "filename": "img_slide_Home04-C8LMD5W.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_slide_Home04-C8LMD5W-800x321.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 332566,
+            "dimensions": [
+                1920,
+                770
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-C8LMD5W"
+        },
+        {
+            "filename": "nature-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/nature-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 3326,
+            "dimensions": [
+                75,
+                75
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "bg-icon-box.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/bg-icon-box.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 114920,
+            "dimensions": [
+                300,
+                334
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/4O6wnXvTH2o"
+        },
+        {
+            "filename": "ecological-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/ecological-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 3406,
+            "dimensions": [
+                84,
+                76
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "forest-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/forest-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 3852,
+            "dimensions": [
+                79,
+                75
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "ocean-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/ocean-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 3783,
+            "dimensions": [
+                83,
+                75
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_about_Home04_t20_JJJe7l.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_about_Home04_t20_JJJe7l.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 305358,
+            "dimensions": [
+                660,
+                753
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/386ef5e8-af0b-4b1c-bab8-353f016ad741"
+        },
+        {
+            "filename": "line-07.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/line-07.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 404,
+            "dimensions": [
+                32,
+                7
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "phone-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/phone-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 1431,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "charity.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/charity.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 3823,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "volunteer.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/volunteer.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 3635,
+            "dimensions": [
+                80,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_WhatWeDo_Home04-UW6R4YL.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_WhatWeDo_Home04-UW6R4YL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 213164,
+            "dimensions": [
+                410,
+                585
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-UW6R4YL"
+        },
+        {
+            "filename": "img_WhatWeDo_Home04-JRZYQKU.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_WhatWeDo_Home04-JRZYQKU.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 218325,
+            "dimensions": [
+                410,
+                585
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JRZYQKU"
+        },
+        {
+            "filename": "img-counter-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-counter-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 2928,
+            "dimensions": [
+                61,
+                61
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-counter-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-counter-02.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 2923,
+            "dimensions": [
+                63,
+                63
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-counter-03.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-counter-03.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 2324,
+            "dimensions": [
+                62,
+                62
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-counter-04.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-counter-04.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 2527,
+            "dimensions": [
+                63,
+                63
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "map-testimonial.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/map-testimonial-800x399.png",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 58939,
+            "dimensions": [
+                1293,
+                645
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img-ocean-01.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-ocean-01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 85355,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-photo\/plastic-water-bottles-pollution-ocean_4385282.htm"
+        },
+        {
+            "filename": "img-ocean-02.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-ocean-02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 108415,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VNBL7WN"
+        },
+        {
+            "filename": "img-ocean-03.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-ocean-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 76158,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.shutterstock.com\/image-photo\/environment-ecology-care-renewable-concept-volunteer-2005735922"
+        },
+        {
+            "filename": "img-ocean-04.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-ocean-04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 111997,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/_jK0wMeUKIg"
+        },
+        {
+            "filename": "img-ocean-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-ocean-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 158009,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/02a4DSekRVg"
+        },
+        {
+            "filename": "img_insta_Home04-JRZYQKU.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_insta_Home04-JRZYQKU.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-04.json",
+                    "name": "Home 04"
+                }
+            ],
+            "filesize": 92393,
+            "dimensions": [
+                320,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JRZYQKU"
+        },
+        {
+            "filename": "img_banner_innerpages_t20_9kl7X8.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_banner_innerpages_t20_9kl7X8-800x175.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 236165,
+            "dimensions": [
+                1920,
+                420
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/c63a3f77-16d7-499f-a3fc-7d73e862988e"
+        },
+        {
+            "filename": "img-star.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-star.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2485,
+            "dimensions": [
+                83,
+                83
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img-clean.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-clean.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2341,
+            "dimensions": [
+                85,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img-dot-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-dot-01.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2601,
+            "dimensions": [
+                262,
+                57
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_choose_About-t20_vLnAEj.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_choose_About-t20_vLnAEj.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 125315,
+            "dimensions": [
+                300,
+                453
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/ff695b24-8154-478a-ae64-f4e0c4be7ba6"
+        },
+        {
+            "filename": "img_choose_About-t20_yvZnwa.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_choose_About-t20_yvZnwa.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 140886,
+            "dimensions": [
+                410,
+                673
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/774ea8cb-31b1-4e5c-abe8-a42ad87bd5e3"
+        },
+        {
+            "filename": "img-map-03.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-map-03-800x399.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 58637,
+            "dimensions": [
+                1296,
+                647
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_team_About-D62Q5R7.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_team_About-D62Q5R7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 64847,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-D62Q5R7"
+        },
+        {
+            "filename": "img_team_About-5S79FQC.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_team_About-5S79FQC.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 57776,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5S79FQC"
+        },
+        {
+            "filename": "img_team_About-7UW5R44.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_team_About-7UW5R44.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 75638,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7UW5R44"
+        },
+        {
+            "filename": "img_team_About-ETLLW9Z.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_team_About-ETLLW9Z.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 29456,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ETLLW9Z"
+        },
+        {
+            "filename": "img_becom_About-T5LXKKM.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_becom_About-T5LXKKM.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 288442,
+            "dimensions": [
+                630,
+                444
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-T5LXKKM"
+        },
+        {
+            "filename": "img-star-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-star-01.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 2484,
+            "dimensions": [
+                98,
+                98
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img-events-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-events-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                }
+            ],
+            "filesize": 22483,
+            "dimensions": [
+                155,
+                100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MGF75RV"
+        },
+        {
+            "filename": "img_Volunteer-UELSF5Y.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Volunteer-UELSF5Y.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 63040,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UELSF5Y"
+        },
+        {
+            "filename": "img_Volunteer-PZ7TQP6.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Volunteer-PZ7TQP6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 69425,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PZ7TQP6"
+        },
+        {
+            "filename": "img_Volunteer-B7HTPFY.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Volunteer-B7HTPFY.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 42394,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-B7HTPFY"
+        },
+        {
+            "filename": "img_Volunteer-L6NAHWF.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Volunteer-L6NAHWF.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 64051,
+            "dimensions": [
+                300,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-L6NAHWF"
+        },
+        {
+            "filename": "img_popular_Volunteer-GEAD4D7.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_popular_Volunteer-GEAD4D7-800x678.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 405805,
+            "dimensions": [
+                960,
+                814
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GEAD4D7"
+        },
+        {
+            "filename": "icon-partner-01.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-partner-01.png",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 2693,
+            "dimensions": [
+                157,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-partner-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-partner-02.png",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 3396,
+            "dimensions": [
+                163,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-partner-03.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-partner-03.png",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 3482,
+            "dimensions": [
+                149,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-partner-04.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-partner-04.png",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 3274,
+            "dimensions": [
+                169,
+                58
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-partner-05.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-partner-05.png",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 4677,
+            "dimensions": [
+                211,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_Faq-SCYBQQH.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Faq-SCYBQQH.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 180950,
+            "dimensions": [
+                573,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SCYBQQH"
+        },
+        {
+            "filename": "line-08.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/line-08.png",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 389,
+            "dimensions": [
+                32,
+                7
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_Faq-5EP5GAB.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Faq-5EP5GAB.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 9110,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5EP5GAB"
+        },
+        {
+            "filename": "img_Faq-AW5Y4NG.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Faq-AW5Y4NG.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 5359,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AW5Y4NG"
+        },
+        {
+            "filename": "img_Faq-JD5CJPP.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Faq-JD5CJPP.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 7038,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JD5CJPP"
+        },
+        {
+            "filename": "img_Faq-LC5LVT4.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Faq-LC5LVT4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                }
+            ],
+            "filesize": 6497,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LC5LVT4"
+        },
+        {
+            "filename": "img_Donate-t20-YVQQy0.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Donate-t20-YVQQy0.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 94769,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/67c49900-7143-4029-a0bf-fcf377df159a"
+        },
+        {
+            "filename": "img_DonateGrid_t20_9kxNxv.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_DonateGrid_t20_9kxNxv.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 94471,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/6eedc4a1-547b-449e-82b3-d698fd95abe7"
+        },
+        {
+            "filename": "img_DonateGrid_t20_GJL8Ae.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_DonateGrid_t20_GJL8Ae.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 129015,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/e4ee8811-6027-4354-968d-e9d9e3cf75ad"
+        },
+        {
+            "filename": "img_DonateGrid-6UCY9BJ.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_DonateGrid-6UCY9BJ.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 127447,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6UCY9BJ"
+        },
+        {
+            "filename": "img_DonateGrid-7HDZJS5.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_DonateGrid-7HDZJS5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 108665,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7HDZJS5"
+        },
+        {
+            "filename": "img-donation-03.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-donation-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 127282,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/EunFGVJLPmQ"
+        },
+        {
+            "filename": "img_DonateGrid_t20_reAOLg.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_DonateGrid_t20_reAOLg.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 94579,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/70662eff-d646-4067-80c8-afe087f0568f"
+        },
+        {
+            "filename": "img-donation-05.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-donation-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 157992,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-photo\/beautiful-beach-landscape-sri-lanka_13150902.htm"
+        },
+        {
+            "filename": "img-donation-06.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img-donation-06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/donation-grid.json",
+                    "name": "Donation Grid"
+                }
+            ],
+            "filesize": 54700,
+            "dimensions": [
+                410,
+                275
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/xxuvhvGORmI"
+        },
+        {
+            "filename": "img_Blog-D62Q5R7.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Blog-D62Q5R7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                }
+            ],
+            "filesize": 29417,
+            "dimensions": [
+                170,
+                170
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-D62Q5R7"
+        },
+        {
+            "filename": "img_Blog_67c49900-7143-4029-a0bf-fcf377df159a.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Blog_67c49900-7143-4029-a0bf-fcf377df159a.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                }
+            ],
+            "filesize": 24315,
+            "dimensions": [
+                135,
+                135
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/67c49900-7143-4029-a0bf-fcf377df159a"
+        },
+        {
+            "filename": "img_Blog_t20_kR9KVK.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Blog_t20_kR9KVK.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                }
+            ],
+            "filesize": 28433,
+            "dimensions": [
+                135,
+                135
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/633a98fe-a18f-42a9-974a-6b121b77c173"
+        },
+        {
+            "filename": "img_Blog_t20_bz6Qgm.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/img_Blog_t20_bz6Qgm.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                }
+            ],
+            "filesize": 22363,
+            "dimensions": [
+                135,
+                135
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/d973789f-feed-418c-9e5c-0dad24435d46"
+        },
+        {
+            "filename": "photo-16.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/photo-16.png",
+            "templates": [
+                {
+                    "source": "templates\/blog-standard.json",
+                    "name": "Blog Standard"
+                }
+            ],
+            "filesize": 40589,
+            "dimensions": [
+                135,
+                135
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-photo\/beautiful-landscape-ella-sri-lanka_8071785.htm"
+        },
+        {
+            "filename": "question.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/question.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 1597,
+            "dimensions": [
+                57,
+                57
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "solidarity.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/solidarity.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2245,
+            "dimensions": [
+                64,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "help.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/help.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2127,
+            "dimensions": [
+                58,
+                58
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-map-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-map-02.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2109,
+            "dimensions": [
+                55,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-email-02.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-email-02.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2245,
+            "dimensions": [
+                56,
+                56
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-phone-03.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/masdenkit\/wp-content\/uploads\/2022\/01\/icon-phone-03.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 1944,
+            "dimensions": [
+                55,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        }
+    ]
+}

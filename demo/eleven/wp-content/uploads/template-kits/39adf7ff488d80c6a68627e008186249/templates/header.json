@@ -1,0 +1,174 @@
+{
+    "version": "0.4",
+    "title": "Header",
+    "type": "header",
+    "metadata": {
+        "template_type": "section-header",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "header",
+        "elementor_pro_conditions": [
+            "include\/general"
+        ],
+        "additional_template_information": [
+            "This is a \"Header\" template for Elementor Pro.",
+            "This template will display on: Entire Site."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "5b2ae345",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "structure": "30",
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "1",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "border_color": "#CACED326",
+                "padding": {
+                    "unit": "px",
+                    "top": "10",
+                    "right": "0",
+                    "bottom": "10",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "border_color": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "3b1b160d",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": 20,
+                        "_inline_size_tablet": 30,
+                        "_inline_size_mobile": 60,
+                        "content_position": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "337d4efb",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Group-5913.png",
+                                    "id": 973,
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "141b45dd",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": 65,
+                        "_inline_size_tablet": 43,
+                        "_inline_size_mobile": 40,
+                        "content_position": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "20364c98",
+                            "settings": {
+                                "pointer": "text",
+                                "align_items": "right",
+                                "submenu_icon": {
+                                    "value": "fas fa-chevron-down",
+                                    "library": "fa-solid"
+                                },
+                                "full_width": "stretch",
+                                "toggle_align": "right",
+                                "toggle_size_mobile": {
+                                    "unit": "px",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "toggle_color": "globals\/colors?id=c65a16e",
+                                    "menu_typography_typography": "globals\/typography?id=text",
+                                    "dropdown_typography_typography": "globals\/typography?id=text",
+                                    "color_menu_item": "globals\/colors?id=primary",
+                                    "color_menu_item_hover": "globals\/colors?id=b45d681",
+                                    "background_color_dropdown_item": "globals\/colors?id=9b8da7d",
+                                    "color_dropdown_item": "globals\/colors?id=primary",
+                                    "background_color_dropdown_item_hover": "globals\/colors?id=b45d681",
+                                    "color_dropdown_item_hover": "globals\/colors?id=primary",
+                                    "color_menu_item_active": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "nav-menu",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "64a7113",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": 14.6639999999999997015720509807579219341278076171875,
+                        "_inline_size_tablet": 26,
+                        "hide_mobile": "hidden-mobile"
+                    },
+                    "elements": [
+                        {
+                            "id": "3b0759e5",
+                            "settings": {
+                                "text": "Join Discord",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=text"
+                                },
+                                "text_padding": {
+                                    "unit": "px",
+                                    "top": "5",
+                                    "right": "40",
+                                    "bottom": "5",
+                                    "left": "40",
+                                    "isLinked": false
+                                },
+                                "hover_animation": "shrink"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

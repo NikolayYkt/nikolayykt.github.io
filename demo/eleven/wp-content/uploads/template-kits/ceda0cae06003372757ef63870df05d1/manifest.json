@@ -1,0 +1,2265 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Paynet E-wallet Digital Payment Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/1onestrong.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Product",
+            "screenshot": "screenshots\/product.jpg",
+            "source": "templates\/product.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/product\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "How It Work",
+            "screenshot": "screenshots\/how-it-work.jpg",
+            "source": "templates\/how-it-work.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/how-it-work\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Merchant",
+            "screenshot": "screenshots\/merchant.jpg",
+            "source": "templates\/merchant.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/merchant\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Feature",
+            "screenshot": "screenshots\/feature.jpg",
+            "source": "templates\/feature.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/feature\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Error 404",
+            "screenshot": "screenshots\/error-404.jpg",
+            "source": "templates\/error-404.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/?elementor_library=elementor-error-404-1527",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Blog",
+            "screenshot": "screenshots\/archive-blog.jpg",
+            "source": "templates\/archive-blog.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/?elementor_library=elementor-archive-1626",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/?elementor_library=elementor-single-post-1614",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/?elementor_library=elementor-header-567",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/paynet.1onestrong.com\/?elementor_library=elementor-footer-524",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "paynet-jpg03.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/paynet-jpg03-800x661.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 68287,
+            "dimensions": [
+                1548,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/iphone-x-mock-up-part-2-CEJ3BSZ"
+        },
+        {
+            "filename": "paynet-jpg04.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/paynet-jpg04-800x661.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 56294,
+            "dimensions": [
+                1548,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/iphone-11-mockups-Z5KJ7Y3"
+        },
+        {
+            "filename": "Mask-Group-3.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/Mask-Group-3-800x746.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 331161,
+            "dimensions": [
+                941,
+                878
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "paynet-jpg01.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/paynet-jpg01-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 76796,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/iphone-x-mock-up-part-2-CEJ3BSZ"
+        },
+        {
+            "filename": "payne06.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne06-800x805.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 26517,
+            "dimensions": [
+                1064,
+                1071
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payne01.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne01-800x809.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                },
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                }
+            ],
+            "filesize": 235684,
+            "dimensions": [
+                1200,
+                1213
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/iphone-mockups-L64N3R9"
+        },
+        {
+            "filename": "payne03.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne03-800x273.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 26016,
+            "dimensions": [
+                968,
+                330
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/wallie-digital-wallet-apps-ui-kit-U33WR4X"
+        },
+        {
+            "filename": "Mask-Group-6.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/Mask-Group-6-800x454.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 41642,
+            "dimensions": [
+                1889,
+                1071
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payment-6.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payment-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 10140,
+            "dimensions": [
+                139,
+                531
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payment-5.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payment-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 10526,
+            "dimensions": [
+                139,
+                531
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payment-4.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payment-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 12710,
+            "dimensions": [
+                139,
+                531
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payment-3.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payment-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 11963,
+            "dimensions": [
+                139,
+                531
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payment-2.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payment-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 11061,
+            "dimensions": [
+                139,
+                531
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payment-1.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payment-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 11641,
+            "dimensions": [
+                139,
+                531
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payne011.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne011.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 253137,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/3d-icon-business-and-finance-HFXGCK8"
+        },
+        {
+            "filename": "payne08.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne08.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 209547,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/3d-icon-business-and-finance-HFXGCK8"
+        },
+        {
+            "filename": "payne07.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne07.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 274804,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/3d-icon-business-and-finance-HFXGCK8"
+        },
+        {
+            "filename": "payne012.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne012.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 239731,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/3d-icon-business-and-finance-HFXGCK8"
+        },
+        {
+            "filename": "payne013.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne013.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 337047,
+            "dimensions": [
+                675,
+                920
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/womans-hand-holding-a-canadian-passport-in-front-o-P56BZBG"
+        },
+        {
+            "filename": "payne014.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne014.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 219470,
+            "dimensions": [
+                675,
+                920
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-asian-woman-using-credit-card-with-smart--RKE7RJL"
+        },
+        {
+            "filename": "payne04.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne04-800x624.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                },
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 45258,
+            "dimensions": [
+                903,
+                704
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payne015.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne015-800x733.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 156809,
+            "dimensions": [
+                1100,
+                1008
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/iphone-mockups-L64N3R9"
+        },
+        {
+            "filename": "Group-244.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/Group-244.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 7715,
+            "dimensions": [
+                318,
+                306
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "Group-246.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/Group-246.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 5879,
+            "dimensions": [
+                333,
+                306
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "Group-243.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/Group-243.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 8968,
+            "dimensions": [
+                318,
+                306
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "Group-247.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/Group-247.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 5212,
+            "dimensions": [
+                318,
+                306
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payne016.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payne016-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                },
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 58176,
+            "dimensions": [
+                903,
+                903
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Team-4.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 65904,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-business-team-holding-blank-cards-isolated-UR3D8ZJ"
+        },
+        {
+            "filename": "Team-3.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 63196,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-business-team-holding-blank-cards-isolated-UR3D8ZJ"
+        },
+        {
+            "filename": "Team-1.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 64166,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-business-team-holding-blank-cards-isolated-UR3D8ZJ"
+        },
+        {
+            "filename": "brand0101-8.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-8.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 10419,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "brand0101-7.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-7.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 10098,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "brand0101-6.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 10030,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "brand0101-5.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 11005,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "brand0101-4.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 9258,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "brand0101-3.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 8952,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "brand0101-2.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 9761,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "brand0101-1.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/brand0101-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 14335,
+            "dimensions": [
+                529,
+                302
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/250-minimal-logos-template-7NUHLG\/"
+        },
+        {
+            "filename": "Rectangle-95.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Rectangle-95-800x111.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                },
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 10643,
+            "dimensions": [
+                1920,
+                266
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "paynet-jpg05.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/paynet-jpg05-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                },
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive-blog.json",
+                    "name": "Archive Blog"
+                }
+            ],
+            "filesize": 151251,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/close-up-woman-hand-using-credit-card-shopping-onl-6VTYS9Z"
+        },
+        {
+            "filename": "paynet-jpg06.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/paynet-jpg06-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 97938,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/woman-with-shopping-bags-using-phone-8N5WGQY"
+        },
+        {
+            "filename": "Team-2.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 60494,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-business-team-holding-blank-cards-isolated-UR3D8ZJ"
+        },
+        {
+            "filename": "paynet-jpg07.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/paynet-jpg07-800x718.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 50237,
+            "dimensions": [
+                1529,
+                1372
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/attractive-unshaven-young-male-with-cheerful-expre-8YHCX2X"
+        },
+        {
+            "filename": "Mask-Group-35.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Mask-Group-35-800x682.jpg",
+            "templates": [
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 72760,
+            "dimensions": [
+                1407,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/close-up-woman-hand-using-credit-card-shopping-onl-6VTYS9Z"
+        },
+        {
+            "filename": "Mask-Group-34.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Mask-Group-34-800x682.jpg",
+            "templates": [
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 93530,
+            "dimensions": [
+                1407,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-two-business-partners-looking-together-UM6FL8R"
+        },
+        {
+            "filename": "Mask-Group-33.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Mask-Group-33-800x682.jpg",
+            "templates": [
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 66099,
+            "dimensions": [
+                1407,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/close-up-hand-asia-woman-people-work-in-small-sme--47PLDXR"
+        },
+        {
+            "filename": "app-1.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/app-1.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 24237,
+            "dimensions": [
+                592,
+                175
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "app-2.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/app-2.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 17514,
+            "dimensions": [
+                592,
+                175
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "payne017.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payne017-800x1393.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                }
+            ],
+            "filesize": 112573,
+            "dimensions": [
+                1355,
+                2360
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/smartphone-mockups-87T6FN5"
+        },
+        {
+            "filename": "payne018.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payne018-800x1393.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                }
+            ],
+            "filesize": 75622,
+            "dimensions": [
+                1355,
+                2360
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/smartphone-mockups-87T6FN5"
+        },
+        {
+            "filename": "payne019.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/payne019-800x1393.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-work.json",
+                    "name": "How It Work"
+                }
+            ],
+            "filesize": 143158,
+            "dimensions": [
+                1355,
+                2360
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/smartphone-mockups-87T6FN5"
+        },
+        {
+            "filename": "signature.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/signature.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 14668,
+            "dimensions": [
+                638,
+                114
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Team-8.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-8.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 51436,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-multiethnic-businesspeople-standing-toget-ECGTZE7"
+        },
+        {
+            "filename": "Team-7.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-7.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 58549,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-multiethnic-businesspeople-standing-toget-ECGTZE7"
+        },
+        {
+            "filename": "Team-6.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-6.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 55105,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-multiethnic-businesspeople-standing-toget-ECGTZE7"
+        },
+        {
+            "filename": "Team-5.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Team-5.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 61699,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-multiethnic-businesspeople-standing-toget-ECGTZE7"
+        },
+        {
+            "filename": "icon04.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon04.png",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 115568,
+            "dimensions": [
+                366,
+                366
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/business-dotted-world-map-C3EU3G7"
+        },
+        {
+            "filename": "icon03.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon03.png",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 63537,
+            "dimensions": [
+                213,
+                430
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/clay-mobile-mockup-iphone-11-pro-x-ZFBLUPU"
+        },
+        {
+            "filename": "payne05.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/payne05-800x521.png",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 26826,
+            "dimensions": [
+                1350,
+                879
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon06.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon06-800x579.png",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 77835,
+            "dimensions": [
+                1457,
+                1054
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "icon05.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon05.png",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 209073,
+            "dimensions": [
+                646,
+                1297
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/smartphone-mockups-87T6FN5"
+        },
+        {
+            "filename": "paynet-jpg08.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/paynet-jpg08-800x801.jpg",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 64021,
+            "dimensions": [
+                1081,
+                1082
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/customer-hand-scanning-qr-code-with-phone-for-digi-KJ8NP5Y"
+        },
+        {
+            "filename": "paynet-jpg09.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/paynet-jpg09-800x801.jpg",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 73429,
+            "dimensions": [
+                1081,
+                1082
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/qr-code-digital-payment-at-coffee-shop-95D4ZQX"
+        },
+        {
+            "filename": "paynet-jpg010.jpg",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/paynet-jpg010-800x801.jpg",
+            "templates": [
+                {
+                    "source": "templates\/merchant.json",
+                    "name": "Merchant"
+                }
+            ],
+            "filesize": 52138,
+            "dimensions": [
+                1081,
+                1082
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/qr-code-scanning-payment-cashless-payment-FQB63M3"
+        },
+        {
+            "filename": "icon01-1.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-1.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 5380,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "icon01-7.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-7.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 4671,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "icon01-5.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-5.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 5115,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "icon01-11.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-11.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 4442,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "icon01-4.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-4.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 5622,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "icon01-3.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-3.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 5060,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "icon01-2.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-2.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 6195,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "icon01-8.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/icon01-8.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 4921,
+            "dimensions": [
+                234,
+                234
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-dashed-line-icons-PAQRHDE"
+        },
+        {
+            "filename": "features-5.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/features-5.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 10764,
+            "dimensions": [
+                139,
+                532
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "features-4.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/features-4.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 12744,
+            "dimensions": [
+                139,
+                532
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "features-3.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/features-3.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 10155,
+            "dimensions": [
+                139,
+                532
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "features-2.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/features-2.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 10416,
+            "dimensions": [
+                139,
+                532
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "features-1.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/features-1.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 11685,
+            "dimensions": [
+                139,
+                532
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "features-6.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2021\/12\/features-6.png",
+            "templates": [
+                {
+                    "source": "templates\/feature.json",
+                    "name": "Feature"
+                }
+            ],
+            "filesize": 11809,
+            "dimensions": [
+                139,
+                532
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Group-310.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Group-310.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 11681,
+            "dimensions": [
+                242,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "Group-319.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Group-319.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 12527,
+            "dimensions": [
+                242,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "Group-322.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Group-322.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 12959,
+            "dimensions": [
+                242,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "Group-321.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Group-321.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 12751,
+            "dimensions": [
+                242,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "Group-325.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Group-325.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 12325,
+            "dimensions": [
+                242,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "Group-324.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Group-324.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 12504,
+            "dimensions": [
+                242,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "Group-327.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/Group-327.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 14230,
+            "dimensions": [
+                242,
+                242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/payment-finance-line-icons-ZNUU4V5"
+        },
+        {
+            "filename": "logo2.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/logo2.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 21157,
+            "dimensions": [
+                577,
+                165
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo.png",
+            "thumbnail_url": "https:\/\/paynet.1onestrong.com\/wp-content\/uploads\/sites\/4\/2022\/01\/logo.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 20845,
+            "dimensions": [
+                577,
+                165
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

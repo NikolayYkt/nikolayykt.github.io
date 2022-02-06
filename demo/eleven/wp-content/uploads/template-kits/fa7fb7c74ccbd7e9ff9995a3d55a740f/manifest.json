@@ -1,0 +1,2039 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Qondri - Dry Cleaning & Laundry",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header Style 01",
+            "screenshot": "screenshots\/header-style-01.jpg",
+            "source": "templates\/header-style-01.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/header-style-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header Style 02",
+            "screenshot": "screenshots\/header-style-02.jpg",
+            "source": "templates\/header-style-02.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/header-style-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Qondri Form Footer",
+            "screenshot": "screenshots\/qondri-form-footer.jpg",
+            "source": "templates\/qondri-form-footer.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/qondri-form-footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Qondri Form Home 02",
+            "screenshot": "screenshots\/qondri-form-home-02.jpg",
+            "source": "templates\/qondri-form-home-02.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/qondri-form-home-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Qondri Form Contact",
+            "screenshot": "screenshots\/qondri-form-contact.jpg",
+            "source": "templates\/qondri-form-contact.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/qondri-form-contact\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Qondri Section Testimonials Home 01",
+            "screenshot": "screenshots\/qondri-section-testimonials-home-01.jpg",
+            "source": "templates\/qondri-section-testimonials-home-01.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/qondri-section-testimonials-home-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Qondri Section Testimonials Home 02",
+            "screenshot": "screenshots\/qondri-section-testimonials-home-02.jpg",
+            "source": "templates\/qondri-section-testimonials-home-02.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/qondri-section-testimonials-home-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 01",
+            "screenshot": "screenshots\/home-01.jpg",
+            "source": "templates\/home-01.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/home-01\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 02",
+            "screenshot": "screenshots\/home-02.jpg",
+            "source": "templates\/home-02.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/home-02\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Prices",
+            "screenshot": "screenshots\/our-prices.jpg",
+            "source": "templates\/our-prices.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/our-prices\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Services",
+            "screenshot": "screenshots\/our-services.jpg",
+            "source": "templates\/our-services.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/our-services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "News",
+            "screenshot": "screenshots\/news.jpg",
+            "source": "templates\/news.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/news\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/surielementor.com\/qondrikit\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.5.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.1.1",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Themesflat Addons For Elementor",
+            "version": "1.8.7",
+            "file": "themesflat-addons-for-elementor\/themesflat-addons-for-elementor.php",
+            "author": "Themesflat"
+        }
+    ],
+    "images": [
+        {
+            "filename": "logo.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/logo.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-01.json",
+                    "name": "Header Style 01"
+                },
+                {
+                    "source": "templates\/header-style-02.json",
+                    "name": "Header Style 02"
+                }
+            ],
+            "filesize": 3575,
+            "dimensions": [
+                120,
+                29
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-01.json",
+                    "name": "Header Style 01"
+                },
+                {
+                    "source": "templates\/header-style-02.json",
+                    "name": "Header Style 02"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 3830,
+            "dimensions": [
+                145,
+                35
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "bg-footer.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-footer.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 9366,
+            "dimensions": [
+                1894,
+                539
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_testimonial_Home01-2EUPHX7.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_testimonial_Home01-2EUPHX7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/qondri-section-testimonials-home-01.json",
+                    "name": "Qondri Section Testimonials Home 01"
+                }
+            ],
+            "filesize": 29935,
+            "dimensions": [
+                374,
+                320
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-2EUPHX7"
+        },
+        {
+            "filename": "img_testimonial_Home01-MTCAZJX.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_testimonial_Home01-MTCAZJX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/qondri-section-testimonials-home-01.json",
+                    "name": "Qondri Section Testimonials Home 01"
+                }
+            ],
+            "filesize": 6634,
+            "dimensions": [
+                90,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MTCAZJX"
+        },
+        {
+            "filename": "img_testimonial_Home01-PW2BQD5.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_testimonial_Home01-PW2BQD5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/qondri-section-testimonials-home-01.json",
+                    "name": "Qondri Section Testimonials Home 01"
+                }
+            ],
+            "filesize": 7255,
+            "dimensions": [
+                90,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PW2BQD5"
+        },
+        {
+            "filename": "img_testimonial_Home01-9UU5U3B.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_testimonial_Home01-9UU5U3B.jpg",
+            "templates": [
+                {
+                    "source": "templates\/qondri-section-testimonials-home-01.json",
+                    "name": "Qondri Section Testimonials Home 01"
+                }
+            ],
+            "filesize": 6261,
+            "dimensions": [
+                90,
+                96
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-9UU5U3B"
+        },
+        {
+            "filename": "title-icon.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/title-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/qondri-section-testimonials-home-01.json",
+                    "name": "Qondri Section Testimonials Home 01"
+                },
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 1144,
+            "dimensions": [
+                14,
+                14
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "ab-testi.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/ab-testi.png",
+            "templates": [
+                {
+                    "source": "templates\/qondri-section-testimonials-home-01.json",
+                    "name": "Qondri Section Testimonials Home 01"
+                }
+            ],
+            "filesize": 1593,
+            "dimensions": [
+                42,
+                30
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "testi-icon.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/testi-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/qondri-section-testimonials-home-02.json",
+                    "name": "Qondri Section Testimonials Home 02"
+                }
+            ],
+            "filesize": 1597,
+            "dimensions": [
+                42,
+                30
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_slide_Home01-PG9Q2JT-e1642746046326.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_slide_Home01-PG9Q2JT-e1642746046326-800x351.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 260511,
+            "dimensions": [
+                1894,
+                831
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PG9Q2JT"
+        },
+        {
+            "filename": "img_slide_Home01-2W4UD9K.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_slide_Home01-2W4UD9K-800x351.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 177133,
+            "dimensions": [
+                1894,
+                831
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-2W4UD9K"
+        },
+        {
+            "filename": "icon-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 3371,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 2322,
+            "dimensions": [
+                58,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-3.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 2938,
+            "dimensions": [
+                60,
+                64
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "bg-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 20286,
+            "dimensions": [
+                1894,
+                1021
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_introduction_Home01-PAXT2DG.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_introduction_Home01-PAXT2DG.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 102043,
+            "dimensions": [
+                530,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PAXT2DG"
+        },
+        {
+            "filename": "welcome-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/welcome-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 15600,
+            "dimensions": [
+                350,
+                315
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/woman-in-gray-shirt-standing-in-front-of-white-front-load-washing-machine-5591640\/"
+        },
+        {
+            "filename": "bg-service.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-service.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 8776,
+            "dimensions": [
+                1886,
+                570
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "service-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/service-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 16266,
+            "dimensions": [
+                370,
+                287
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/pt-br\/foto\/fotografia-em-close-up-de-vestido-pendurado-2517866\/"
+        },
+        {
+            "filename": "service-2.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/service-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 10039,
+            "dimensions": [
+                370,
+                287
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/person-in-white-long-sleeve-shirt-and-white-pants-holding-black-and-silver-clothes-iron-5202911\/"
+        },
+        {
+            "filename": "service-3.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/service-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 11138,
+            "dimensions": [
+                370,
+                287
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/man-in-white-t-shirt-washing-clothes-5901622"
+        },
+        {
+            "filename": "logoipsum-logo.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/logoipsum-logo.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4538,
+            "dimensions": [
+                123,
+                24
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum-logo-4.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/logoipsum-logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4538,
+            "dimensions": [
+                123,
+                24
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum-logo-3.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/logoipsum-logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4538,
+            "dimensions": [
+                123,
+                24
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum-logo-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/logoipsum-logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4538,
+            "dimensions": [
+                123,
+                24
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logoipsum-logo-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/logoipsum-logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4538,
+            "dimensions": [
+                123,
+                24
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "bg-book.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-book.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 123850,
+            "dimensions": [
+                1894,
+                558
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/es-es\/foto\/blanco-y-negro-estudiante-lavadora-lavadoras-4414\/"
+        },
+        {
+            "filename": "ab-sale.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/ab-sale.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 3004,
+            "dimensions": [
+                172,
+                78
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg-commercial.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-commercial.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 10178,
+            "dimensions": [
+                1370,
+                376
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "title-icon-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/title-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1125,
+            "dimensions": [
+                14,
+                14
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_Home01-BVDPQRL.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_Home01-BVDPQRL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 16670,
+            "dimensions": [
+                260,
+                176
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BVDPQRL"
+        },
+        {
+            "filename": "bg-why-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-why-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 15894,
+            "dimensions": [
+                1894,
+                1183
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_bg_video_Home01-53QEY9Q.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_bg_video_Home01-53QEY9Q-800x550.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 215837,
+            "dimensions": [
+                912,
+                627
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-53QEY9Q"
+        },
+        {
+            "filename": "why-icon-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/why-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 3058,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "why-icon-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/why-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 2947,
+            "dimensions": [
+                60,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "bg-works.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-works.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 12919,
+            "dimensions": [
+                1894,
+                873
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "works-icon-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/works-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 3204,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "works-icon-3.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/works-icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 2944,
+            "dimensions": [
+                62,
+                64
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "bg-testi-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-testi-1-800x232.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 7619,
+            "dimensions": [
+                1892,
+                549
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg-cta.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-cta.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 6746,
+            "dimensions": [
+                1894,
+                300
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "cta-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/cta-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 14138,
+            "dimensions": [
+                460,
+                252
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_slide_Home02-CMWGSTK.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_slide_Home02-CMWGSTK-800x351.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 288560,
+            "dimensions": [
+                1894,
+                831
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-CMWGSTK"
+        },
+        {
+            "filename": "img_slide_Home02-Z8PQWP5.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_slide_Home02-Z8PQWP5-800x351.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 386593,
+            "dimensions": [
+                1894,
+                831
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Z8PQWP5"
+        },
+        {
+            "filename": "bg-welcome.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-welcome.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 11035,
+            "dimensions": [
+                1892,
+                751
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_about_Home02-XGZ4JZM.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_about_Home02-XGZ4JZM.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 122291,
+            "dimensions": [
+                530,
+                615
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XGZ4JZM"
+        },
+        {
+            "filename": "welcome-2-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/welcome-2-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 7234,
+            "dimensions": [
+                200,
+                187
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oa7pqZmmhuA"
+        },
+        {
+            "filename": "img_best_Home02-HJ82BSU.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_best_Home02-HJ82BSU.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 52987,
+            "dimensions": [
+                585,
+                305
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HJ82BSU"
+        },
+        {
+            "filename": "solution-icon-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/solution-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 2051,
+            "dimensions": [
+                50,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_team_Home02-MTCAZJX.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_team_Home02-MTCAZJX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 60137,
+            "dimensions": [
+                370,
+                445
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MTCAZJX"
+        },
+        {
+            "filename": "img_team_Home02-3S8UY5J.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_team_Home02-3S8UY5J.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 45189,
+            "dimensions": [
+                370,
+                445
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3S8UY5J"
+        },
+        {
+            "filename": "img_team_Home02-9UU5U3B.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_team_Home02-9UU5U3B.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 59168,
+            "dimensions": [
+                370,
+                445
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9UU5U3B"
+        },
+        {
+            "filename": "img_team_Home02-Q96LDUA.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_team_Home02-Q96LDUA.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 39339,
+            "dimensions": [
+                370,
+                445
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q96LDUA"
+        },
+        {
+            "filename": "tes-icon-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/tes-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 2129,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "im-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/im-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 15703,
+            "dimensions": [
+                510,
+                195
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/baskets-clean-color-cotton-271711\/"
+        },
+        {
+            "filename": "gallery-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 15263,
+            "dimensions": [
+                391,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/anonymous-woman-with-baby-clothes-near-washing-machine-7282385\/"
+        },
+        {
+            "filename": "gallery-2.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 12359,
+            "dimensions": [
+                390,
+                417
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/a-person-pouring-detergent-in-a-washing-machine-5591581\/"
+        },
+        {
+            "filename": "gallery-3.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 14750,
+            "dimensions": [
+                391,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/woman-in-brown-long-sleeve-shirt-holding-white-and-gray-plaid-tote-bag-5902881\/"
+        },
+        {
+            "filename": "img_gallery_Home02-6STHAY7.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_gallery_Home02-6STHAY7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 74764,
+            "dimensions": [
+                391,
+                418
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6STHAY7"
+        },
+        {
+            "filename": "icon-prices-1.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 1962,
+            "dimensions": [
+                52,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-prices-11.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-11.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 1783,
+            "dimensions": [
+                52,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-prices-2.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 2694,
+            "dimensions": [
+                62,
+                62
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-prices-22.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-22.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 2511,
+            "dimensions": [
+                62,
+                62
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-prices-3.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 1941,
+            "dimensions": [
+                58,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-prices-33.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-33.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 1855,
+            "dimensions": [
+                58,
+                50
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-prices-4.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 3550,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-prices-44.png",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/icon-prices-44.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 3247,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "prices.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/prices.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 6353,
+            "dimensions": [
+                200,
+                127
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/stacked-towels-and-plaid-on-wooden-box-6213679\/"
+        },
+        {
+            "filename": "sld-inner.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/sld-inner.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/news.json",
+                    "name": "News"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 68502,
+            "dimensions": [
+                1894,
+                361
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oa7pqZmmhuA"
+        },
+        {
+            "filename": "bg-about2.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-about2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 14637,
+            "dimensions": [
+                1891,
+                767
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "know-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/know-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 13725,
+            "dimensions": [
+                280,
+                555
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/woman-in-brown-long-sleeve-shirt-holding-white-and-gray-plaid-tote-bag-5902881\/"
+        },
+        {
+            "filename": "know-2.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/know-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 11759,
+            "dimensions": [
+                280,
+                415
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/anonymous-woman-with-baby-clothes-near-washing-machine-7282385\/"
+        },
+        {
+            "filename": "bg-testi.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/bg-testi.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 7620,
+            "dimensions": [
+                1894,
+                553
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_question_Prices-DKHR2MV.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_question_Prices-DKHR2MV.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 26903,
+            "dimensions": [
+                270,
+                169
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DKHR2MV"
+        },
+        {
+            "filename": "img_question_Prices-BVDPQRL.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_question_Prices-BVDPQRL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-prices.json",
+                    "name": "Our Prices"
+                }
+            ],
+            "filesize": 16646,
+            "dimensions": [
+                270,
+                169
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BVDPQRL"
+        },
+        {
+            "filename": "gallery-1-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-1-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 14683,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/anonymous-woman-with-baby-clothes-near-washing-machine-7282385\/"
+        },
+        {
+            "filename": "gallery-2-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-2-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 12008,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/a-person-pouring-detergent-in-a-washing-machine-5591581\/"
+        },
+        {
+            "filename": "gallery-3-1.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-3-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 15127,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/Ibm57lIQKdQ"
+        },
+        {
+            "filename": "img_Gallery-BX3JU3F.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_Gallery-BX3JU3F.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 59951,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BX3JU3F"
+        },
+        {
+            "filename": "img_Gallery-XGZ4JZM.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_Gallery-XGZ4JZM.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 69381,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XGZ4JZM"
+        },
+        {
+            "filename": "gallery-6.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 19848,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/man-doing-laundry-5591836\/"
+        },
+        {
+            "filename": "gallery-8.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 14161,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/woman-in-brown-long-sleeve-shirt-holding-white-and-gray-plaid-tote-bag-5902881\/"
+        },
+        {
+            "filename": "img_Gallery-BVDPQRL.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_Gallery-BVDPQRL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 42239,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BVDPQRL"
+        },
+        {
+            "filename": "gallery-9.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/gallery-9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 15512,
+            "dimensions": [
+                370,
+                418
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/crop-housewife-ironing-white-clothes-on-ironing-board-4467905\/"
+        },
+        {
+            "filename": "service-4.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/service-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 11000,
+            "dimensions": [
+                370,
+                287
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/photo\/a-woman-pouring-detergent-5591578\/"
+        },
+        {
+            "filename": "img_Services-DKHR2MV.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/img_Services-DKHR2MV.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 53484,
+            "dimensions": [
+                370,
+                287
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DKHR2MV"
+        },
+        {
+            "filename": "service-6.jpg",
+            "thumbnail_url": "https:\/\/surielementor.com\/qondrikit\/wp-content\/uploads\/2022\/01\/service-6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 14972,
+            "dimensions": [
+                370,
+                287
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oa7pqZmmhuA"
+        }
+    ]
+}

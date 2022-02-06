@@ -1,0 +1,1721 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Swegerr - Template Kit for Food & Drink",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/show.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Product Details",
+            "screenshot": "screenshots\/product-details.jpg",
+            "source": "templates\/product-details.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/product-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Product",
+            "screenshot": "screenshots\/product.jpg",
+            "source": "templates\/product.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/product\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Partnership",
+            "screenshot": "screenshots\/partnership.jpg",
+            "source": "templates\/partnership.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/partnership\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Swegerr V1 - error 404",
+            "screenshot": "screenshots\/swegerr-v1-error-404.jpg",
+            "source": "templates\/swegerr-v1-error-404.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/?elementor_library=swegerr-v1-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Swegerr v1 - Single Post",
+            "screenshot": "screenshots\/swegerr-v1-single-post.jpg",
+            "source": "templates\/swegerr-v1-single-post.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/?elementor_library=swegerr-v1-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Swegerr v1 - Archive",
+            "screenshot": "screenshots\/swegerr-v1-archive.jpg",
+            "source": "templates\/swegerr-v1-archive.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/?elementor_library=swegerr-v1-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Swegerr v1 - Footer",
+            "screenshot": "screenshots\/swegerr-v1-footer.jpg",
+            "source": "templates\/swegerr-v1-footer.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/?elementor_library=swegerr-v1-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Swegerr V1 - Header",
+            "screenshot": "screenshots\/swegerr-v1-header.jpg",
+            "source": "templates\/swegerr-v1-header.json",
+            "preview_url": "https:\/\/show.moxcreative.com\/swegerr\/?elementor_library=swegerr-v1-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Element Pack Lite - Addons for Elementor",
+            "version": "3.6.0",
+            "file": "bdthemes-element-pack-lite\/bdthemes-element-pack-lite.php",
+            "author": "BdThemes"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Premium Addons for Elementor",
+            "version": "4.8.1",
+            "file": "premium-addons-for-elementor\/premium-addons-for-elementor.php",
+            "author": "Leap13"
+        }
+    ],
+    "images": [
+        {
+            "filename": "BG6.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/BG6-800x285.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 87419,
+            "dimensions": [
+                1344,
+                479
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "BG9.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/BG9.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 82252,
+            "dimensions": [
+                345,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "Orange_4-e1642164693887.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Orange_4-800x959.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                }
+            ],
+            "filesize": 199204,
+            "dimensions": [
+                417,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "friends-drinking-juice-and-sitting-on-meadow-during-music-festival.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/friends-drinking-juice-and-sitting-on-meadow-during-music-festival-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 99461,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZZPJQW6"
+        },
+        {
+            "filename": "100-Natural.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/100-Natural.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 21785,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/90-vegan-and-vegetarian-icon-set-CLBH6XN"
+        },
+        {
+            "filename": "Trans-Fat-Free.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Trans-Fat-Free.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 17366,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/90-vegan-and-vegetarian-icon-set-CLBH6XN"
+        },
+        {
+            "filename": "Biodegradable.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Biodegradable.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 17305,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/90-vegan-and-vegetarian-icon-set-CLBH6XN"
+        },
+        {
+            "filename": "Sugar-Free.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Sugar-Free.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 20310,
+            "dimensions": [
+                256,
+                256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/90-vegan-and-vegetarian-icon-set-CLBH6XN"
+        },
+        {
+            "filename": "lemons-on-yellow-background-top-view-fresh-fruit.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/lemons-on-yellow-background-top-view-fresh-fruit-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/swegerr-v1-single-post.json",
+                    "name": "Swegerr v1 - Single Post"
+                }
+            ],
+            "filesize": 69803,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2DW8TRQ"
+        },
+        {
+            "filename": "Apple_3-e1642164784315.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Apple_3-800x2004.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 173423,
+            "dimensions": [
+                287,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "apple2-PNG.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/apple2-PNG.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 161665,
+            "dimensions": [
+                378,
+                265
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ripe-juicy-apple-EAS6GNR"
+        },
+        {
+            "filename": "Orange_3-e1642164370580.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Orange_3-800x2004.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 177097,
+            "dimensions": [
+                287,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "orange2-PNG.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/orange2-PNG.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 121574,
+            "dimensions": [
+                378,
+                276
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/orange-fruit-F8L3P4H"
+        },
+        {
+            "filename": "Grape_3-e1642164405114.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Grape_3-800x2004.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 176554,
+            "dimensions": [
+                287,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "GRAPE-PNG.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/GRAPE-PNG.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 106537,
+            "dimensions": [
+                378,
+                258
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/blue-grape-PSFBHLS"
+        },
+        {
+            "filename": "orange-juice-drinking-woman-a-beautiful-young-girl-drinking-orange-juice.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/orange-juice-drinking-woman-a-beautiful-young-girl-drinking-orange-juice-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 121727,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RVR8HZP"
+        },
+        {
+            "filename": "ripe-oranges-on-tree-in-orange-garden--e1642164823696.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/ripe-oranges-on-tree-in-orange-garden--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 217670,
+            "dimensions": [
+                920,
+                613
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-KPJNBKE"
+        },
+        {
+            "filename": "two-little-sisters-drinking-juice.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/two-little-sisters-drinking-juice-800x408.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 70854,
+            "dimensions": [
+                1080,
+                550
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LBQ7LYA"
+        },
+        {
+            "filename": "couple-drinking-juice-on-picnic.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/couple-drinking-juice-on-picnic-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 113277,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SA68X2R"
+        },
+        {
+            "filename": "BG8.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/BG8-800x385.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 215230,
+            "dimensions": [
+                1040,
+                501
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pretty-woman-in-90s-tracksuit-with-pumpkin-juice-o-GYX8TXD"
+        },
+        {
+            "filename": "Team_4.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Team_4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 120595,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/handsome-waiter-smiling-at-camera-while-holding-cu-PYXU9B4"
+        },
+        {
+            "filename": "Team_6.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Team_6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 105464,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waitress-small-business-owner-bartender-standing-w-HHRG5KK"
+        },
+        {
+            "filename": "cutlery-measuring-tape-and-fruits-on-yellow-background.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/cutlery-measuring-tape-and-fruits-on-yellow-background-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 74643,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-YHGGV9X"
+        },
+        {
+            "filename": "R3.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/R3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 146097,
+            "dimensions": [
+                443,
+                443
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-cheerful-european-female-with-satisfie-W73EUUE"
+        },
+        {
+            "filename": "R2.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/R2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 105535,
+            "dimensions": [
+                443,
+                443
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "R1.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/R1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 108773,
+            "dimensions": [
+                443,
+                443
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "splash-of-orange-juice-and-oranges-with-leaves.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/splash-of-orange-juice-and-oranges-with-leaves-800x989.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 100389,
+            "dimensions": [
+                1080,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-JSQKBEF"
+        },
+        {
+            "filename": "amara.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/amara-800x210.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 17866,
+            "dimensions": [
+                2284,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "aven.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/aven-800x239.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 30416,
+            "dimensions": [
+                2010,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "earth-2.0.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/earth-2.0-800x190.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 54681,
+            "dimensions": [
+                2520,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "hexa.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/hexa-800x271.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 12628,
+            "dimensions": [
+                1770,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "ideaa.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/ideaa-800x271.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 31228,
+            "dimensions": [
+                1770,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "kanba.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/kanba-800x222.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 48455,
+            "dimensions": [
+                2160,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "liva.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/liva-800x320.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 34821,
+            "dimensions": [
+                1500,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "ztos.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/ztos-800x320.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 10644,
+            "dimensions": [
+                1500,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "orange-fruit-2-e1642164862152.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/orange-fruit-2-800x613.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 88124,
+            "dimensions": [
+                1080,
+                827
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-7KHSW9E"
+        },
+        {
+            "filename": "detox-drink.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/detox-drink-800x537.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 176201,
+            "dimensions": [
+                1080,
+                725
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PZ8EBNF"
+        },
+        {
+            "filename": "12-1-e1642164902523.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/12-1-e1642164902523.png",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/swegerr-v1-single-post.json",
+                    "name": "Swegerr v1 - Single Post"
+                }
+            ],
+            "filesize": 68932,
+            "dimensions": [
+                158,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juicy-summer-lemons-and-oranges-in-watercolor-NM2RU6B"
+        },
+        {
+            "filename": "5-e1642164500937.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/5-800x829.png",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/swegerr-v1-single-post.json",
+                    "name": "Swegerr v1 - Single Post"
+                }
+            ],
+            "filesize": 117126,
+            "dimensions": [
+                300,
+                311
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juicy-summer-lemons-and-oranges-in-watercolor-NM2RU6B"
+        },
+        {
+            "filename": "8-e1642164529107.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/8-800x796.png",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/swegerr-v1-single-post.json",
+                    "name": "Swegerr v1 - Single Post"
+                }
+            ],
+            "filesize": 140331,
+            "dimensions": [
+                300,
+                298
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juicy-summer-lemons-and-oranges-in-watercolor-NM2RU6B"
+        },
+        {
+            "filename": "15-e1642164927820.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/15-800x1410.png",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                },
+                {
+                    "source": "templates\/swegerr-v1-single-post.json",
+                    "name": "Swegerr v1 - Single Post"
+                }
+            ],
+            "filesize": 75974,
+            "dimensions": [
+                170,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juicy-summer-lemons-and-oranges-in-watercolor-NM2RU6B"
+        },
+        {
+            "filename": "the-waiter-makes-orange-juice-with-a-juicer-catering-kitchen-work-.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/the-waiter-makes-orange-juice-with-a-juicer-catering-kitchen-work--800x524.jpg",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                }
+            ],
+            "filesize": 100414,
+            "dimensions": [
+                1080,
+                707
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-V3SE7EM"
+        },
+        {
+            "filename": "Product_1-1.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Product_1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                }
+            ],
+            "filesize": 32501,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "Product_2.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Product_2.png",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                }
+            ],
+            "filesize": 34392,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "Product_3.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Product_3.png",
+            "templates": [
+                {
+                    "source": "templates\/product-details.json",
+                    "name": "Product Details"
+                }
+            ],
+            "filesize": 32326,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "KIWI-PNG-e1642164956647.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/KIWI-PNG-e1642164956647.png",
+            "templates": [
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 88954,
+            "dimensions": [
+                300,
+                218
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/kiwi-whole-and-sliced-kiwi-fruit-isolated-XYL39A8"
+        },
+        {
+            "filename": "Kiwi-e1642165003144.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Kiwi-800x959.png",
+            "templates": [
+                {
+                    "source": "templates\/product.json",
+                    "name": "Product"
+                }
+            ],
+            "filesize": 198817,
+            "dimensions": [
+                417,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "Team_5.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Team_5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 103272,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-smiling-waiter-standing-at-counter-2LQ8QX3"
+        },
+        {
+            "filename": "Team_2.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Team_2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 104260,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-smiling-waitress-standing-at-cafe-entrance-MMN23C3"
+        },
+        {
+            "filename": "Team_1.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Team_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 94508,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-smiling-waitress-looking-at-camera-in--WABEQ7T"
+        },
+        {
+            "filename": "Team_3.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Team_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 95251,
+            "dimensions": [
+                300,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-confident-waiter-DUGCWK9"
+        },
+        {
+            "filename": "young-pretty-dark-haired-asian-woman-owning-cafeteria.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/young-pretty-dark-haired-asian-woman-owning-cafeteria-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 99860,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JLRKURV"
+        },
+        {
+            "filename": "03-PDF.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/03-PDF.png",
+            "templates": [
+                {
+                    "source": "templates\/partnership.json",
+                    "name": "Partnership"
+                }
+            ],
+            "filesize": 1955,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/30-file-types-icons-flat-42DCWB4"
+        },
+        {
+            "filename": "drinking-juice.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/drinking-juice-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 125782,
+            "dimensions": [
+                1080,
+                1618
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VS94A6L"
+        },
+        {
+            "filename": "glasses-of-juices-refreshments-and-summer-drinks-.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/glasses-of-juices-refreshments-and-summer-drinks--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 114214,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-G2Y7H9Z"
+        },
+        {
+            "filename": "girl-drinks-juice-on-the-beach.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/girl-drinks-juice-on-the-beach-800x541.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 144117,
+            "dimensions": [
+                1080,
+                731
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QZCD4C8"
+        },
+        {
+            "filename": "Orange-1-e1642164557975.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Orange-1-e1642164557975.png",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-error-404.json",
+                    "name": "Swegerr V1 - error 404"
+                }
+            ],
+            "filesize": 166985,
+            "dimensions": [
+                250,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "orange-fruit-1.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/orange-fruit-1-800x584.jpg",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-error-404.json",
+                    "name": "Swegerr V1 - error 404"
+                }
+            ],
+            "filesize": 73714,
+            "dimensions": [
+                1080,
+                788
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-F8L3P4H"
+        },
+        {
+            "filename": "Mask_1.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Mask_1.png",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-single-post.json",
+                    "name": "Swegerr v1 - Single Post"
+                }
+            ],
+            "filesize": 24535,
+            "dimensions": [
+                198,
+                181
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "fit-woman-drinking-fresh-juice.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/fit-woman-drinking-fresh-juice-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-single-post.json",
+                    "name": "Swegerr v1 - Single Post"
+                }
+            ],
+            "filesize": 158510,
+            "dimensions": [
+                1080,
+                1620
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QYZSGAY"
+        },
+        {
+            "filename": "fruits.jpg",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/fruits-800x653.jpg",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-archive.json",
+                    "name": "Swegerr v1 - Archive"
+                }
+            ],
+            "filesize": 80136,
+            "dimensions": [
+                1080,
+                881
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-JNVM2YJ"
+        },
+        {
+            "filename": "Logo_2.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Logo_2.png",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-footer.json",
+                    "name": "Swegerr v1 - Footer"
+                }
+            ],
+            "filesize": 66149,
+            "dimensions": [
+                436,
+                214
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "3-Botol-e1642165057390.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/3-Botol-e1642165057390.png",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-footer.json",
+                    "name": "Swegerr v1 - Footer"
+                }
+            ],
+            "filesize": 75383,
+            "dimensions": [
+                213,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/juice-glass-bottle-mock-up-LU5VXHG"
+        },
+        {
+            "filename": "Logo_1.png",
+            "thumbnail_url": "https:\/\/show.moxcreative.com\/swegerr\/wp-content\/uploads\/sites\/44\/2022\/01\/Logo_1.png",
+            "templates": [
+                {
+                    "source": "templates\/swegerr-v1-header.json",
+                    "name": "Swegerr V1 - Header"
+                }
+            ],
+            "filesize": 43587,
+            "dimensions": [
+                430,
+                214
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

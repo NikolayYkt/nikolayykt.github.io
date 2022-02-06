@@ -1,0 +1,1027 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Bloggable - Modern Blog Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/demo.bosathemes.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive",
+            "screenshot": "screenshots\/archive.jpg",
+            "source": "templates\/archive.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Category",
+            "screenshot": "screenshots\/category.jpg",
+            "source": "templates\/category.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=category",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-category",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/category"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Categories."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Shop",
+            "screenshot": "screenshots\/shop.jpg",
+            "source": "templates\/shop.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=shop",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single product",
+            "screenshot": "screenshots\/single-product.jpg",
+            "source": "templates\/single-product.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Cart",
+            "screenshot": "screenshots\/cart.jpg",
+            "source": "templates\/cart.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/cart\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Checkout",
+            "screenshot": "screenshots\/checkout.jpg",
+            "source": "templates\/checkout.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/checkout\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "My Account Page",
+            "screenshot": "screenshots\/my-account-page.jpg",
+            "source": "templates\/my-account-page.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/my-account-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search Results",
+            "screenshot": "screenshots\/search-results.jpg",
+            "source": "templates\/search-results.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=search-results",
+            "type": "search-results",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-search",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "search-results",
+                "elementor_pro_conditions": [
+                    "include\/archive\/search"
+                ],
+                "additional_template_information": [
+                    "This is a \"Search Results\" template for Elementor Pro.",
+                    "This template will display on: Search Results."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single page",
+            "screenshot": "screenshots\/single-page.jpg",
+            "source": "templates\/single-page.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=single-page",
+            "type": "single-page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-page",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Page\" template for Elementor Pro.",
+                    "This template will display on: Pages."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonial",
+            "screenshot": "screenshots\/testimonial.jpg",
+            "source": "templates\/testimonial.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/testimonial\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404 page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/demo.bosathemes.com\/bloggable\/?elementor_library=404-page",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "6.1.1",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        }
+    ],
+    "images": [
+        {
+            "filename": "bloggable-img15.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img15-800x480.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 173195,
+            "dimensions": [
+                1500,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-millennial-girl-shopping-buying-new-clothes--9H6KT4V"
+        },
+        {
+            "filename": "bloggable-img10.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img10-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 142496,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-female-dressmaker-standing-near-rack-with-C6EGQ6E"
+        },
+        {
+            "filename": "bloggable-img12.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img12-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 62398,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-male-and-female-models-in-pink-and-yellow-ho-MWY9YZD"
+        },
+        {
+            "filename": "bloggable-img4.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img4-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 105706,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/online-training-with-class-body-care-active-lifest-X9K68MW"
+        },
+        {
+            "filename": "bloggable-img9.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img9-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 143697,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/creativity-never-goes-out-of-style-KJSSSDH"
+        },
+        {
+            "filename": "bloggable-img13.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img13.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                }
+            ],
+            "filesize": 7695,
+            "dimensions": [
+                150,
+                150
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-millennial-girl-shopping-buying-new-clothes--9H6KT4V"
+        },
+        {
+            "filename": "bloggable-img14.png",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img14.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 4748,
+            "dimensions": [
+                203,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bloggable-img11.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img11-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 160505,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-african-man-having-fun-using-mobile-phone-4MHDS4Y"
+        },
+        {
+            "filename": "bloggable-img8.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img8-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 146640,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/dreamy-girl-in-sunglasses-with-camera-in-hand-look-BRMFKL3"
+        },
+        {
+            "filename": "bloggable-img7.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img7-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 75216,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/in-her-own-style-8FC3QQ6"
+        },
+        {
+            "filename": "bloggable-img16.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img16-800x286.jpg",
+            "templates": [
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/category.json",
+                    "name": "Category"
+                },
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                },
+                {
+                    "source": "templates\/cart.json",
+                    "name": "Cart"
+                },
+                {
+                    "source": "templates\/checkout.json",
+                    "name": "Checkout"
+                },
+                {
+                    "source": "templates\/my-account-page.json",
+                    "name": "My Account Page"
+                },
+                {
+                    "source": "templates\/search-results.json",
+                    "name": "Search Results"
+                },
+                {
+                    "source": "templates\/single-page.json",
+                    "name": "Single page"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 53245,
+            "dimensions": [
+                1400,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cute-female-model-in-pink-pajama-enjoying-morning-BFV6MFG"
+        },
+        {
+            "filename": "bloggable-product8.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-product8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single product"
+                }
+            ],
+            "filesize": 20286,
+            "dimensions": [
+                570,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/womans-bag-white-N3CBZ48"
+        },
+        {
+            "filename": "bloggable-product7.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-product7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single product"
+                }
+            ],
+            "filesize": 31964,
+            "dimensions": [
+                570,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/woman-shoes-L7L2G9E"
+        },
+        {
+            "filename": "bloggable-product4.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-product4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single product"
+                }
+            ],
+            "filesize": 34252,
+            "dimensions": [
+                570,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/tartan-dress-with-bow-9MZQM9"
+        },
+        {
+            "filename": "bloggable-product3.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-product3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single product"
+                }
+            ],
+            "filesize": 14434,
+            "dimensions": [
+                570,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/dress-5PJBYKE"
+        },
+        {
+            "filename": "bloggable-product2.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-product2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single product"
+                }
+            ],
+            "filesize": 45177,
+            "dimensions": [
+                570,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/man-short-sleeve-shirt-PKY4KN2"
+        },
+        {
+            "filename": "bloggable-product1.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-product1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shop.json",
+                    "name": "Shop"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single product"
+                }
+            ],
+            "filesize": 18820,
+            "dimensions": [
+                570,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/jacket-beige-HPT5SGJ"
+        },
+        {
+            "filename": "bloggable-img23.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img23.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 70749,
+            "dimensions": [
+                645,
+                650
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-female-dressmaker-standing-near-rack-with-C6EGQ6E"
+        },
+        {
+            "filename": "bloggable-img1.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 162688,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/stylish-city-portrait-of-ginger-petty-woman-walkin-4NTEU9R"
+        },
+        {
+            "filename": "bloggable-img2.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 152236,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/skilled-professional-afro-american-engineer-making-DNE7C66"
+        },
+        {
+            "filename": "bloggable-img5.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img5-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 270188,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/millennial-happy-family-couple-in-love-newlyweds-i-NMDKSRV"
+        },
+        {
+            "filename": "bloggable-img17.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img17.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                }
+            ],
+            "filesize": 5885,
+            "dimensions": [
+                152,
+                152
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/young-male-and-female-models-in-pink-and-yellow-ho-MWY9YZD"
+        },
+        {
+            "filename": "bloggable-img18.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img18.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                }
+            ],
+            "filesize": 9728,
+            "dimensions": [
+                150,
+                150
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/creativity-never-goes-out-of-style-KJSSSDH"
+        },
+        {
+            "filename": "bloggable-img19.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img19.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                }
+            ],
+            "filesize": 10302,
+            "dimensions": [
+                150,
+                150
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/dreamy-girl-in-sunglasses-with-camera-in-hand-look-BRMFKL3"
+        },
+        {
+            "filename": "bloggable-img20.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img20.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                }
+            ],
+            "filesize": 7036,
+            "dimensions": [
+                150,
+                150
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/online-training-with-class-body-care-active-lifest-X9K68MW"
+        },
+        {
+            "filename": "bloggable-img21.jpg",
+            "thumbnail_url": "https:\/\/demo.bosathemes.com\/bloggable\/wp-content\/uploads\/sites\/20\/2022\/01\/bloggable-img21.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonial.json",
+                    "name": "Testimonial"
+                }
+            ],
+            "filesize": 7246,
+            "dimensions": [
+                150,
+                150
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/in-her-own-style-8FC3QQ6"
+        }
+    ]
+}

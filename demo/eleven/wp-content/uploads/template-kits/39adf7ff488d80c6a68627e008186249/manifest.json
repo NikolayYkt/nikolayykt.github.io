@@ -1,0 +1,2239 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Monztera - NFT Portfolio Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/1onestrong.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Roadmap 01",
+            "screenshot": "screenshots\/roadmap-01.jpg",
+            "source": "templates\/roadmap-01.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/roadmap-01\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Roadmap 02",
+            "screenshot": "screenshots\/roadmap-02.jpg",
+            "source": "templates\/roadmap-02.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/roadmap-02\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "NFT",
+            "screenshot": "screenshots\/nft.jpg",
+            "source": "templates\/nft.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/nft\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Community",
+            "screenshot": "screenshots\/community.jpg",
+            "source": "templates\/community.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/community\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Error 404",
+            "screenshot": "screenshots\/error-404.jpg",
+            "source": "templates\/error-404.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/?elementor_library=elementor-error-404-1614",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive",
+            "screenshot": "screenshots\/archive.jpg",
+            "source": "templates\/archive.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/?elementor_library=elementor-archive-1431",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/?elementor_library=elementor-single-post-1408",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: All Singular."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/?elementor_library=elementor-footer-794",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/monztera.1onestrong.com\/?elementor_library=elementor-header-790",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Timeline Widget Addon For Elementor",
+            "version": "1.3.4",
+            "file": "timeline-widget-addon-for-elementor\/timeline-widget-addon-for-elementor.php",
+            "author": "Cool Plugins"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "monterajpg03.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg03-800x503.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 82473,
+            "dimensions": [
+                1920,
+                1206
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "mntrapng04.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng04-800x917.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 188691,
+            "dimensions": [
+                815,
+                934
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "mntrapng03.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng03-800x888.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 277173,
+            "dimensions": [
+                815,
+                905
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "mntrapng07.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng07-800x888.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 242652,
+            "dimensions": [
+                815,
+                905
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "mntrapng05.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng05-800x758.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 267871,
+            "dimensions": [
+                815,
+                772
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "mntrapng06.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng06-800x970.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 215815,
+            "dimensions": [
+                815,
+                988
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "mntrapng02.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng02-800x987.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 307114,
+            "dimensions": [
+                815,
+                1006
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "monterajpg06.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg06-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 31204,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "monterajpg05.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg05-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 31697,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "collection-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/collection-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 120213,
+            "dimensions": [
+                676,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "collection-2.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/collection-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 141817,
+            "dimensions": [
+                676,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "collection-4.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/collection-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 146316,
+            "dimensions": [
+                676,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "collection-3.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/collection-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 179696,
+            "dimensions": [
+                676,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "collection-6.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/collection-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 128109,
+            "dimensions": [
+                676,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "collection-7.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/collection-7.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 136127,
+            "dimensions": [
+                676,
+                603
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "collection-5.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/collection-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 128471,
+            "dimensions": [
+                675,
+                602
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "Credit-Card.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Credit-Card.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 25636,
+            "dimensions": [
+                226,
+                226
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "monterajpg03-1.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg03-1-800x503.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 82473,
+            "dimensions": [
+                1920,
+                1206
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "Dollar-Coin.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Dollar-Coin.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 32674,
+            "dimensions": [
+                226,
+                226
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "Wallet.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Wallet.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 25262,
+            "dimensions": [
+                226,
+                226
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "Laptop.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Laptop.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 26263,
+            "dimensions": [
+                226,
+                226
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "Group-366.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Group-366-800x121.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 16076,
+            "dimensions": [
+                1342,
+                203
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/hud-titles-package-PHZFBW"
+        },
+        {
+            "filename": "BG.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/BG.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 244733,
+            "dimensions": [
+                675,
+                770
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "col01-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 93646,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-2.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 91503,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-3.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 104949,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-4.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                }
+            ],
+            "filesize": 94645,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-5.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                }
+            ],
+            "filesize": 103462,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-6.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                }
+            ],
+            "filesize": 89154,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "suppotbrand-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 7703,
+            "dimensions": [
+                396,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-2.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 7811,
+            "dimensions": [
+                397,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-3.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 6624,
+            "dimensions": [
+                396,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-4.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 6229,
+            "dimensions": [
+                394,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-5.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 6276,
+            "dimensions": [
+                397,
+                211
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-7.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-7.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 8119,
+            "dimensions": [
+                394,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-8.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-8.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 7891,
+            "dimensions": [
+                397,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-9.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-9.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 8712,
+            "dimensions": [
+                395,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-10.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-10.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 5005,
+            "dimensions": [
+                395,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "suppotbrand-11.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/suppotbrand-11.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 7133,
+            "dimensions": [
+                396,
+                212
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-minimal-logos-premium-edition-R68V87"
+        },
+        {
+            "filename": "col01-4-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-4-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 94645,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-3-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-3-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 104949,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-2-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 91503,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-1-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                }
+            ],
+            "filesize": 93646,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-6-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-6-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 89154,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "col01-5-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/col01-5-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 103462,
+            "dimensions": [
+                408,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "monterajpg05-1.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg05-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 31697,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "team-5.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/team-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 251045,
+            "dimensions": [
+                773,
+                842
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/business-man-cross-arm-KQBP2XZ"
+        },
+        {
+            "filename": "team-4.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/team-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 203117,
+            "dimensions": [
+                772,
+                842
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-business-man-use-of-digital-tablet-RQ7NDEH"
+        },
+        {
+            "filename": "team-3.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/team-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 155931,
+            "dimensions": [
+                772,
+                842
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-PPRTZ2Z"
+        },
+        {
+            "filename": "team-2.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/team-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 249692,
+            "dimensions": [
+                772,
+                842
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-wearing-glasses-standing-in-confident--T544UHS"
+        },
+        {
+            "filename": "team-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/team-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 232518,
+            "dimensions": [
+                772,
+                842
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-QLE53CH"
+        },
+        {
+            "filename": "team-6.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/team-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 214307,
+            "dimensions": [
+                772,
+                842
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-QLE53CH"
+        },
+        {
+            "filename": "monterajpg08.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg08-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 52881,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "mntrapng06-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng06-1-800x970.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 215815,
+            "dimensions": [
+                815,
+                988
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-2RFZBSZ"
+        },
+        {
+            "filename": "mntrapng05-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng05-1-800x758.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 267871,
+            "dimensions": [
+                815,
+                772
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "mntrapng07-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng07-1-800x888.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 242652,
+            "dimensions": [
+                815,
+                905
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "mntrapng04-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng04-1-800x917.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 188691,
+            "dimensions": [
+                815,
+                934
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "mntrapng02-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/mntrapng02-1-800x987.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                },
+                {
+                    "source": "templates\/roadmap-02.json",
+                    "name": "Roadmap 02"
+                },
+                {
+                    "source": "templates\/nft.json",
+                    "name": "NFT"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/community.json",
+                    "name": "Community"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 307114,
+            "dimensions": [
+                815,
+                1006
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cute-monsters-pack-P9Q7464"
+        },
+        {
+            "filename": "BG-4-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/BG-4-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 280819,
+            "dimensions": [
+                770,
+                770
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "BG-1.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/BG-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 244733,
+            "dimensions": [
+                675,
+                770
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "monterajpg06-1.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg06-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/roadmap-01.json",
+                    "name": "Roadmap 01"
+                }
+            ],
+            "filesize": 31204,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "Chat.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Chat.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 189875,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "Mail.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Mail.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 142241,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "Map.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Map.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 166300,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "Monitoring.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Monitoring.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 149228,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/frosted-glass-icons-set-69E4TGX"
+        },
+        {
+            "filename": "monterajpg07.jpg",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/monterajpg07-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 59112,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-nebula-backgrounds-3WKQRX"
+        },
+        {
+            "filename": "Group-5913.png",
+            "thumbnail_url": "https:\/\/monztera.1onestrong.com\/wp-content\/uploads\/sites\/3\/2021\/12\/Group-5913.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 9483,
+            "dimensions": [
+                623,
+                75
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/logo-letter-m-ribbon-style-PQ8ZZG"
+        }
+    ]
+}

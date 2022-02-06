@@ -1,0 +1,1737 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Resa - Travel and Tourism Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa - Home Page",
+            "screenshot": "screenshots\/resa-home-page.jpg",
+            "source": "templates\/resa-home-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-home_page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 About Us Page",
+            "screenshot": "screenshots\/resa-about-us-page.jpg",
+            "source": "templates\/resa-about-us-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-about_us_page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Tours Page",
+            "screenshot": "screenshots\/resa-tours-page.jpg",
+            "source": "templates\/resa-tours-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-tours_page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Services Page",
+            "screenshot": "screenshots\/resa-services-page.jpg",
+            "source": "templates\/resa-services-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-services_page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Packages Page",
+            "screenshot": "screenshots\/resa-packages-page.jpg",
+            "source": "templates\/resa-packages-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-pricing_plan_page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 Gallery Page",
+            "screenshot": "screenshots\/resa-gallery-page.jpg",
+            "source": "templates\/resa-gallery-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-gallery_page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 Team Page",
+            "screenshot": "screenshots\/resa-team-page.jpg",
+            "source": "templates\/resa-team-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-team_page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Contact Us Page",
+            "screenshot": "screenshots\/resa-contact-us-page.jpg",
+            "source": "templates\/resa-contact-us-page.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-contact_us_page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 Blog Template",
+            "screenshot": "screenshots\/resa-blog-template.jpg",
+            "source": "templates\/resa-blog-template.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/?elementor_library=resa-blog_template",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 Blog Details Template",
+            "screenshot": "screenshots\/resa-blog-details-template.jpg",
+            "source": "templates\/resa-blog-details-template.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/?elementor_library=resa-blog_details_template",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 Error 404 Template",
+            "screenshot": "screenshots\/resa-error-404-template.jpg",
+            "source": "templates\/resa-error-404-template.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/?elementor_library=resa-error_404_template",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa - Header Template",
+            "screenshot": "screenshots\/resa-header-template.jpg",
+            "source": "templates\/resa-header-template.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/?elementor_library=resa-header_template",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 Footer Template",
+            "screenshot": "screenshots\/resa-footer-template.jpg",
+            "source": "templates\/resa-footer-template.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/?elementor_library=resa-footer_template",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 About Section",
+            "screenshot": "screenshots\/resa-about-section.jpg",
+            "source": "templates\/resa-about-section.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-about_section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Hero Section",
+            "screenshot": "screenshots\/resa-hero-section.jpg",
+            "source": "templates\/resa-hero-section.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-hero_section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Services Section",
+            "screenshot": "screenshots\/resa-services-section.jpg",
+            "source": "templates\/resa-services-section.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-services_section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Gallery Section",
+            "screenshot": "screenshots\/resa-gallery-section.jpg",
+            "source": "templates\/resa-gallery-section.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-gallery_section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Resa \u2013 Tours Section",
+            "screenshot": "screenshots\/resa-tours-section.jpg",
+            "source": "templates\/resa-tours-section.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-tours_section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Resa \u2013 Team Section",
+            "screenshot": "screenshots\/resa-team-section.jpg",
+            "source": "templates\/resa-team-section.json",
+            "preview_url": "https:\/\/tkpro-demo2.envalab.com\/01\/template-kit\/resa-team_section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-team",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "PowerPack Lite for Elementor",
+            "version": "2.6.6",
+            "file": "powerpack-lite-for-elementor\/powerpack-lite-elementor.php",
+            "author": "IdeaBox Creations"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.5.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "high-angle-view-bridge-for-travel-by-boat-2021-09-01-23-13-50-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/high-angle-view-bridge-for-travel-by-boat-2021-09-01-23-13-50-utc-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                }
+            ],
+            "filesize": 230122,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/high-angle-view-bridge-for-travel-by-boat-93824CJ"
+        },
+        {
+            "filename": "002-worldwide.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/002-worldwide.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-services-page.json",
+                    "name": "Resa \u2013 Services Page"
+                }
+            ],
+            "filesize": 3182,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "001-backpack.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/001-backpack.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-services-page.json",
+                    "name": "Resa \u2013 Services Page"
+                }
+            ],
+            "filesize": 2175,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "003-booking.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/003-booking.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-services-page.json",
+                    "name": "Resa \u2013 Services Page"
+                }
+            ],
+            "filesize": 2436,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "rialto-bridge-2021-08-30-05-01-20-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/rialto-bridge-2021-08-30-05-01-20-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-tours-section.json",
+                    "name": "Resa \u2013 Tours Section"
+                }
+            ],
+            "filesize": 171534,
+            "dimensions": [
+                370,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/rialto-bridge-8B4LN8V"
+        },
+        {
+            "filename": "couple-travel-on-beach-of-tropical-island-2021-08-30-16-39-22-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/couple-travel-on-beach-of-tropical-island-2021-08-30-16-39-22-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-tours-section.json",
+                    "name": "Resa \u2013 Tours Section"
+                }
+            ],
+            "filesize": 183412,
+            "dimensions": [
+                370,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/couple-travel-on-beach-of-tropical-island-SX3UECU"
+        },
+        {
+            "filename": "travel-2021-08-29-14-32-25-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/travel-2021-08-29-14-32-25-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-tours-section.json",
+                    "name": "Resa \u2013 Tours Section"
+                }
+            ],
+            "filesize": 190400,
+            "dimensions": [
+                370,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/travel-GB6HNRC"
+        },
+        {
+            "filename": "shape-2.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/shape-2.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-about-section.json",
+                    "name": "Resa \u2013 About Section"
+                }
+            ],
+            "filesize": 22512,
+            "dimensions": [
+                276,
+                346
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "shape-3.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/shape-3.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-about-section.json",
+                    "name": "Resa \u2013 About Section"
+                }
+            ],
+            "filesize": 3639,
+            "dimensions": [
+                102,
+                96
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                }
+            ],
+            "filesize": 193377,
+            "dimensions": [
+                390,
+                390
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/positive-female-travel-consultant-at-seaside-resor-NAC2LFW"
+        },
+        {
+            "filename": "fashionable-female-with-dreadlocks-hairstyle-dress-2021-08-31-07-07-13-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/fashionable-female-with-dreadlocks-hairstyle-dress-2021-08-31-07-07-13-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                }
+            ],
+            "filesize": 91632,
+            "dimensions": [
+                280,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fashionable-female-with-dreadlocks-hairstyle-dress-4M8RML5"
+        },
+        {
+            "filename": "asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                }
+            ],
+            "filesize": 164591,
+            "dimensions": [
+                340,
+                340
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-women-friend-travel-together-help-pointing-l-MDC9VDL"
+        },
+        {
+            "filename": "the-girl-travels-by-train-to-beautiful-places-bea-2021-12-09-08-32-25-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/the-girl-travels-by-train-to-beautiful-places-bea-2021-12-09-08-32-25-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                }
+            ],
+            "filesize": 175671,
+            "dimensions": [
+                340,
+                340
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/the-girl-travels-by-train-to-beautiful-places-beau-TWVZW8W"
+        },
+        {
+            "filename": "asian-woman-traveler-backpacker-looking-for-route-2021-12-09-05-46-10-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/asian-woman-traveler-backpacker-looking-for-route-2021-12-09-05-46-10-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                }
+            ],
+            "filesize": 163043,
+            "dimensions": [
+                340,
+                340
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-woman-traveler-backpacker-looking-for-route--3SXS6SF"
+        },
+        {
+            "filename": "travel-2021-08-29-14-32-25-utc-2.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/travel-2021-08-29-14-32-25-utc-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                }
+            ],
+            "filesize": 221353,
+            "dimensions": [
+                340,
+                340
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/travel-GB6HNRC"
+        },
+        {
+            "filename": "positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                }
+            ],
+            "filesize": 151849,
+            "dimensions": [
+                340,
+                340
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/positive-female-travel-consultant-at-seaside-resor-NAC2LFW"
+        },
+        {
+            "filename": "logo1.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/logo1.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                }
+            ],
+            "filesize": 4941,
+            "dimensions": [
+                183,
+                44
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "log2.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/log2.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                }
+            ],
+            "filesize": 4863,
+            "dimensions": [
+                183,
+                44
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo3.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/logo3.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                }
+            ],
+            "filesize": 5557,
+            "dimensions": [
+                183,
+                44
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo4.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/logo4.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                }
+            ],
+            "filesize": 5387,
+            "dimensions": [
+                190,
+                39
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "a-portrait-of-a-caucasian-businesswoman-FFWE3TA-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/a-portrait-of-a-caucasian-businesswoman-FFWE3TA-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                }
+            ],
+            "filesize": 13902,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FFWE3TA"
+        },
+        {
+            "filename": "business-woman-at-outdoor-URMUBDU.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/business-woman-at-outdoor-URMUBDU.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                }
+            ],
+            "filesize": 17272,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-URMUBDU"
+        },
+        {
+            "filename": "handsome-man-4LH3GB9-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/handsome-man-4LH3GB9-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                }
+            ],
+            "filesize": 18703,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4LH3GB9"
+        },
+        {
+            "filename": "woman-wearing-a-black-coat-wearing-glasses-sitting-FZ8279W-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/woman-wearing-a-black-coat-wearing-glasses-sitting-FZ8279W-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                }
+            ],
+            "filesize": 14691,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FZ8279W"
+        },
+        {
+            "filename": "fashionable-female-with-dreadlocks-hairstyle-dress-2021-08-31-07-07-13-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/fashionable-female-with-dreadlocks-hairstyle-dress-2021-08-31-07-07-13-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 122190,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fashionable-female-with-dreadlocks-hairstyle-dress-4M8RML5"
+        },
+        {
+            "filename": "girl-travels-to-beautiful-places-2021-09-03-19-34-10-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/girl-travels-to-beautiful-places-2021-09-03-19-34-10-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 124201,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/girl-travels-to-beautiful-places-JLMR2WJ"
+        },
+        {
+            "filename": "the-girl-travels-to-beautiful-places-sunset-in-th-2021-10-27-23-25-33-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/the-girl-travels-to-beautiful-places-sunset-in-th-2021-10-27-23-25-33-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 132172,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/the-girl-travels-to-beautiful-places-sunset-in-the-JU7K4KL"
+        },
+        {
+            "filename": "travel-2021-08-29-14-32-25-utc-3.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/travel-2021-08-29-14-32-25-utc-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 146252,
+            "dimensions": [
+                640,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/travel-GB6HNRC"
+        },
+        {
+            "filename": "asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 122786,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-women-friend-travel-together-help-pointing-l-MDC9VDL"
+        },
+        {
+            "filename": "the-girl-travels-by-train-to-beautiful-places-bea-2021-12-09-08-32-25-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/the-girl-travels-by-train-to-beautiful-places-bea-2021-12-09-08-32-25-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 122285,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/the-girl-travels-by-train-to-beautiful-places-beau-TWVZW8W"
+        },
+        {
+            "filename": "map.png",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/map-800x388.png",
+            "templates": [
+                {
+                    "source": "templates\/resa-home-page.json",
+                    "name": "Resa - Home Page"
+                },
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-services-page.json",
+                    "name": "Resa \u2013 Services Page"
+                },
+                {
+                    "source": "templates\/resa-packages-page.json",
+                    "name": "Resa \u2013 Packages Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                },
+                {
+                    "source": "templates\/resa-blog-template.json",
+                    "name": "Resa \u2013 Blog Template"
+                },
+                {
+                    "source": "templates\/resa-blog-details-template.json",
+                    "name": "Resa \u2013 Blog Details Template"
+                },
+                {
+                    "source": "templates\/resa-error-404-template.json",
+                    "name": "Resa \u2013 Error 404 Template"
+                }
+            ],
+            "filesize": 20482,
+            "dimensions": [
+                1969,
+                954
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "couple-on-the-beach-at-tropical-resort-2021-08-31-16-45-48-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/couple-on-the-beach-at-tropical-resort-2021-08-31-16-45-48-utc-800x551.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-services-page.json",
+                    "name": "Resa \u2013 Services Page"
+                },
+                {
+                    "source": "templates\/resa-packages-page.json",
+                    "name": "Resa \u2013 Packages Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                },
+                {
+                    "source": "templates\/resa-contact-us-page.json",
+                    "name": "Resa \u2013 Contact Us Page"
+                },
+                {
+                    "source": "templates\/resa-blog-template.json",
+                    "name": "Resa \u2013 Blog Template"
+                },
+                {
+                    "source": "templates\/resa-blog-details-template.json",
+                    "name": "Resa \u2013 Blog Details Template"
+                },
+                {
+                    "source": "templates\/resa-error-404-template.json",
+                    "name": "Resa \u2013 Error 404 Template"
+                },
+                {
+                    "source": "templates\/resa-hero-section.json",
+                    "name": "Resa \u2013 Hero Section"
+                }
+            ],
+            "filesize": 252640,
+            "dimensions": [
+                1920,
+                1323
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/couple-on-the-beach-at-tropical-resort-Q8L5S8A"
+        },
+        {
+            "filename": "asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc-2.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-about-section.json",
+                    "name": "Resa \u2013 About Section"
+                }
+            ],
+            "filesize": 200963,
+            "dimensions": [
+                390,
+                390
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-women-friend-travel-together-help-pointing-l-MDC9VDL"
+        },
+        {
+            "filename": "positive-female-tourism-worker-develops-website-of-2021-08-31-04-22-53-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/positive-female-tourism-worker-develops-website-of-2021-08-31-04-22-53-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-about-section.json",
+                    "name": "Resa \u2013 About Section"
+                }
+            ],
+            "filesize": 81532,
+            "dimensions": [
+                280,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/positive-female-tourism-worker-develops-website-of-B8GS9GA"
+        },
+        {
+            "filename": "rialto-bridge-in-venice-2021-08-26-16-02-33-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/rialto-bridge-in-venice-2021-08-26-16-02-33-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-packages-page.json",
+                    "name": "Resa \u2013 Packages Page"
+                },
+                {
+                    "source": "templates\/resa-tours-section.json",
+                    "name": "Resa \u2013 Tours Section"
+                }
+            ],
+            "filesize": 168105,
+            "dimensions": [
+                370,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/rialto-bridge-in-venice-PY9WG6P"
+        },
+        {
+            "filename": "cityscape-view-of-porto-alegre-brazil-2021-08-30-08-46-59-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/cityscape-view-of-porto-alegre-brazil-2021-08-30-08-46-59-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-packages-page.json",
+                    "name": "Resa \u2013 Packages Page"
+                },
+                {
+                    "source": "templates\/resa-tours-section.json",
+                    "name": "Resa \u2013 Tours Section"
+                }
+            ],
+            "filesize": 139458,
+            "dimensions": [
+                370,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/cityscape-view-of-porto-alegre-brazil-2YPS47X"
+        },
+        {
+            "filename": "salvador-brazil-2021-08-29-01-02-49-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/salvador-brazil-2021-08-29-01-02-49-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-packages-page.json",
+                    "name": "Resa \u2013 Packages Page"
+                },
+                {
+                    "source": "templates\/resa-tours-section.json",
+                    "name": "Resa \u2013 Tours Section"
+                }
+            ],
+            "filesize": 172077,
+            "dimensions": [
+                370,
+                270
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/salvador-brazil-PB862KN"
+        },
+        {
+            "filename": "positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc-2.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                },
+                {
+                    "source": "templates\/resa-blog-details-template.json",
+                    "name": "Resa \u2013 Blog Details Template"
+                },
+                {
+                    "source": "templates\/resa-team-section.json",
+                    "name": "Resa \u2013 Team Section"
+                }
+            ],
+            "filesize": 209315,
+            "dimensions": [
+                370,
+                410
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/positive-female-travel-consultant-at-seaside-resor-NAC2LFW"
+        },
+        {
+            "filename": "using-the-online-tourist-guide-2021-08-27-15-26-25-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/using-the-online-tourist-guide-2021-08-27-15-26-25-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                },
+                {
+                    "source": "templates\/resa-team-section.json",
+                    "name": "Resa \u2013 Team Section"
+                }
+            ],
+            "filesize": 179497,
+            "dimensions": [
+                370,
+                410
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/using-the-online-tourist-guide-CPU29PP"
+        },
+        {
+            "filename": "travel-guide-tourism-in-europe-woman-tourist-wit-2021-08-26-15-53-18-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/travel-guide-tourism-in-europe-woman-tourist-wit-2021-08-26-15-53-18-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                },
+                {
+                    "source": "templates\/resa-team-section.json",
+                    "name": "Resa \u2013 Team Section"
+                }
+            ],
+            "filesize": 146872,
+            "dimensions": [
+                370,
+                410
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/travel-guide-tourism-in-europe-woman-tourist-with--6GA4TE2"
+        },
+        {
+            "filename": "positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc-3.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/positive-female-travel-consultant-at-seaside-resor-2021-12-09-22-31-56-utc-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                }
+            ],
+            "filesize": 100632,
+            "dimensions": [
+                570,
+                350
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/positive-female-travel-consultant-at-seaside-resor-NAC2LFW"
+        },
+        {
+            "filename": "couple-travel-on-beach-of-tropical-island-2021-08-30-16-39-22-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/couple-travel-on-beach-of-tropical-island-2021-08-30-16-39-22-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-about-us-page.json",
+                    "name": "Resa \u2013 About Us Page"
+                }
+            ],
+            "filesize": 251753,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/couple-travel-on-beach-of-tropical-island-SX3UECU"
+        },
+        {
+            "filename": "asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc-3.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/asian-women-friend-travel-together-help-pointing-l-2021-11-11-19-03-04-utc-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-tours-page.json",
+                    "name": "Resa \u2013 Tours Page"
+                },
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                }
+            ],
+            "filesize": 157768,
+            "dimensions": [
+                670,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-women-friend-travel-together-help-pointing-l-MDC9VDL"
+        },
+        {
+            "filename": "salvador-brazil-2021-08-29-01-02-49-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/salvador-brazil-2021-08-29-01-02-49-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 140669,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/salvador-brazil-PB862KN"
+        },
+        {
+            "filename": "pensive-elderly-lady-attentively-listening-to-offe-2021-09-24-03-51-50-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/pensive-elderly-lady-attentively-listening-to-offe-2021-09-24-03-51-50-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 102374,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pensive-elderly-lady-attentively-listening-to-offe-LDZFQ4V"
+        },
+        {
+            "filename": "beautiful-woman-working-in-international-agency-2021-09-24-03-56-22-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/beautiful-woman-working-in-international-agency-2021-09-24-03-56-22-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-gallery-page.json",
+                    "name": "Resa \u2013 Gallery Page"
+                },
+                {
+                    "source": "templates\/resa-gallery-section.json",
+                    "name": "Resa \u2013 Gallery Section"
+                }
+            ],
+            "filesize": 83700,
+            "dimensions": [
+                320,
+                250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-woman-working-in-international-agency-EBQKL9Z"
+        },
+        {
+            "filename": "woman-using-city-guide-in-hong-kong-2021-08-30-05-57-47-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/woman-using-city-guide-in-hong-kong-2021-08-30-05-57-47-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                },
+                {
+                    "source": "templates\/resa-team-section.json",
+                    "name": "Resa \u2013 Team Section"
+                }
+            ],
+            "filesize": 166350,
+            "dimensions": [
+                370,
+                410
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/woman-using-city-guide-in-hong-kong-5T87XGP"
+        },
+        {
+            "filename": "asian-woman-traveler-backpacker-looking-for-route-2021-12-09-05-46-10-utc-1.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/asian-woman-traveler-backpacker-looking-for-route-2021-12-09-05-46-10-utc-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                },
+                {
+                    "source": "templates\/resa-team-section.json",
+                    "name": "Resa \u2013 Team Section"
+                }
+            ],
+            "filesize": 202052,
+            "dimensions": [
+                370,
+                410
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/asian-woman-traveler-backpacker-looking-for-route--3SXS6SF"
+        },
+        {
+            "filename": "travel-agent-offering-vacation-tour-for-african-co-2021-09-03-14-36-02-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/travel-agent-offering-vacation-tour-for-african-co-2021-09-03-14-36-02-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-team-page.json",
+                    "name": "Resa \u2013 Team Page"
+                }
+            ],
+            "filesize": 192724,
+            "dimensions": [
+                550,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/travel-agent-offering-vacation-tour-for-african-co-V4QFL6B"
+        },
+        {
+            "filename": "caucasian-woman-planning-vacation-travel-with-map-2021-09-02-05-18-41-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/caucasian-woman-planning-vacation-travel-with-map-2021-09-02-05-18-41-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-footer-template.json",
+                    "name": "Resa \u2013 Footer Template"
+                }
+            ],
+            "filesize": 18038,
+            "dimensions": [
+                90,
+                90
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/caucasian-woman-planning-vacation-travel-with-map--6WNKY6H"
+        },
+        {
+            "filename": "smiling-travel-agent-giving-passports-and-air-tick-2021-08-31-03-39-03-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/smiling-travel-agent-giving-passports-and-air-tick-2021-08-31-03-39-03-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-footer-template.json",
+                    "name": "Resa \u2013 Footer Template"
+                }
+            ],
+            "filesize": 16721,
+            "dimensions": [
+                90,
+                90
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-travel-agent-giving-passports-and-air-tick-55PSKZ3"
+        },
+        {
+            "filename": "beautiful-woman-working-in-international-agency-2021-09-24-03-56-22-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/beautiful-woman-working-in-international-agency-2021-09-24-03-56-22-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-footer-template.json",
+                    "name": "Resa \u2013 Footer Template"
+                }
+            ],
+            "filesize": 15746,
+            "dimensions": [
+                90,
+                90
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-woman-working-in-international-agency-EBQKL9Z"
+        },
+        {
+            "filename": "positive-female-tourism-worker-develops-website-of-2021-08-31-04-22-53-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/positive-female-tourism-worker-develops-website-of-2021-08-31-04-22-53-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-footer-template.json",
+                    "name": "Resa \u2013 Footer Template"
+                }
+            ],
+            "filesize": 19593,
+            "dimensions": [
+                90,
+                90
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/positive-female-tourism-worker-develops-website-of-B8GS9GA"
+        },
+        {
+            "filename": "pensive-elderly-lady-attentively-listening-to-offe-2021-09-24-03-51-50-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/pensive-elderly-lady-attentively-listening-to-offe-2021-09-24-03-51-50-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-footer-template.json",
+                    "name": "Resa \u2013 Footer Template"
+                }
+            ],
+            "filesize": 18830,
+            "dimensions": [
+                90,
+                90
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pensive-elderly-lady-attentively-listening-to-offe-LDZFQ4V"
+        },
+        {
+            "filename": "happy-couple-sitting-at-tourist-agency-and-talking-2021-08-26-16-32-05-utc.jpg",
+            "thumbnail_url": "https:\/\/tkpro-demo2.envalab.com\/01\/wp-content\/uploads\/sites\/2\/2022\/01\/happy-couple-sitting-at-tourist-agency-and-talking-2021-08-26-16-32-05-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/resa-footer-template.json",
+                    "name": "Resa \u2013 Footer Template"
+                }
+            ],
+            "filesize": 18231,
+            "dimensions": [
+                90,
+                90
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-couple-sitting-at-tourist-agency-and-talking-VSKPF75"
+        }
+    ]
+}

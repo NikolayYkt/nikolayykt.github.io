@@ -1,0 +1,725 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Wekala- Agency Portfolio Elementor Template kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kit.softhopper.studio",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.png",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog Single",
+            "screenshot": "screenshots\/blog-single.png",
+            "source": "templates\/blog-single.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/blog-single\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.png",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/blog\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio Single",
+            "screenshot": "screenshots\/portfolio-single.png",
+            "source": "templates\/portfolio-single.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/portfolio-single\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.png",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Single",
+            "screenshot": "screenshots\/service-single.png",
+            "source": "templates\/service-single.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/service-single\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.png",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.png",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Form",
+            "screenshot": "screenshots\/contact-form.png",
+            "source": "templates\/contact-form.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer Template",
+            "screenshot": "screenshots\/footer-template.png",
+            "source": "templates\/footer-template.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/footer-template\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header Template",
+            "screenshot": "screenshots\/header-template.png",
+            "source": "templates\/header-template.json",
+            "preview_url": "https:\/\/kit.softhopper.studio\/amelia\/template-kit\/header-template\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Contact Form 7",
+            "version": "5.5.3",
+            "file": "contact-form-7\/wp-contact-form-7.php",
+            "author": "Takayuki Miyoshi"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Qi Addons For Elementor",
+            "version": "1.5.1",
+            "file": "qi-addons-for-elementor\/class-qiaddonsforelementor.php",
+            "author": "Qode Interactive"
+        },
+        {
+            "name": "SoftTemplates for Elementor",
+            "version": "1.0.7",
+            "file": "softtemplates-for-elementor\/soft-template-core.php",
+            "author": "SoftHopper"
+        }
+    ],
+    "images": [
+        {
+            "filename": "divider.png",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/divider.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/blog-single.json",
+                    "name": "Blog Single"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/service-single.json",
+                    "name": "Service Single"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 799,
+            "dimensions": [
+                41,
+                9
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "persons.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/persons.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog-single.json",
+                    "name": "Blog Single"
+                }
+            ],
+            "filesize": 103293,
+            "dimensions": [
+                445,
+                525
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/5e5a2664-2297-481a-8087-dc3d14e34750"
+        },
+        {
+            "filename": "planting-an-aloe-in-a-pot-minimalism-XJ8AGPC.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/planting-an-aloe-in-a-pot-minimalism-XJ8AGPC-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 121275,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-XJ8AGPC"
+        },
+        {
+            "filename": "espresso-QL5WASY.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/espresso-QL5WASY-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 168397,
+            "dimensions": [
+                1200,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-QL5WASY"
+        },
+        {
+            "filename": "minimalism-chandelier-in-restaurant-67ST3CA.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/minimalism-chandelier-in-restaurant-67ST3CA-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 192272,
+            "dimensions": [
+                1200,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-67ST3CA"
+        },
+        {
+            "filename": "Gallery-2.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/Gallery-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 55054,
+            "dimensions": [
+                620,
+                620
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-LL7Z8PL"
+        },
+        {
+            "filename": "bottle-of-essential-massage-oil-on-stone-beauty-tr-RBZDSR4.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/bottle-of-essential-massage-oil-on-stone-beauty-tr-RBZDSR4-800x451.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 154851,
+            "dimensions": [
+                1600,
+                901
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-RBZDSR4"
+        },
+        {
+            "filename": "escape-F8UR4UJ.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/escape-F8UR4UJ-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 121389,
+            "dimensions": [
+                1200,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F8UR4UJ"
+        },
+        {
+            "filename": "just-one-wish-4MGHS8E.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/just-one-wish-4MGHS8E-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 76280,
+            "dimensions": [
+                1200,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4MGHS8E"
+        },
+        {
+            "filename": "handsome.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/handsome.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-single.json",
+                    "name": "Service Single"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 29499,
+            "dimensions": [
+                180,
+                180
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/handsome-young-man-in-casual-clothing-GTNG6YV"
+        },
+        {
+            "filename": "modern-matul.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/modern-matul.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-single.json",
+                    "name": "Service Single"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 27748,
+            "dimensions": [
+                180,
+                180
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/modern-mature-man-in-blue-28AM5XF"
+        },
+        {
+            "filename": "empowered.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/empowered.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-single.json",
+                    "name": "Service Single"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 29461,
+            "dimensions": [
+                180,
+                180
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/empowered-mature-woman-on-yellow-D7HVC5W"
+        },
+        {
+            "filename": "hero2.png",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/hero2-800x449.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 37407,
+            "dimensions": [
+                1920,
+                1077
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "illstration.png",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/illstration.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 33661,
+            "dimensions": [
+                647,
+                665
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "women-women-business-working-office-office-desk_t20_0A1Egg.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/women-women-business-working-office-office-desk_t20_0A1Egg-800x601.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 512456,
+            "dimensions": [
+                1948,
+                1463
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/ebb73b9f-0cfb-4c02-86a2-68dd0a76d122"
+        },
+        {
+            "filename": "Gallery-3.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/Gallery-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 40528,
+            "dimensions": [
+                618,
+                620
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/bottle-of-essential-massage-oil-on-stone-beauty-tr-YHMQT8K"
+        },
+        {
+            "filename": "Gallery-1.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/Gallery-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 52490,
+            "dimensions": [
+                616,
+                620
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/planting-an-aloe-in-a-pot-minimalism-P5W8JE2"
+        },
+        {
+            "filename": "linearrow.png",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/09\/linearrow-800x128.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 3755,
+            "dimensions": [
+                1172,
+                187
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "footer-logo.png",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/footer-logo.png",
+            "templates": [
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 1680,
+            "dimensions": [
+                64,
+                67
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "education_t20_ZzQyzb.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/education_t20_ZzQyzb-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 626464,
+            "dimensions": [
+                1915,
+                1436
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/d6e1eeea-eda5-4f80-89eb-63451dc6fe34"
+        },
+        {
+            "filename": "business-rainbow-colors-design-creative-meeting-designer-critique-color-chart_t20_P3NB3Q.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/business-rainbow-colors-design-creative-meeting-designer-critique-color-chart_t20_P3NB3Q-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 411103,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/58fd2e79-e888-42f2-a1e7-6c4773b161cc"
+        },
+        {
+            "filename": "learning-playing-child-table-family-mother-creative-together-happy-toy_t20_Xzww83.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/learning-playing-child-table-family-mother-creative-together-happy-toy_t20_Xzww83-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 305912,
+            "dimensions": [
+                1885,
+                1256
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/94bf310c-37e4-423d-a7d8-b73358e5638d"
+        },
+        {
+            "filename": "young-adults-people-using-laptop-and-mobile-phone-for-online-holiday-shopping-at-lockdown-covid-19-in_t20_1bRn0v.jpg",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/11\/young-adults-people-using-laptop-and-mobile-phone-for-online-holiday-shopping-at-lockdown-covid-19-in_t20_1bRn0v-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer-template.json",
+                    "name": "Footer Template"
+                }
+            ],
+            "filesize": 254996,
+            "dimensions": [
+                1866,
+                1242
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/4a316a81-3038-4053-84a9-ea2d940f46a1"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "https:\/\/kit.softhopper.studio\/amelia\/wp-content\/uploads\/sites\/6\/2021\/10\/logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/header-template.json",
+                    "name": "Header Template"
+                }
+            ],
+            "filesize": 1701,
+            "dimensions": [
+                64,
+                67
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

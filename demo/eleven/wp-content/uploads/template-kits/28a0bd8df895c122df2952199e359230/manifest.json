@@ -1,0 +1,1171 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Tiny Hugs - Baby & Child Care Services Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "http:\/\/askproject.net",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Detail",
+            "screenshot": "screenshots\/service-detail.jpg",
+            "source": "templates\/service-detail.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/service-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.jpg",
+            "source": "templates\/faqs.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/single-post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "http:\/\/askproject.net\/tinyhugs\/template-kit\/404-page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Sticky Header Effects for Elementor",
+            "version": "1.4.7",
+            "file": "sticky-header-effects-for-elementor\/sticky-header-effects-for-elementor.php",
+            "author": "Rwattner"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "DethemeKit for Elementor",
+            "version": "1.5.9.5",
+            "file": "dethemekit-for-elementor\/detheme-kit.php",
+            "author": "deTheme"
+        },
+        {
+            "name": "Elementor Header & Footer Builder",
+            "version": "1.6.7",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force, Nikhil Chavan"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.3",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "WPForms Lite",
+            "version": "1.7.2",
+            "file": "wpforms-lite\/wpforms.php",
+            "author": "WPForms"
+        }
+    ],
+    "images": [
+        {
+            "filename": "logo_Asset-1.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/logo_Asset-1-800x175.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 21632,
+            "dimensions": [
+                1833,
+                400
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "footer_overlay-copy_mobile.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/footer_overlay-copy_mobile-800x254.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 17597,
+            "dimensions": [
+                2400,
+                762
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "footer_overlay_tab_mobile.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/footer_overlay_tab_mobile-800x693.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 36346,
+            "dimensions": [
+                2400,
+                2080
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "footer_overlay_1_mobile.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/footer_overlay_1_mobile-800x1867.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 28480,
+            "dimensions": [
+                960,
+                2240
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "overlay_3.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/overlay_3-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 40434,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "overlay_1_mobile.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/overlay_1_mobile-800x1867.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 26295,
+            "dimensions": [
+                960,
+                2240
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "happy-beautiful-young-mother-cuddling-her-adorable-8BCSFAL-2.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/happy-beautiful-young-mother-cuddling-her-adorable-8BCSFAL-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 263275,
+            "dimensions": [
+                734,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8BCSFAL"
+        },
+        {
+            "filename": "bg_1-1.jpeg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/bg_1-1-800x800.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 206934,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "man-s-hand-holds-a-baby-s-hand-G7TM7EB-1.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/man-s-hand-holds-a-baby-s-hand-G7TM7EB-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 129063,
+            "dimensions": [
+                800,
+                745
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-G7TM7EB"
+        },
+        {
+            "filename": "bg_3-1.jpeg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/bg_3-1-800x800.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 202895,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg_2-1.jpeg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/bg_2-1-800x800.jpeg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 201082,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-1.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-1-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 27875,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-2.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-2-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 21794,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-4.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-4-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 11035,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-3.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-3-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 27958,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "mom-holds-and-kisses-the-baby-caring-for-the-baby-LCCU6KC.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/mom-holds-and-kisses-the-baby-caring-for-the-baby-LCCU6KC-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 219704,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LCCU6KC"
+        },
+        {
+            "filename": "young-mother-read-book-together-with-small-son-bon-45FZPRH.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/young-mother-read-book-together-with-small-son-bon-45FZPRH-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 166631,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-45FZPRH"
+        },
+        {
+            "filename": "happy-fatherhood-handsome-young-african-american-Q36EAYR.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/happy-fatherhood-handsome-young-african-american-Q36EAYR.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 95107,
+            "dimensions": [
+                800,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q36EAYR"
+        },
+        {
+            "filename": "happy-beautiful-young-mother-cuddling-her-adorable-8BCSFAL.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/happy-beautiful-young-mother-cuddling-her-adorable-8BCSFAL.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 105603,
+            "dimensions": [
+                800,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8BCSFAL"
+        },
+        {
+            "filename": "happy-motherhood-portrait-of-beautiful-young-mom-C4UPA7G.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/happy-motherhood-portrait-of-beautiful-young-mom-C4UPA7G.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 109457,
+            "dimensions": [
+                800,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-C4UPA7G"
+        },
+        {
+            "filename": "young-single-mother-teaching-her-little-son-toddle-SQLHPFZ.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/young-single-mother-teaching-her-little-son-toddle-SQLHPFZ-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 198987,
+            "dimensions": [
+                2400,
+                1601
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SQLHPFZ"
+        },
+        {
+            "filename": "happy-daddy-looking-at-baby-crawling-on-floor-at-h-VUE57SM.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/happy-daddy-looking-at-baby-crawling-on-floor-at-h-VUE57SM-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 117133,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VUE57SM"
+        },
+        {
+            "filename": "young-father-reading-book-for-little-baby-sitting-Q6YPRA5.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/young-father-reading-book-for-little-baby-sitting-Q6YPRA5-800x553.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 239622,
+            "dimensions": [
+                2100,
+                1452
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q6YPRA5"
+        },
+        {
+            "filename": "pretty-girl-being-dressed-up-by-babysitter-at-home-ECU5HH5.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/pretty-girl-being-dressed-up-by-babysitter-at-home-ECU5HH5-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 201906,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ECU5HH5"
+        },
+        {
+            "filename": "icon-5.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-5-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 32803,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-6.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-6-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 28953,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-7.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-7-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 39534,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-8.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/icon-8-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 29463,
+            "dimensions": [
+                1201,
+                1201
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "loving-young-father-spoon-feeding-his-little-baby-DGBZ4DF.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/loving-young-father-spoon-feeding-his-little-baby-DGBZ4DF-800x552.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 241858,
+            "dimensions": [
+                2400,
+                1655
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DGBZ4DF"
+        },
+        {
+            "filename": "housewife-mom-spends-time-with-small-children-at-h-EHE4UFS.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/housewife-mom-spends-time-with-small-children-at-h-EHE4UFS-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 218550,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-EHE4UFS"
+        },
+        {
+            "filename": "a-young-mother-is-dressing-up-her-cheerful-infant-VBYJ6VX.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/a-young-mother-is-dressing-up-her-cheerful-infant-VBYJ6VX-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 234045,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VBYJ6VX"
+        },
+        {
+            "filename": "happy-baby-sitting-on-the-kitchen-table-with-mom-s-K5D9ELD.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/happy-baby-sitting-on-the-kitchen-table-with-mom-s-K5D9ELD-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 203362,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-K5D9ELD"
+        },
+        {
+            "filename": "father-comforting-crying-baby-FKYUXBB.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/father-comforting-crying-baby-FKYUXBB-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 234647,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FKYUXBB"
+        },
+        {
+            "filename": "children-making-handmade-cards-D2RBXPU.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/children-making-handmade-cards-D2RBXPU-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 219278,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-D2RBXPU"
+        },
+        {
+            "filename": "gentle-maternal-care-mom-kisses-the-baby-sitting-22BM5NZ.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/gentle-maternal-care-mom-kisses-the-baby-sitting-22BM5NZ-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 180650,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-22BM5NZ"
+        },
+        {
+            "filename": "happy-asian-mother-working-on-computer-at-home-wit-QXVDZMX.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/happy-asian-mother-working-on-computer-at-home-wit-QXVDZMX-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 248340,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QXVDZMX"
+        },
+        {
+            "filename": "mother-and-baby-6GAH95Z.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/mother-and-baby-6GAH95Z.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 122497,
+            "dimensions": [
+                800,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6GAH95Z"
+        },
+        {
+            "filename": "child-care-portrait-of-smiling-black-mother-with-N894LM5.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/child-care-portrait-of-smiling-black-mother-with-N894LM5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 119678,
+            "dimensions": [
+                800,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-N894LM5"
+        },
+        {
+            "filename": "mother-holding-adorable-baby-son-FNS49HS.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/mother-holding-adorable-baby-son-FNS49HS.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 129210,
+            "dimensions": [
+                800,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FNS49HS"
+        },
+        {
+            "filename": "black-working-father-talking-on-cellphone-while-ba-3WN4ZAD.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/black-working-father-talking-on-cellphone-while-ba-3WN4ZAD-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 172955,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3WN4ZAD"
+        },
+        {
+            "filename": "a-young-smiling-mother-with-a-baby-sits-at-the-ta-32RWJUS.jpg",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/a-young-smiling-mother-with-a-baby-sits-at-the-ta-32RWJUS-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 180034,
+            "dimensions": [
+                2400,
+                1600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-32RWJUS"
+        },
+        {
+            "filename": "404_Asset-3.png",
+            "thumbnail_url": "http:\/\/askproject.net\/tinyhugs\/wp-content\/uploads\/sites\/51\/2022\/01\/404_Asset-3-800x308.png",
+            "templates": [
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 36175,
+            "dimensions": [
+                2224,
+                857
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

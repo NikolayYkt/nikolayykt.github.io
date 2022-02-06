@@ -1,0 +1,56 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Amigos
+ * @version 	1.0.0
+ * 
+ * High Resolution (Retina) Displays CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
+	only screen and (-moz-min-device-pixel-ratio: 1.5), 
+	only screen and (-o-min-device-pixel-ratio: 3/2), 
+	only screen and (min-device-pixel-ratio: 1.5), 
+	only screen and (min--moz-device-pixel-ratio: 1.5), 
+	only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+	only screen and (min-resolution: 144dpi) {
+
+	.header_mid .logo_wrap .logo img:not([class]), 
+	.header_mid .logo_wrap .logo .logo_overlaps_img, 
+	.cmsmasters_footer_default .footer_logo_wrap .footer_logo img,
+	.enable_header_side .header_mid .logo_wrap .logo .logo_overlaps_img,
+	.enable_header_side .header_mid .logo_wrap .logo .logo_retina_overlaps  {
+		display:none;
+	}
+	
+	.header_mid .logo_wrap .logo .logo_img, 
+	.header_mid .logo_wrap .logo .logo_overlaps_img, 
+	.cmsmasters_footer_default .footer_logo_wrap .footer_logo img {
+		display:none;
+	}
+	
+	.header_mid .logo_wrap .logo .logo_retina, 
+	.header_mid .logo_wrap .logo .logo_retina_overlaps, 
+	.cmsmasters_footer_default .footer_logo_wrap .footer_logo .footer_logo_retina {
+		display:inline-block;
+	}
+	
+	.enable_header_default .header_mid .logo_wrap .logo .logo_retina {
+		opacity:1;
+	}
+	
+	.enable_header_default .header_mid .logo_wrap .logo .logo_retina_overlaps {
+		opacity:0;
+	}
+	
+	.enable_header_default .header_mid.header_mid_scroll .logo_wrap .logo .logo_retina {
+		opacity:0;
+	}
+	
+	.enable_header_default .header_mid.header_mid_scroll .logo_wrap .logo .logo_retina_overlaps {
+		opacity:1;
+	}
+}
+
