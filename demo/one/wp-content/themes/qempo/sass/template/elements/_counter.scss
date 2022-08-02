@@ -1,0 +1,207 @@
+.milestone-block {
+  	position: relative;
+  	.link-overlay{
+	 	position: absolute;
+	 	@include size(100%, 100%);
+	 	top: 0;
+	 	left: 0;
+	 	z-index: 11;
+  	}
+  	&.style-1{
+  		text-align: center;
+  		.milestone-icon{
+  			margin-bottom: 5px;
+  			.icon{
+  				i{
+  					font-size: 64px;
+  					color: $black;
+  				}
+  				svg{
+  					width: 64px;
+  					fill: $black;
+  				}
+  			}
+  		}
+  		.milestone-content{
+  			.milestone-number-inner{
+  				font-size: 40px;
+  				color: $black;
+  			}
+  			.milestone-text{
+  				font-size: 14px;
+  				text-transform: uppercase;
+  				letter-spacing: 1px;
+  				font-weight: 500;
+  				margin-top: 10px;
+  			}
+  		}
+  	}
+ 	&.style-2{
+ 		.milestone-icon{
+	  		font-size: 40px;
+	  		@extend .text-gadient;
+	  		.icon{
+		 		color: $theme-color;
+		 		svg{
+					fill: $theme-color;
+		 		}
+	  		}
+		}
+		.milestone-number-inner{
+			display: flex;
+			align-items: baseline;
+		}
+		.milestone-number{
+			font-size: 50px;
+			line-height: 70px;
+			color: $headings-color;
+			font-weight: 600;
+			letter-spacing: -1.5px;
+		}
+		.symbol.after{
+			font-size: 20px;
+  			letter-spacing: -0.6px;
+  			font-weight: 600;
+  			color: $headings-color;
+		}
+		.milestone-text{
+	 		font-size: 18px;
+	 		font-weight: 500;
+	 		color: $headings-color;
+	 		margin-bottom: 20px;
+  		}
+  	} 
+  	&.style-3{
+  		.milestone-content{
+  			position: relative;
+  		}
+  		.milestone-text{
+		 	font-weight: 700; 
+		 	font-size: 18px;
+		 	line-height: 26px;
+		 	background: $white;
+		 	color: $headings-color;
+		 	padding: 10px 30px;
+		 	@include media-breakpoint-up(sm){
+			 	box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.1);
+			 	@include border-radius(32px);
+			 	position: absolute;
+			 	top: 50%;
+			 	left: 50%;
+			 	@include transform(translate(-50%,-50%));
+			 }
+		 	@media (max-width: 1024px) {
+		 		padding-left: 20px;
+		 		padding-right: 20px;
+		 	}
+	  	}
+	 	.box-content{
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+		.milestone-number{
+			font-size: 400px;
+			font-weight: 600; 
+			line-height: 310px;
+			letter-spacing: -12px;
+			@media (max-width: 1260px) {
+				font-size: 300px;
+				line-height: 230px;
+			}
+			@media (max-width: 980px) {
+				font-size: 200px;
+				line-height: 160px;
+			}
+		}
+		.symbol.after{
+			font-size: 80px;
+			line-height: 70px;
+			letter-spacing: -2.4px;
+			font-weight: 600;
+		}
+		.milestone-number-inner{
+		 	font-size: 50px;
+		 	line-height: 1.2;
+		 	color: $theme-color;
+		 	@extend .text-gadient;
+		 	font-weight: 600; 
+		 	display: flex;
+		 	align-items: baseline;
+		 	justify-content: center;
+		 	@include media-breakpoint-down(lg){
+				font-size: 45px;
+		 	}
+		 	@include media-breakpoint-down(md){
+				font-size: 40px;
+		 	}
+		 	@include media-breakpoint-down(sm){
+				font-size: 38px;
+		 	}
+	  	}
+		.milestone-icon{
+		  	.icon{
+			 	line-height: 1;
+			 	display: inline-block;
+			 	border-radius: 50%;
+			 	padding: 25px 10px 10px;
+			 	background: $theme-color;
+			 	color: $white;
+			 	fill: $white;
+			 	position: relative;
+			 	@include size(120px, 120px);
+			 	line-height: 85px;
+			 	border: 2px solid $border-color;
+			 	&:after{
+					content: '';
+					@include size(100%, 100%);
+					top: 0;
+					left: 0;
+					background: $theme-color;
+					position: absolute;
+					z-index: 1;
+					opacity: 0;
+					@include scale(1.2);
+					border-radius: 50%;
+					transition: all 0.35s;
+			 	}
+			 	i, svg{
+					transition: all 0.35s;
+					color: $white;
+					fill: $white;
+					position: relative;
+					z-index: 11;
+			 	}
+		  	}
+		}
+		
+	  	
+	  	
+		&:hover{
+			.milestone-icon{
+			  	.icon{
+				 	border-color: transparent;
+				 	&:after{
+						@include size(100%, 100%);
+						opacity: 1;
+						@include scale(1);
+				 	}
+				 	svg, i{
+						animation: beat 1.5s ease 0s infinite;
+						color: $white!important;
+						fill: $white!important;
+				 	}
+			  	}
+			}
+		}
+	}
+  	&:hover{
+	 	.milestone-icon{
+			.icon{
+			  	svg, i{
+				 	animation: beat 1.5s ease 0s infinite;
+			  	}
+			}
+	 	}
+  	}
+}

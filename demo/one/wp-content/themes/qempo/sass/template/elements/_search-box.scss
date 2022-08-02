@@ -1,0 +1,46 @@
+.gsc-search-box{
+	&.style-1{
+		.gva-search{
+			.control-search{
+				.icon, i{
+					display: inline-block;
+					color: $theme-color-2;
+					font-size: 16px;
+					text-align: center;
+					background: $white;
+					line-height: 55px;
+					@include border-radius(50%);
+					@include size(50px,50px); 
+			 	}
+			 	&:hover, &:focus{
+			 		.icon, i{
+			 			background: $theme-color;
+			 			color: $white;
+			 		}
+			 	}
+			}
+		}
+	}
+	&.style-2{
+		.gva-search{
+			.control-search{
+				position: relative;
+				top: 6px;
+				.icon, i{
+					color: rgba($white, 0.5);
+					font-size: 34px;
+					display: inline-block;
+					margin-top: 5px;
+					@media (max-width: 1200px){
+						font-size: 22px;
+					}
+			 	}
+			 	&:hover, &:focus{
+			 		.icon, i{
+			 			color: $theme-color;
+			 		}
+			 	}
+			}
+		}
+	}
+}

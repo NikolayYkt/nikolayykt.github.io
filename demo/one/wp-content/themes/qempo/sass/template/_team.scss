@@ -1,0 +1,384 @@
+.team-progress-wrapper{
+  	margin-bottom: 20px;
+  	.team__progress-label{
+	 	font-weight: 500;
+	 	color: $black;
+	 	padding-bottom: 4px;
+	 	font-size: 14px;
+  	}
+  	.team__progress {
+	 	background-color: #ccc;
+	 	position: relative;
+	 	overflow: visible;
+	 	z-index: 11;
+	 	.team__progress-bar{
+			@include transition(width 1s ease-in-out);
+			height: 2px;
+			background: $theme-color;
+			position: relative;
+			display: block; 
+			width: 0;
+			.percentage{
+		  		position: absolute;
+		  		bottom: 100%;
+		  		left: 100%;
+		  		z-index: 1;
+		  		padding: 6px 8px;
+		  		background: $theme-color;
+		  		font-size: 12px;
+		  		color: $white;
+		  		margin-bottom: 10px;
+		  		line-height: 1;
+		  		font-weight: 600;
+			  	&:after{
+				 	content: "";
+				 	border: 6px solid transparent;
+				 	border-top-color: $theme-color;
+				 	position: absolute;
+				 	top: 100%;
+				 	left: 0;
+				 	z-index: 1;
+				 	transform: rotate(-90deg);
+				 	margin-top: -6px;
+			  	}
+		  		&.percentage-left{ 
+			 		left: auto;
+			 		right: 0;
+			 		&:after{
+						right: 0;
+						left: auto;
+						transform: rotate(90deg);
+						margin-right: 2px;
+			 		}
+		  		}
+			}
+	 	}
+  	}
+}
+
+.team-block{
+  	&.team-v1{
+	 	margin: 0 auto 30px;
+	 	background: $white;
+	 	text-align: center;
+	 	.team-image{
+	 		position: relative;
+	 		margin: 0 0 38px; 
+	 		&:after{
+	 			content: '';
+	 			position: absolute;
+	 			background: rgba(0, 0, 0, 0.5);
+	 			top: 0px;
+	 			left: 0px;
+	 			right: 0px;
+	 			bottom: 0px;
+	 			z-index: 9;
+	 			@include opacity(0);
+			  	@include transition(all 0.35s);
+			  	@include border-radius(10px);
+	 		}
+	 		img{
+	 			@include border-radius(10px);
+	 		}
+	 	}
+	 	.socials-team{
+ 			position: absolute;
+ 			top: 20px;
+ 			right: 20px;
+ 			z-index: 11;
+ 			a{
+ 				margin-bottom: 10px;
+ 				display: block;
+ 				font-size: 16px;
+ 				color: $black;
+ 				background: $white;
+ 				text-align: center;
+ 				width: 50px;
+ 				height: 50px;
+ 				line-height: 50px;
+ 				@include border-radius(50%);
+ 				@include opacity(0);
+ 				@include transition(all 0.35s);
+				@include transform(translateY(20px));
+ 				&:hover{
+ 					color: $white;
+ 					@extend .bg-gadient;
+ 				}
+ 				&.share-social{
+ 					@include opacity(1);
+ 					@include transform(translateY(0px));
+ 					font-family: "Font Awesome 5 Free";
+    				font-weight: 900;
+ 					&:before{
+ 						content: "\f067";
+ 					}
+ 				}
+ 			}
+ 		}
+		.team-content{
+			border-top: 0;
+			padding: 0;
+			background: $white;
+			position: relative;
+			z-index: 11;
+			transition: all 0.35s;
+			.team-name{
+			  	font-size: 24px;
+			  	letter-spacing: -0.72px;
+			  	margin: 0 0 5px;
+			  	@include media-breakpoint-down(sm){
+		  			font-size: 18px;
+			  		letter-spacing: 0px;
+		  		}
+			}
+			.team-job{
+			  	font-size: 14px;
+			  	font-weight: 700;
+			  	@extend .text-gadient;
+			}
+		}
+		&:hover{
+			.team-image{
+				&:after{
+					@include opacity(1);
+				}
+			}
+			.socials-team a{
+				@include transform(translateY(0px));
+				@include opacity(1);
+				&.share-social{
+					@extend .bg-gadient;
+					&:before{
+	    				content: "\f068";
+					}
+				}
+			}
+		}
+  	}
+  	&.team-v2{
+  		.team-image{
+  			display: flex;
+  			align-items: flex-end;
+  		}
+  		.socials-team {
+  			a{
+  				display: block;
+  				font-size: 16px;
+  				color: $white;
+  				background: $headings-color;
+ 				text-align: center;
+ 				width: 50px;
+ 				height: 50px;
+ 				line-height: 50px;
+ 				&:hover{
+ 					color: $white;
+ 					@extend .bg-gadient;
+ 				}
+  			}
+  		}
+  		.team-content{
+  			background: $headings-color;
+  			padding: 40px;
+  			margin-left: 50px;
+  			text-align: left;
+  			@include media-breakpoint-down(xs){
+  				padding: 20px;
+  				margin-left: 20px;
+  			}
+  		}
+  		.team-name {
+  			font-size: 24px;
+  			font-weight: 600;
+  			letter-spacing: -0.72px;
+  			margin: 10px 0 0;
+  			a{
+  				color: $white;
+  			}
+  			@include media-breakpoint-down(sm){
+  				font-size: 20px;
+  			}
+  		}
+  		.team-job{
+  			font-size: 14px;
+  			font-weight: bold;
+  			@extend .text-gadient;
+  		}
+  	}
+  	&.team-v3{
+  		position: relative;
+  		overflow: hidden;
+  		margin-bottom: 30px;
+  		.team-image img{
+  			@include border-radius(10px);
+  		}
+  		.team-name{
+  			letter-spacing: -0.72px;
+  			font-size: 24px;
+  			margin-bottom: 0;
+  			a{color: $white;}
+  		}
+  		.team-job{
+  			color: $white;
+  			margin-bottom: 20px;
+  			@include opacity(0);
+  		}
+  		.socials-team {
+  			@include opacity(0);
+  			a{
+	  			color: $white;
+	  			+ a{margin-left: 10px;}
+	  		}
+  		}
+  		.team-name,.team-job,.socials-team {
+
+  			    -webkit-transition: -webkit-transform 0.35s;
+    		transition: transform 0.35s;
+  			    -webkit-transform: translate3d(0,70px,0);
+    		transform: translate3d(0,70px,0);
+  		}
+  		.team-content{
+  			text-align: left;
+  			position: absolute;
+  			left: 0;
+		    right: 0;
+		    bottom: 0;
+		    z-index: 11;
+		    padding: 30px;
+		    background-image: -webkit-gradient(linear,left bottom,left top,from(#fd6151),to(rgba(255,130,87,0.01)));
+    		background-image: linear-gradient(to top,#fd6151,rgba(255,130,87,0.01));
+    		@include border-radius(10px);
+    		@include transition(all 0.35s);
+  		}
+  		&:hover{
+  			.team-name,.team-job,.socials-team {
+  				@include opacity(1);
+  				    -webkit-transform: translate3d(0,0,0);
+    			transform: translate3d(0,0,0);
+  			}
+  			.team-content{
+  				padding-top: 60px;  				
+  			}
+  		}
+  	}
+}
+
+.owl-carousel{
+	.team-block{
+  		.team-v1{
+	 		margin-top: 10px;
+	 	}
+	}
+}
+
+.team-block-single{
+  	margin: 0 0 30px;
+  	.team-thumbnail{
+	   border: 1px solid rgba(0, 0, 0, 0.06);
+	   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); 
+	   margin: 0 0 30px;
+  		.team-content{
+	   	padding: 30px;
+	   	margin-bottom: 0;
+  		}
+  		.heading-contact{
+  			margin-top: 0;
+  		}
+  	}
+  	.team-right-content{
+  		padding-left: 50px;
+  		@include media-breakpoint-down(lg){
+  			padding-left: 15px;
+  		}
+  	}
+  	.heading, .heading-contact{
+	 	font-size: 18px;
+	 	position: relative;
+	 	width: 100%;
+      display: block;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 0;
+ 		padding-bottom: 20px;
+      padding-left: 15px;
+	 	&:after{
+	 		content: '';
+	 		@include size(2px, 20px);
+	 		background: $theme-color;
+	 		position: absolute;
+	 		left: 0;
+	 		top: 0;
+	 		z-index: 1;
+	 	}
+  	}
+  	.team-name{
+	 	color: $black;
+	 	font-size: 26px;
+	 	margin: 0 0 2px;
+  	}
+  	.team-email, .team-phone{
+	 	float: left;
+	 	width: 100%;
+	 	margin-bottom: 10px;
+	 	font-weight: 500;
+  	}
+  	.team-job{
+	 	font-size: 14px;
+	 	font-weight: 500;
+	 	text-transform: uppercase;
+  	}
+  	.team-educations{
+  		margin-top: 30px;
+  		margin-bottom: 30px;
+  	}
+  	.team-skills{
+  		margin-bottom: 30px;
+  	}
+  	.team-content{
+  		margin-bottom: 40px;
+  	}
+  	.team-quote{
+	 	font-size: 16px;
+	 	margin-top: 20px;
+	 	padding-left: 50px;
+	 	position: relative;
+      padding: 32px 30px 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      border: 1px solid $border-color;
+      text-indent: 56px;
+	 	&:before{
+			font-family: $font-icon-awesome;
+			content: "\f10d";
+			left: -26px;
+			top: 18px;
+			position: absolute;
+			z-index: 1;
+			color: #f1f1f1;
+			font-size: 38px;
+			text-align: center;
+			line-height: 1;
+			font-weight: 700;
+	 	}
+  	}
+  	.socials-team{
+	 	margin-top: 10px;
+	 	float: left;
+	 	width: 100%;
+		a{
+			@include size(38px, 38px);
+			font-size: 14px;
+			display: inline-block;
+			margin-right: 15px;
+			color: $body-color;
+			transition: all 0.35s;
+			line-height: 38px;
+			border-radius: 50%;
+			text-align: center;
+			border: 1px solid $border-color;
+			&:hover{
+			  	background: $theme-color;
+			  	color: $white;
+			  	border-color: $theme-color;
+			}
+	 	}
+  	}
+}
