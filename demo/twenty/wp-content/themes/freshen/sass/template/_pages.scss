@@ -1,0 +1,145 @@
+// layout for woocommerce
+@media(min-width:1501px){
+    .col-md-cl-5{
+        width: 20%;
+        &.first{
+        	clear: both;
+        }
+    }
+}
+@media(min-width: 1200px) and (max-width:1500px){
+	.col-md-cl-5{
+        width: 25%;
+        &.first:nth-child(4n + 1){
+        	clear: both;
+        }
+    }
+    div.product.col-md-cl-5:nth-child(4n + 1){
+    	clear: both;
+    }
+}
+.main-page {
+	.page-links{
+		clear: both;
+		overflow: hidden;
+		padding:$theme-padding 0;
+		margin:0;
+	}
+	#respond .comment-reply-title{
+		margin:0 !important;
+	}
+	#comments{
+    clear: both;
+	}
+}
+.main-content {
+  display: block;
+  padding-bottom: 30px;
+  @media(min-width: 768px){
+    &.st_lg{
+      padding-bottom: 60px;
+    }
+  }
+}
+body.woocommerce,
+body.woocommerce-page{
+	.main-page{
+    padding-bottom: 30px;
+    @media(min-width: 1200px){
+			padding-bottom: 50px;
+    }
+	}
+}
+.home-page-default {
+  padding-top: $theme-padding;
+  @media(min-width: 1200px){
+    padding-top: 50px;
+  }
+}
+//----------------------------------
+// layout page
+.wrapper-80{
+	padding-left:50px;
+	padding-right:50px;
+}
+@media(min-width:1200px){
+	.wrapper-80{
+		padding-left:80px;
+		padding-right:80px;
+	}
+	.wrapper-50{
+		padding-left:50px;
+		padding-right:50px;
+	}
+}
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		@include rtl-margin-right(10px);
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+}
+// Page Not Found
+//----------------------------------
+.page-404{
+	background:url('#{$image-theme-path}error.jpg') repeat #fff top center;
+   	padding:40px 0 30px;
+   	@media(min-width: 1200px){
+   		padding:150px 0 100px;
+   	}
+   	.top-image{
+   		margin-bottom: 20px;
+   		@media(min-width: 1200px){
+   			margin-bottom: 50px;
+   		}
+   	}
+    .greeting_title{
+   		font-size:35px;
+   		font-weight: 600;
+   		text-transform: uppercase;
+   		margin:0;
+   		line-height: 1;
+   		color: $text-color;
+   		@media(min-width: 1200px){
+   			font-size: 60px;
+   		}
+    }
+    .description{
+    	@media(min-width: 1200px){
+	   		font-size: 16px;
+	    }
+	   	margin-top: 20px;
+    }
+   	.btn{
+   		@media(min-width: 1200px){
+   			min-width: 220px;
+   			text-align: center;
+   		}
+   	}
+   	.page-content{
+   		max-width: 500px;
+   		margin-right: auto;
+   		margin-left: auto;
+   	}
+   	.return{
+   		margin-top: 20px;
+   		@media(min-width: 1200px){
+   			margin-top: 40px;
+   		}
+   	}
+}
+.w-610{
+	width: 610px;
+}
