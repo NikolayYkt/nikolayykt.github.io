@@ -1,0 +1,52 @@
+<?php
+
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/heading.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/heading-with-stroke.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/title-link.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/icon-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/icon-image-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/icon-list.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/image-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/service-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/button.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/accordions.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/accordions-with-icon.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/accordions-schedule.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/tabs.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/tab-titles.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/tab-schedule.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/counter.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/progress-bars.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/pricing-table.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/pricing-table-2.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/pricing-table-horizontal.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/compare-pricing-table.php' );
+
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/portfolio-filter.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/portfolio-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/portfolio-carousel-title.php' );
+
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/post-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/testimonial-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/testimonial-carousel-2.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/team.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/image-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/image-box-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/image-slider-sync-tab.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/client-logo.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/image-gallery.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/switcher.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/message-box.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/video-button.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/countdown.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/blockquote-slider.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/contact-form7.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/sign-in.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/sign-up.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/borrow-lend.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/domain-list.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/search-domain.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/recommend-food.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/product-carousel.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/review.php' );
+require_once( get_template_directory() . '/inc/backend/elementor/widgets/multi-scroll.php' );
