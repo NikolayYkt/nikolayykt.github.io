@@ -1,0 +1,36 @@
+/* Kit 123 Custom Styling - classes are applied to the Advanced tab of the element they affect */
+
+
+
+.envato-kit-123-slidernav .elementor-slide-content{
+	background: #FFF;
+	border-radius: 12px;
+	padding: 2em;
+}
+.envato-kit-123-card-hover:hover .elementor-text-editor,
+.envato-kit-123-card-hover:hover .elementor-heading-title{
+	color: #fff !important;
+}
+
+/*Book Cover*/
+.envato-kit-123-book-cover .elementor-image img{
+	box-shadow: -15px 0px 30px rgba(0, 0, 0, 0.05);
+}
+.envato-kit-123-book-cover .elementor-image img{
+	z-index:2;
+}
+.envato-kit-123-book-cover .elementor-image:before{
+	content: '';
+	position: absolute;
+	top:0;
+	right:-8px;
+	width: 8px;
+  height: 100%;
+  background: #f3f3f3;
+	border: 1px solid #eee;
+	z-index:1;
+	border-radius: 0 10px 10px 0;
+}
+.envato-kit-123-book-cover .elementor-image:hover:before{
+	opacity:0;
+}
