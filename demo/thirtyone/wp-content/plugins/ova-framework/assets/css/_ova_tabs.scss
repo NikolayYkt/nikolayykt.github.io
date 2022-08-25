@@ -1,0 +1,87 @@
+// Ova Tabs Style
+
+.ova_tabs {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+	&.version_1 {
+		.ova_tab_items {
+			width: 200px;
+			text-align: center;
+			cursor: pointer;
+			padding-bottom: 10px;
+			.ova_tab_icon, .ova_tab_img {
+				margin-top: 16px;
+				margin-bottom: 15px;
+			}
+			.ova_item_text {
+				font-weight: bold;
+				color: #263788;
+				font-size: 18px;
+			}
+			&:hover {
+				.ova_item_text {
+					color: #2db7ff;
+				}
+			}
+		}
+
+		.active {
+			background-color: #ffffff;
+			box-shadow: 0px 10px 40px 0px rgba(6,22,58,.1);
+
+			.ova_item_text {
+			color: #2db7ff;
+			
+			}
+		}
+	}
+	&.version_2 {
+		.ova_tab_items_v2 {
+			display: flex;
+			align-items: center;
+    	justify-content: center;
+    	border-bottom: 3px solid #6874aa;
+    	margin-right: 30px;
+    	padding-bottom: 15px;
+    	cursor: pointer;
+    	-webkit-transition: all 0.3s ease;
+    	-o-transition: all 0.3s ease;
+    	transition: all 0.3s ease;
+    	@media screen and (max-width: 500px) {
+    		margin-top: 30px;
+    	}
+    	&:hover {
+    		border-color: #2db7ff;
+    	}
+    	&.active {
+    		border-color: #2db7ff; 
+    	}
+    	&:last-child {
+    		margin-right: 0;
+    	}
+			.ova_tab_icon_v2 {
+				svg {
+					color: #fff;
+					margin-right: 10px;
+				}
+			}
+			span.ova_item_text_v2 {
+				font-size: 20px;
+				font-weight: 600;
+				line-height: 24px;
+				color: #fff;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+  .ova_tabs {
+    &.version_1 {
+    	.ova_tab_items {
+	      width: 140px !important;
+	    }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+//css review
+.ova-review {
+	box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, .1);
+	border-radius: 10px;
+	.client_info{
+		padding: 34px 35px 40px 40px;
+		position: relative;
+		.icon-quote{
+			position: absolute;
+			bottom: 44px;
+			right: 40px;
+			span{
+				display: inline-block;
+				color: #2db7ff;
+				&:before{
+					margin: 0;
+					font-size: 50px;
+					line-height: 1;
+					opacity: 1;
+				}
+			}
+		}		
+		p.evaluate{
+			font-size: 18px;
+			font-weight: 400;
+			color: #62718d;
+			line-height: 26px;
+			margin: 0 0 9px 0;
+		}
+		.info{
+			padding-top: 24px;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			.client{
+				margin-right: 15px;
+				img{
+					min-height: 62px;
+				    height: 62px;
+				    max-width: 62px;
+				    width: 62px;
+				    border-radius: 50%;
+				}
+			}
+			.name-job{
+				p{
+					margin: 0;
+				}
+				.name{
+					font-size: 18px;
+					line-height: 1.2;
+					font-weight: 500;
+					color: #202b5d;
+					letter-spacing: 0.2px;
+					margin-bottom: 2px;
+				}
+				.job{
+					font-size: 15px;
+					line-height: 1.2;
+					font-weight: 400;
+					color: #62718d;
+				}
+			}
+			
+		}
+	}
+
+}

@@ -1,0 +1,31 @@
+// css list checked grid
+.ova_list_checked_grid {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+
+	&.col1 {
+		grid-template-columns: 1fr;
+	}
+	&.col2 {
+		grid-template-columns: 1fr 1fr;
+	}
+	&.col3 {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.content_grid {
+		svg {
+		    color: #2db7ff;
+		    vertical-align: top;
+		    margin-right: 5px;
+		    width: 30px;
+		}
+		span {
+			color: #263788;
+			font-size: 20px;
+			font-weight: bold;
+			line-height: 30px;
+		}
+	}
+}

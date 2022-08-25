@@ -1,0 +1,338 @@
+.ova_box_feature_1 {
+	.item {
+		text-align: center;
+		border-left: 1px solid rgba(255,255,255,0.3);
+		border-right: 1px solid rgba(255,255,255,0.3);
+		padding-bottom: 5px;
+		&:hover {
+			.icon {
+				background: #fff;
+			}
+		}
+		.icon {
+			margin: 0 auto 21px auto;
+			width: 90px;
+			height: 90px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			transition: 0.4s;
+			i {
+				display: inline-block;
+				line-height: 1;
+				&:before {
+					margin: 0;
+					font-size: 60px;
+					color: #fff;
+					transition: 0.4s;
+				}
+			}
+		}
+		.title {
+			p {
+				margin: 0;
+				font-size: 18px;
+				line-height: 24px;
+				font-weight: 500;
+				color: #263788;
+			}
+		}
+	}
+	&.version_4 {
+		.item {
+			text-align: center;
+			padding-top: 30px;
+			padding-bottom: 35px;
+			border: none;
+			border-radius: 10px;
+			background-color: #202f74;
+			-webkit-transition: all .3s ease;
+			-o-transition: all .3s ease;
+			transition: all .3s ease;
+			&:hover {
+				background-color: #fff;
+				.title {
+					p {
+						color: #263788;
+					}
+				}
+			}
+			.icon {
+				background-color: #2db7ff;
+				margin: 0 auto 16px auto;
+				width: 100px;
+				height: 100px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 50%;
+				-webkit-transition: all .3s ease;
+				-o-transition: all .3s ease;
+				transition: all .3s ease;
+				i {
+					display: inline-block;
+					line-height: 1;
+					&:before {
+						margin: 0;
+						font-size: 60px;
+						color: #fff;
+						transition: 0.4s;
+					}
+				}
+			}
+			.title {
+				p {
+					margin: 0;
+					font-size: 20px;
+					line-height: 24px;
+					font-weight: 500;
+					color: #fff;
+					-webkit-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+				}
+			}
+		}
+	}
+	&.version_2 {
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, .1);
+		-webkit-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;
+		&:hover {
+			background-color: #263788;
+			.item {
+				.icon {
+					.number {
+						-webkit-text-fill-color: transparent;
+						-webkit-text-stroke: 1px #46559a;
+					}
+				}
+				.title {
+					p {
+						color: #fff !important;
+					}
+				}
+			}
+		}
+		.item {
+			text-align: left;
+			padding: 28px 30px 35px 45px;
+			border: none;
+			-webkit-transition: all .3s ease;
+			-o-transition: all .3s ease;
+			transition: all .3s ease;
+			&:hover {
+				.icon {
+					background-color: transparent;
+				}
+			}
+			.icon {
+			    width: 100%;
+			    margin: 0;
+			    display: flex;
+			    justify-content: space-between;
+			    -webkit-transition: all .3s ease;
+			    -o-transition: all .3s ease;
+			    transition: all .3s ease;
+				i {
+					&:before {
+						margin:0;
+						font-size: 60px;
+						color: #2db7ff;
+					}
+				}
+				.number {
+					margin:0;
+					font-size: 60px;
+					font-weight: 500;
+					line-height: 22px;
+					color: #000;
+					-webkit-text-fill-color: transparent;
+					-webkit-text-stroke: 1px #ececec;
+				}
+			}
+			.title {
+				margin: 20px 0 0;
+				font-size: 22px;
+				line-height: 24px;
+				color: #202b5d;
+				font-weight: 500;
+				p {
+					font-size: 20px;
+					line-height: 24px;
+					color: #263788;
+					font-weight: 500;
+					-webkit-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+				}
+			}
+		}
+	}
+}
+
+.ova_box_feature_3.version_3 {
+	background-color: #fff;
+    padding: 38px 0 55px;
+    box-shadow: 20px 0px 30px 0px #f3f3f3 inset;
+    -webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+
+	&:hover {
+		background-color: #2db7ff;
+		box-shadow: none;
+		.item {
+			.icon {
+				i {
+					position: relative;
+					&:before {
+						color: #fff;
+					}
+
+					&:after {
+					    opacity: 1;
+    					transform: scaleX(1);
+					}
+				}
+			}
+			.title {
+				p {
+					color: #fff;
+					
+				}
+			}
+		}
+	}
+	.item {
+		text-align: center;
+		padding: 0;
+		border: none;
+		.icon {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			i {
+				display: inline-block;
+				line-height: 1;
+				position: relative;
+				&:before {
+					margin: 0;
+					font-size: 60px;
+					color: #2db7ff;
+					-webkit-transition: all 300ms ease;
+					transition: all 300ms ease;
+				}
+
+				&:after {
+				    position: absolute;
+				    width: 40px;
+					bottom: -90px;
+				    right: 9px;
+					height: 1px;
+					background: #fbfbfb;
+					content: "";
+					transform: scaleX(.1);
+					opacity: 0;
+					-webkit-transition: all 500ms ease;
+					transition: all 500ms ease;
+				}
+			}
+		}
+		.title {
+			text-align: center;
+			p {
+				position: relative;
+				margin: 0;
+				margin-top: 25px;
+				font-size: 20px;
+				line-height: 24px;
+				font-weight: 500;
+				color: #263787;
+				display: inline-block;
+				-webkit-transition: all 300ms ease;
+				transition: all 300ms ease;
+
+				
+			}
+		}
+	}
+}
+
+.ova_box_feature {
+	&.version_5 {
+		.item {
+			padding: 30px 30px 38px;
+			background-color: #263788;
+			border-radius: 10px;
+			.icon {
+				margin-bottom: 15px;
+				i {
+					color: #2db7ff;
+					font-size: 60px;
+				}
+			}
+			.title {
+				p {
+					margin: 0;
+					font-size: 22px;
+					line-height: 26px;
+					font-weight: 400;
+					color: #fff;
+					span {
+						color: #2db7ff;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Icon boxes version 6
+.ova_boxes {
+	&.version_6 {
+		display: flex;
+		justify-content: center;
+		.item_v6 {
+			display: flex;
+	    	align-items: center;
+			background-color: #263788;
+			padding: 30px 30px 30px 35px;
+			border-radius: 10px;
+			max-width: 400px;
+			.icon {
+				margin-right: 25px;
+				i {
+					font-size: 74px;
+					color: #2db7ff;
+				}
+			}
+			.content {
+				padding-left: 30px;
+				border-left: 1px solid #515fa0;
+				.title {
+					h2 {
+						margin: 5px 0 10px 0;
+						color: #fff;
+						font-size: 24px;
+						font-weight: 500;
+						line-height: 30px;
+					}
+				}
+				.description {
+					p {
+						margin: 0;
+						color: #fff;
+						font-size: 18px;
+						font-weight: 400;
+						line-height: 24px;
+					    opacity: 0.5;
+					}
+				}
+			}
+		}
+	}
+}

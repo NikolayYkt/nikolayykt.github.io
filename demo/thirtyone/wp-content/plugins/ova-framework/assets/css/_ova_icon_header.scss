@@ -1,0 +1,37 @@
+.ova_icon_header{
+	display: flex;
+	align-items: center;
+	.number{
+		display: flex;
+		align-items: center;
+		padding-right: 35px;
+		i{
+		  &:before{
+		  	color:#eec139;
+		  	font-size: 25px;
+		  }
+		}
+		.hd-title{
+			font-size: 22px;
+			font-weight: 500;
+			color: #263788;
+			padding-left: 10px;
+			a{
+				color:#263788;
+				&:hover{
+				color:#2db7ff;
+				};
+			}
+		}
+	}
+	.icon-header{
+		padding-right: 15px;
+		i{
+		  &:before{
+		  	color:#263788;
+		    font-size: 25px;
+		  };
+		}
+	}
+
+}

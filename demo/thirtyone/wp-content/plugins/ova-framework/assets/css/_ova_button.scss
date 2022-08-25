@@ -1,0 +1,51 @@
+.ova_button{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	border-radius: 50px;
+	transition: 0.4s;
+	color: #fff;
+	padding: 19px 50px 17px 50px;
+	cursor: pointer;
+
+	&:hover{
+		background: #263788;
+	    border-color: #263788;
+	    color: #fff;
+	}
+	
+	&.tiny{
+		padding: 9px 30px 7px 30px !important;
+	}
+	&.small{
+		padding: 14px 40px 12px 40px !important;
+	}
+	&.large{
+		padding: 24px 60px 24px 60px !important;
+	}
+
+	&.type2{
+		background: #fff;
+		border: 2px solid;
+		&:hover{
+			color: #fff;
+		}
+	}
+
+	&.type3{
+		background: #263788;
+		&:hover{
+			color: #fff;
+		}
+	}
+
+	&.type4{
+		background: #fff;
+		border-color: #fff;
+		&:hover{
+			color: #fff;
+		}
+	}
+
+}

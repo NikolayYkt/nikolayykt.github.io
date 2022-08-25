@@ -1,0 +1,116 @@
+.ova_box_contact_1{
+	padding: 40px 30px 38px 30px;
+	box-shadow: 0px 10px 40px 0px rgba(6, 22, 58, 0.1);
+	background: #fff;
+	max-width: 400px;
+	border-radius: 10px;
+	transition: 0.4s ease;
+	&.version_1:hover {
+		background:#263788;
+		color: #fff;
+		.icon {
+			position: relative;
+			i {
+				color:#fff;
+			}
+		}
+		.title,p,a {
+			color: #fff;
+		}
+	}
+	.icon {
+		margin-bottom: 13px;
+		-webkit-transition: all 500ms ease;
+		transition: all 500ms ease;
+		i {
+			display: inline-block;
+			line-height: 1;
+			&:before {
+				margin: 0;
+				font-size: 40px;
+			}
+		}
+	}
+	.title {
+		margin: 0 0 20px 0;
+		font-size: 24px;
+		line-height: 28px;
+		color: #263788;
+		font-weight: 500;
+	}
+
+	p {
+		margin: 0;
+	}
+	a, p {
+		display: block;
+		font-size: 17px;
+		line-height: 24px;
+		font-weight: 400;
+		color: #62718d;
+	}
+
+	&.version_2 {
+		display: flex;
+		padding: 0px;
+		box-shadow: none;
+		background: none;
+		align-items: center;
+		.title {
+			margin-bottom: 0px;
+		}
+		.icon {
+			margin-right: 15px;
+			margin-bottom: 0px;
+		}
+
+	}
+	
+}
+
+.ova_box_contact {
+	&.version_3 {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+
+		.icon {
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background-color: #2db7ff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 10px;
+			i {
+				color: #fff;
+				font-size: 14px;
+				&:before {
+					margin: 0;
+				}
+			}
+		}
+
+		.title {
+			margin: 0;
+			color: #263788;
+			font-size: 17px;
+			line-height: 26px;
+			font-weight: 400;
+			margin-right: 5px;
+		}
+
+		p,a {
+			margin: 0;
+			color: #6c7a95;
+			font-size: 17px;
+			line-height: 26px;
+			font-weight: 400;
+			margin-right: 5px;
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+}

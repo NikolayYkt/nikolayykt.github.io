@@ -1,0 +1,38 @@
+// CSS ova_percent_box
+.ova_percent_box {
+	display: flex;
+	justify-content: flex-start;
+	.percent_box_content {
+		text-align: center;
+		background-color: #fff;
+		border: 1px solid #e5e5e5;
+		border-radius: 10px;
+		max-width: 220px;
+		padding: 25px 0;
+		.content {
+			border-left: 3px solid #2db7ff;
+			.percent {
+				h1 {
+					font-size: 40px;
+					font-weight: 500;
+					line-height: 48px;
+					color: #263788;
+					margin: 0;
+					span {
+						font-size: 24px;
+	    				vertical-align: super;
+					}
+				}
+			}
+			.title {
+				h2 {
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 24px;
+					color: #62718d;
+					margin: 0 20px;
+				}
+			}
+		}
+	}
+}

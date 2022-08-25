@@ -1,0 +1,17 @@
+.ova-blog-element{
+	position: relative;
+	.ova-all-news{
+		text-align: right;
+		margin-bottom: 70px;
+	}
+	.post-meta-content {
+		.post-date {
+			margin-right: 10px;
+		}
+		.wp-author {
+			.slash {
+				padding: 0;
+			}
+		}
+	}
+}

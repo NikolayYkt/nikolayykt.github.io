@@ -1,0 +1,35 @@
+.ova-heading {
+	.sub_title{
+		margin: 0 0 21px 0;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 500;
+		display: inline-block;
+		position: relative;
+		margin-left: 35px;
+		&:before{
+			content:'';
+			width: 25px;
+			position: absolute;
+			background: #2db7ff;
+			height: 3px;
+			left: -35px;
+			top:50%;
+			transform: translateY(-50%);
+		};
+	}
+	.title {
+		margin: 0px 0 16px 0;
+		font-size: 40px;
+		line-height: 44px;
+		font-weight: 600;
+		color: #263788;
+	}
+	.desc {
+		margin: 0px;
+		font-size: 18px;
+		line-height: 28px;
+		color: #62718d;
+		font-weight: 300;
+	}
+}

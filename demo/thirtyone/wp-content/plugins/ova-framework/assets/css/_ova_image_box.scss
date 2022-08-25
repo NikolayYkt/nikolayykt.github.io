@@ -1,0 +1,88 @@
+// CSS Image Box (ova_image_box.php)
+
+.ova_image_box {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	overflow: hidden;
+
+	&:hover {
+		.ova_button_img_box {
+			bottom: 55px;
+			visibility: visible;
+			height: auto;
+			transition: .6s;
+		}
+		.content_image_box {
+			bottom: 115px;
+		}
+	}
+
+	a {
+		.ova_img_box {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.content_image_box {
+		position: absolute;
+		bottom: 60px;
+		left: 30px;
+		transition: .5s;
+
+		.ova_icon_img_box {
+			i {
+				&:before {
+					margin-left: 0;
+					font-size: 70px;
+				}
+			}
+		}
+		.ova_title_img_box {
+			margin-top: 22px;
+			font-size: 24px;
+			font-weight: 500;
+			font-family: "Fira Sans", Sans-serif;
+
+		}
+	}
+
+	.ova_button_img_box {
+		position: absolute;
+		bottom: -40px;
+		visibility: hidden;
+		transition: 1s;
+		left: 30px;
+		background-color: #fff;
+		padding: 5px 10px 5px 20px;
+		border-radius: 30px;
+		&:hover {
+			background-color: #2db7ff;
+			border: none;
+			a {
+				color: #fff;
+			}
+		}
+
+
+		a {
+			text-align: center;
+			color: #263788;
+			font-size: 16px;
+			font-weight: 500;
+			font-family: "Fira Sans", Sans-serif;
+
+			i {
+				&:before {
+					vertical-align: middle;
+					font-size: 17px;
+					font-weight: 600;
+					line-height: .8;
+				}
+			}
+		}
+	}
+}

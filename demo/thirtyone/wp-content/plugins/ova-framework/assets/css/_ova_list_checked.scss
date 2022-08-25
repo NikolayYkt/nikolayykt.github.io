@@ -1,0 +1,24 @@
+.ova_list_checked{
+	ul{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+
+		li{
+			display: flex;
+			&:not(:last-child){
+				margin-bottom: 12px;
+			}
+			svg{
+				width: 20px;
+				margin-right: 10px;
+			}
+			span{
+				margin: 0;
+				font-size: 17px;
+				line-height: 26px;
+				color: #202b5d;
+			}
+		}
+	}
+}
