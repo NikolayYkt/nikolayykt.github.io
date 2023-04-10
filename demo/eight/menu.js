@@ -3,28 +3,42 @@ function menue($esli) {
 	$bolt = 'current-menu-item';
 	$bor = '';
 	$bol = '';
+	$boc = '';
+	$boss = '';
 }
 if($esli == '2'){
 	$bor = 'current-menu-item';
 	$bolt = '';
 	$bol = '';
+	$boc = '';
+	$boss = '';
 }
 if($esli == '3'){
 	$bor = '';
 	$bolt = '';
 	$bol = 'current-menu-item';
+	$boc = '';
+	$boss = '';
 }
 if($esli == '4'){
 	$bor = '';
 	$bolt = '';
 	$bol = '';
 	$boc = 'current-menu-item';
+	$boss = '';
+}
+if($esli == '5'){
+	$bor = '';
+	$bolt = '';
+	$bol = '';
+	$boc = '';
+	$boss = 'current-menu-item';
 }
 	document.write('<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">');
 	document.write('<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="ast-mobile-site-navigation" aria-label="Навигация по сайту" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation"><ul id="ast-hf-mobile-menu" class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home '+$bolt+' page_item page-item-5461 current_page_item menu-item-5468"><a href="index.html" aria-current="page" class="menu-link">Главная</a></li>');
 document.write('<li class="'+$bol+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5669"><a href="#" class="menu-link">Мой класс</a></li>');
 document.write('<li class="menu-item '+$bor+' menu-item-type-post_type menu-item-object-page menu-item-5673"><a href="videogallery.html" class="menu-link">Видеогалерея</a></li>');
-document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="#" class="menu-link">Портфолио</a></li>');
+document.write('<li class="'+$boss+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="portfolio.html" class="menu-link">Портфолио</a></li>');
 document.write('<li class="'+$boc+' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5675"><a href="#" class="menu-link">Гостевая книга</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Переключатель меню</span><span class="ast-icon icon-arrow"></span></button>');
 document.write('<ul class="sub-menu">');
 	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="#" class="menu-link">Мероприятия</a></li>');
@@ -44,24 +58,35 @@ function menub($esli) {
 	$bor = '';
 	$bol = '';
 	$boc = '';
+	$boss = '';
 }
 if($esli == '2'){
 	$bor = 'current-menu-item';
 	$bolt = '';
 	$bol = '';
 	$boc = '';
+	$boss = '';
 }
 if($esli == '3'){
 	$bor = '';
 	$bolt = '';
 	$bol = 'current-menu-item';
 	$boc = '';
+	$boss = '';
 }
 if($esli == '4'){
 	$bor = '';
 	$bolt = '';
 	$bol = '';
 	$boc = 'current-menu-item';
+	$boss = '';
+}
+if($esli == '5'){
+	$bor = '';
+	$bolt = '';
+	$bol = '';
+	$boc = '';
+	$boss = 'current-menu-item';
 }
 			document.write('<div id="ast-desktop-header" data-toggle-type="dropdown">');
 		document.write('<div class="ast-main-header-wrap main-header-bar-wrap ">');
@@ -87,7 +112,7 @@ document.write('<ul class="sub-menu">');
 document.write('</ul>');
 document.write('</li>');
 document.write('<li id="menu-item-5673" class="'+$bor+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5673"><a href="videogallery.html" class="menu-link">Видеогалерея</a></li>');
-document.write('<li id="menu-item-5740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="#" class="menu-link">Портфолио</a></li>');
+document.write('<li id="menu-item-5740" class="'+$boss+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="portfolio.html" class="menu-link">Портфолио</a></li>');
 document.write('<li id="menu-item-5675" class="'+$boc+' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5675"><a href="#" class="menu-link">Гостевая книга</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Переключатель меню</span><span class="ast-icon icon-arrow"></span></button>');
 document.write('<ul class="sub-menu">');
 	document.write('<li id="menu-item-5672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="meropriyatiya.html" class="menu-link">Мероприятия</a></li>');
@@ -146,7 +171,7 @@ document.write('<ul class="sub-menu">');
 document.write('</ul>');
 document.write('</li>');
 document.write('<li class="'+$bor+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5673"><a href="videogallery.html" class="menu-link">Видеогалерея</a></li>');
-document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="#" class="menu-link">Портфолио</a></li>');
+document.write('<li class="'+$boss+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="portfolio.html" class="menu-link">Портфолио</a></li>');
 document.write('<li class="'+$boc+' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5675"><a href="#" class="menu-link">Гостевая книга</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Переключатель меню</span><span class="ast-icon icon-arrow"></span></button>');
 document.write('<ul class="sub-menu">');
 	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="meropriyatiya.html" class="menu-link">Мероприятия</a></li>');
