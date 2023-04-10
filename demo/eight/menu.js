@@ -92,7 +92,7 @@ document.write('<li id="menu-item-5675" class="'+$boc+' menu-item menu-item-type
 document.write('<ul class="sub-menu">');
 	document.write('<li id="menu-item-5672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="meropriyatiya.html" class="menu-link">Мероприятия</a></li>');
 	document.write('<li id="menu-item-5671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5671"><a href="nashi.html" class="menu-link">Наши будни</a></li>');
-	document.write('<li id="menu-item-5670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5670"><a href="#" class="menu-link">Метод разработка </a></li>');
+	document.write('<li id="menu-item-5670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5670"><a href="metod.html" class="menu-link">Метод разработка </a></li>');
 	document.write('<li id="menu-item-5668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5668"><a href="rabotarod.html" class="menu-link">Работа с родителями</a></li>');
 document.write('</ul>');
 document.write('</li>');
@@ -151,7 +151,7 @@ document.write('<li class="'+$boc+' menu-item menu-item-type-custom menu-item-ob
 document.write('<ul class="sub-menu">');
 	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="meropriyatiya.html" class="menu-link">Мероприятия</a></li>');
 	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5671"><a href="nashi.html" class="menu-link">Наши будни</a></li>');
-	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5670"><a href="#" class="menu-link">Метод разработка </a></li>');
+	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5670"><a href="metod.html" class="menu-link">Метод разработка </a></li>');
 	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5668"><a href="rabotarod.html" class="menu-link">Работа с родителями</a></li>');
 document.write('</ul>');
 document.write('</li>');
