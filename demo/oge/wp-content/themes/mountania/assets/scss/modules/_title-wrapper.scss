@@ -1,0 +1,42 @@
+
+/*-------------------------------------------------
+ =  Text Wrapper Style
+-------------------------------------------------*/
+
+.title-wrapper {
+    h2 {
+        position: relative;
+        padding-left: 46px;
+        &:before {
+            content: '';
+            width: 27px;
+            height: 27px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -13px;
+            border: 2px solid $primaryColor2;
+            @include border-radius(50%);
+        }
+        &:after {
+            content: '';
+            width: 13px;
+            height: 13px;
+            position: absolute;
+            left: 7px;
+            top: 50%;
+            margin-top: -6px;
+            border: 2px solid $primaryColor;
+            @include border-radius(50%);
+        }
+    }
+    &.white-style {
+        h2 {
+            color: #ffffff;
+            &:before,
+            &:after {
+                border-color: #ffffff;
+            }
+        }
+    }
+}

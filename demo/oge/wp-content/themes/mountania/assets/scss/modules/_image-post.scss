@@ -1,0 +1,118 @@
+
+/*-------------------------------------------------
+ =  Image post Style
+-------------------------------------------------*/
+
+.image-post {
+    position: relative;
+    overflow: hidden;
+    @include border-radius(5px);
+    @include box-shadow(0 3px 21px rgba(165,210,237,0.42));
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .hover-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        justify-content: center;
+        @include transition(0.3s);
+        background: linear-gradient(180deg, rgba(112,67,173,0.01) 0%, rgba(112,67,173,0.25) 25%, rgba(112,67,173,0.5) 50%, rgba(112,67,173,1) 100%);
+        &.back-color2 {
+            background: linear-gradient(180deg, rgba(140,33,91 ,0.01) 0%, rgba(140,33,91 ,0.25) 25%, rgba(140,33,91 ,0.5) 50%, rgba(140,33,91 ,1) 100%);
+        }
+        &.back-color3 {
+            background: linear-gradient(180deg, rgba(196,149,5,0.01) 0%, rgba(196,149,5,0.25) 25%, rgba(196,149,5,0.5) 50%, rgba(196,149,5,1) 100%);
+        }
+        &.back-color4 {
+            background: linear-gradient(180deg, rgba(5,36,196,0.01) 0%, rgba(5,36,196,0.25) 25%, rgba(5,36,196,0.5) 50%, rgba(5,36,196,1) 100%);
+        }
+        .inner-hover {
+            padding: 0 85px 90px;
+            @include transition(0.3s);
+            a.category-line {
+                color: #ffffff;
+                font-size: 23px;
+                font-weight: 300;
+                font-family: $font-default;
+                text-transform: uppercase;
+                position: relative;
+                letter-spacing: 1.8px;
+                padding: 0 18px;
+                margin-bottom: 10px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: 100%;
+                    width: 49px;
+                    height: 1px;
+                    background: #ffffff;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 100%;
+                    width: 49px;
+                    height: 1px;
+                    background: #ffffff;
+                }
+            }
+            h3 {
+                font-size: 28px;
+                line-height: 34px;
+                margin: 0;
+                a {
+                    color: #ffffff;
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        .hover-box {
+            opacity: 0;
+            visibility: hidden;
+            .inner-hover {
+                padding-bottom: 140px;
+            }
+        }
+    }
+
+    &.square-form {
+        img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .hover-box {
+            .inner-hover {
+                padding: 0 30px 30px;
+                a.category-line {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                    padding: 0 10px;
+                    &:before,
+                    &:after {
+                        width: 16px;
+                    }
+                }
+                h3 {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,284 @@
+
+/*-------------------------------------------------
+ =  Header Style
+-------------------------------------------------*/
+
+header {
+    position: relative;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    z-index: 9999;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 3px 21px rgba(165,210,237,0.42);
+    @include transition(0.2s);
+    .navbar-nav {
+        padding: 0 25px 0;
+        align-items: center;
+        > li {
+            margin: 0 27px;
+            position: relative;
+        }
+        > li > a {
+            color: $title-color !important;
+            font-size: 15px !important;
+            line-height: 22px;
+            font-weight: 400;
+            padding: 60px 0 55px !important;
+            @include transition(0.2s);
+            text-transform: capitalize;
+            font-family: $font-alternative;
+            border-bottom: 5px solid transparent;
+            i {
+                font-size: 11px;
+                margin-left: 4px;
+            }
+            &:hover {
+                color: $primaryColor !important;
+            }
+            &.active {
+                border-bottom: 5px solid $primaryColor;
+            }
+            &.button-one {
+                margin-left: 20px;
+                padding-left: 24px !important;
+                padding-right: 24px !important;
+                color: #ffffff !important;
+                font-size: 16px;
+            }
+            @include desktop {
+                padding-left: 9px !important;
+                padding-right: 9px !important;
+                &.button-one {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .navbar-nav.social-icons {
+        padding: 10px 0;
+        > li {
+            margin: 0;
+        }
+        > li > a {
+            color: #000000 !important;
+            padding: 0 10px !important;
+            i {
+                font-size: 16px !important;
+            }
+        }
+        > li > a:hover {
+            color: $primaryColor;
+        }
+    }
+
+    .open-search {
+        margin-left: 15px;
+        width: 58px;
+        height: 58px;
+        background-color: $primaryColor;
+        font-size: 18px;
+        line-height: 58px;
+        text-align: center;
+        color: #ffffff;
+        @include border-radius(50%);
+    }
+}
+
+.navbar-light .navbar-brand {
+    padding-bottom: 20px;
+}
+
+header.active {
+    .navbar {
+        .navbar-nav > li > a {
+            padding: 30px 0 25px !important;
+        }
+        .navbar-nav.social-icons > li > a {
+            padding: 0 10px !important;
+        }
+    }
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #f2f2f2;
+    color: #000000 !important;
+}
+
+header.transparent-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .navbar {
+        background: transparent !important;
+        box-shadow: none;
+        .navbar-nav > li > a {
+            color: #ffffff !important;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+    &.active {
+        .navbar {
+            background: $primaryColor2 !important;
+        }
+    }
+}
+
+header.skin-header {
+    background: $primaryColor2 !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .navbar {
+        background: $primaryColor2 !important;
+        box-shadow: none;
+        .navbar-nav > li > a {
+            color: #ffffff !important;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+    &.active {
+        .navbar {
+            background: $primaryColor2 !important;
+        }
+    }
+    .top-bar {
+        background: rgba(255,255,255,0.1);
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        i {
+            color: $primaryColor;
+            font-size: 16px;
+            margin-right: 8px;
+        }
+        p {
+            color: #ffffff;
+            margin: 0;
+            line-height: 50px;
+            font-size: 15px;
+            font-weight: 300;
+            font-family: $font-default;
+        }
+        ul.list-bar {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            li {
+                display: block;
+                border-left: 1px solid rgba($color: #000000, $alpha: 0.05);
+                &:last-child {
+                    border-right: 1px solid rgba($color: #000000, $alpha: 0.05);
+                }
+                a {
+                    color: #ffffff;
+                    margin: 0;
+                    padding: 0 18px;
+                    line-height: 50px;
+                    font-size: 15px;
+                    font-weight: 300;
+                    font-family: $font-default;
+                    &:hover {
+                        background-color: rgba($color: #000000, $alpha: 0.05);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// submenu
+
+ul.sub-menu {
+    position: absolute;
+    top: 100%;
+    margin-top: 20px;
+    left: 0;
+    width: 240px;
+    padding: 34px 0;
+    background-color: #ffffff;
+    @include border-bottom-left-radius(5px);
+    @include border-bottom-right-radius(5px);
+    @include box-shadow(0 3px 21px rgba(165,210,237, 0.42));
+    @include transition(0.2s);
+    opacity: 0;
+    visibility: hidden;
+    &.level2 {
+        left: 100%;
+        top: 0;
+    }
+    li {
+        display: block;
+        position: relative;
+        padding: 0 40px;
+        a {
+            color: $title-color;
+            font-size: 14px;
+            font-family: $font-alternative;
+            font-weight: 400;
+            opacity: 0.7;
+            padding: 6px 0;
+            position: relative;
+            &:before,
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                @include border-radius(50%);
+                @include transition(0.2s);
+                transform: translateY(-50%);
+                opacity: 0;
+            }
+            &:before {
+                width: 17px;
+                height: 17px;
+                left: 0;
+                border: 2px solid $primaryColor2;
+            }
+            &:after {
+                width: 9px;
+                height: 9px;
+                left: 4px;
+                border: 2px solid $primaryColor;
+            }
+            &:hover {
+                padding-left: 30px;
+                &:before,
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    li:hover {
+        .level2 {
+            opacity: 1;
+            visibility: visible;
+            margin-top: 0;
+        }
+    }
+}
+
+li.nav-item:hover {
+    > a.active {
+        border-color: transparent;
+    }
+    > ul.sub-menu {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 0;
+    }
+}

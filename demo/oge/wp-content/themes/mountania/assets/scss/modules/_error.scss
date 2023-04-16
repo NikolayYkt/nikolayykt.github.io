@@ -1,0 +1,50 @@
+
+/*-------------------------------------------------
+ =  Error Style
+-------------------------------------------------*/
+
+section.error-section {
+    height: calc(100vh - 262px);
+    background: #edf8ff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    div.title {
+        position: relative;
+        margin-bottom: 30px;
+        h1 {
+            font-weight: 700;
+            font-size: 158px;
+            margin: 0;
+            line-height: 158px;
+        }
+        span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            display: inline-block;
+            padding: 2px 12px;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 300;
+            font-family: $font-default;
+            background-color: #eb4034;
+        }
+    }
+    a {
+        display: inline-block;
+        color: $title-color;
+        font-size: 20px;
+        font-family: $font-default;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding: 14px 24px;
+        border: 1px solid #7a7d8f;
+        &:hover {
+            background-color: $primaryColor;
+            color: #ffffff;
+            border-color: transparent;
+        }
+    }
+}

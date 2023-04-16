@@ -1,0 +1,71 @@
+
+/*-------------------------------------------------
+ =  Search Form Style
+-------------------------------------------------*/
+
+.search-form-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    @include transition(0.3s);
+    &.active {
+        visibility: visible;
+        opacity: 1;
+        h1 {
+            margin: 26px 0 70px;
+        }
+    }
+    .search-icon {
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        background-color: #e6edfb;
+        text-align: center;
+        line-height: 58px;
+        color: $primaryColor2;
+        margin: 0;
+        font-size: 20px;
+        @include border-radius(50%);
+    }
+    h1 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 160px 210px;
+        @include transition(0.5s);
+    }
+    input[type="text"] {
+        display: block;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 8px;
+        border: none;
+        border-bottom: 1px solid #dfe3f7;
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 300;
+        outline: none;
+        font-family: $font-default;
+    }
+
+    a.close-search {
+        color: rgba($color: #000000, $alpha: 0.15);
+        font-size: 50px;
+        position: absolute;
+        top: 110px;
+        right: 110px;
+        &:hover {
+            color: $primaryColor2;
+        }
+    }
+}

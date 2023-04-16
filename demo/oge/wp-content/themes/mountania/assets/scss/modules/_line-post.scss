@@ -1,0 +1,33 @@
+
+/*-------------------------------------------------
+ =  Line post Style
+-------------------------------------------------*/
+
+.line-post {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    @include border-radius(5px);
+    @include box-shadow(0 6px 21px rgba(165,210,237,0.42));
+    img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        object-position: center;
+        @include border-radius(5px);
+    }
+    h3 {
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 0;
+        a {
+            color: $text-color;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+}

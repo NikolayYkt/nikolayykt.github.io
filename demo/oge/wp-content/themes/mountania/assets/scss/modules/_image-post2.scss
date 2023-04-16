@@ -1,0 +1,57 @@
+
+/*-------------------------------------------------
+ =  Image post Style
+-------------------------------------------------*/
+
+.image-post2 {
+    position: relative;
+    overflow: hidden;
+    @include border-radius(5px);
+    margin-bottom: 30px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .hover-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        @include transition(0.3s);
+        background: linear-gradient(180deg, rgba(112,67,173,0) 30%, rgba(112,67,173,1) 100%);
+        .inner-hover {
+            padding: 0 30px 30px;
+            @include transition(0.3s);
+            h3 {
+                font-size: 17px;
+                line-height: 22px;
+                margin: 0;
+                a {
+                    color: #ffffff;
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        .hover-box {
+            opacity: 0;
+            visibility: hidden;
+            .inner-hover {
+                padding-bottom: 20px;
+            }
+        }
+    }
+    &.large-post {
+        .hover-box .inner-hover h3 {
+            font-size: 22px;
+            line-height: 29px;
+        }
+    }
+}

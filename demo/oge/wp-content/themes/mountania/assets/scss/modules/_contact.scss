@@ -1,0 +1,162 @@
+
+/*-------------------------------------------------
+ =  Contact Style
+-------------------------------------------------*/
+
+section.contact-section {
+    padding: 100px 0 70px;
+    background: #edf8ff;
+}
+
+.contact-form-box {
+    padding: 30px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    @include border-radius(5px);
+    @include box-shadow(0 6px 21px rgba(165,210,237,0.42));
+    .contact-text {
+        h3 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 18px;
+        }
+        ul.social-icons {
+            padding: 0;
+            margin: 0;
+            li {
+                display: inline-block;
+                margin-right: 12px;
+                a {
+                    display: inline-block;
+                    color: $text-color;
+                    font-size: 17px;
+                    width: 48px;
+                    height: 48px;
+                    line-height: 48px;
+                    text-align: center;
+                    background-color: #f6f6f9;
+                    @include border-radius(50%);
+                }
+                a:hover {
+                    color: #fff;
+                    background: $primaryColor;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+#contact-form {
+    .input-line {
+        margin-bottom: 30px;
+        border: 1px solid #f7f4fb;
+        @include border-radius(5px);
+        display: flex;
+        align-items: center;
+        label {
+            width: 58px;
+            height: 58px;
+            line-height: 58px;
+            text-align: center;
+            font-size: 16px;
+            color: $text-color;
+            margin: 0;
+            border-right: 1px solid #f7f4fb;
+        }
+        input[type="text"] {
+            display: block;
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 20px 25px;
+            color: $text-color;
+            font-size: 14px;
+            line-height: 18px;
+            font-family: $font-alternative2;
+            font-weight: 400;
+            margin: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    textarea {
+        width: 100%;
+        height: 148px;
+        border: 1px solid #f7f4fb;
+        @include border-radius(5px);
+        outline: none;
+        padding: 20px 25px;
+        color: $text-color;
+        font-size: 14px;
+        line-height: 18px;
+        font-family: $font-alternative2;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 20px 25px;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 18px;
+        font-family: $font-alternative2;
+        font-weight: 400;
+        text-transform: uppercase;
+        background: $primaryColor2;
+        margin: 0;
+        @include border-radius(5px);
+        @include transition(0.2s);
+        &:hover {
+            background-color: $primaryColor;
+        }
+    }
+}
+
+#map {
+    padding: 30px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    @include border-radius(5px);
+    @include box-shadow(0 6px 21px rgba(165,210,237,0.42));
+    height: 500px;
+}
+
+.info-post {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    @include border-radius(5px);
+    @include box-shadow(0 6px 21px rgba(165,210,237,0.42));
+    i {
+        display: inline-block;
+        color: $text-color;
+        font-size: 24px;
+        line-height: 72px;
+        width: 72px;
+        height: 72px;
+        @include border-radius(50%);
+        margin-bottom: 15px;
+        background-color: #ffffff;
+        @include box-shadow(2px 4px 8px rgba(165,210,237,0.6));
+    }
+    p {
+        margin-bottom: 0;
+        max-width: 234px;
+    }
+}

@@ -1,0 +1,89 @@
+
+/*-------------------------------------------------
+ =  Team section Style
+-------------------------------------------------*/
+
+section.team-section {
+    padding: 100px 0;
+    @include box-shadow(0 10px 21px rgba(165,210,237,0.22));
+    position: relative;
+    z-index: 2;
+    .team-box {
+        padding-top: 10px;
+        .team-post {
+            padding: 0 40px 24px;
+            @include border-radius(5px);
+            background-color: #f4fbff;
+            text-align: center;
+            border: 1px solid #efe9f7;
+            .image-holder {
+                padding: 22px 22px 0;
+                background-color: $primaryColor2;
+                @include border-bottom-left-radius(5px);
+                @include border-bottom-right-radius(5px);
+                position: relative;
+                margin-bottom: 22px;
+                img {
+                    width: 100%;
+                    height: 278px;
+                    object-position: center;
+                    object-fit: cover;
+                    @include border-top-left-radius(5px);
+                    @include border-top-right-radius(5px);
+                }
+                ul.team-social {
+                    position: absolute;
+                    top: 72px;
+                    left: 22px;
+                    padding: 0;
+                    margin: 0;
+                    width: 36px;
+                    opacity: 0;
+                    left: 0;
+                    @include transition(0.2s);
+                    li {
+                        display: block;
+                        margin-bottom: 12px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        a {
+                            width: 36px;
+                            height: 36px;
+                            background-color: $primaryColor2;
+                            color: #fff;
+                            text-align: center;
+                            line-height: 36px;
+                            font-size: 18px;
+                            @include border-top-right-radius(5px);
+                            @include border-bottom-right-radius(5px);
+                            &:hover {
+                                background-color: $primaryColor;
+                            }
+                        }
+                    }
+                }
+            }
+            h3 {
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 29px;
+                margin-bottom: 0;
+            }
+            span {
+                display: inline-block;
+                font-size: 17px;
+                line-height: 24px;
+                font-weight: 400;
+                font-family: $font-alternative2;
+                margin: 0;
+            }
+            &:hover {
+                .image-holder ul.team-social {
+                    opacity: 1;
+                    left: 22px;
+                }
+            }
+        }
+    }
+}

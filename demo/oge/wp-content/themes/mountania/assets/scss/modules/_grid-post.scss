@@ -1,0 +1,64 @@
+
+/*-------------------------------------------------
+ =  Grid post Style
+-------------------------------------------------*/
+
+.grid-post {
+    padding: 24px 30px;
+    background-color: #ffffff;
+    @include border-radius(5px);
+    @include box-shadow(0 3px 10px rgba(165,210,237, 0.2));
+    > a {
+        display: block;
+    }
+    img {
+        width: 320px;
+        height: 228px;
+        object-fit: cover;
+        object-position: center;
+    }
+    h4 {
+        margin-top: 25px;
+        padding-bottom: 20px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #f7f4fb;
+        a {
+            color: $title-color;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+    ul.post-meta {
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-block;
+            margin-right: 12px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a, span {
+                color: $title-color;
+                font-size: 15px;
+                font-family: $font-default;
+                font-weight: 300;
+                i {
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    font-size: 12px;
+                    line-height: 30px;
+                    text-align: center;
+                    margin-right: 7px;
+                    color: $text-color;
+                    background: #f6f6f9;
+                    @include border-radius(50%);
+                }
+                &:hover {
+                    color: $primaryColor2;
+                }
+            }
+        }
+    }
+}

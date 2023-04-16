@@ -1,0 +1,194 @@
+
+/*-------------------------------------------------
+ =  About Style
+-------------------------------------------------*/
+
+section.about-section {
+    padding: 100px 0;
+    background: #edf8ff;
+    .about-box {
+        background-color: #ffffff;
+        padding: 30px;
+        @include border-radius(5px);
+        @include box-shadow(0 6px 21px rgba(165,210,237,0.42));
+        img {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+            object-position: center;
+            @include border-radius(5px);
+        }
+    }
+}
+
+.title-alternative {
+    span {
+        display: inline-block;
+        padding: 0 4px;
+        margin-bottom: 12px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: $font-default;
+        text-transform: uppercase;
+        background-color: $primaryColor2;
+        &.red-style {
+            background-color: #eb4034;
+        }
+    }
+    h2 {
+        font-size: 34px;
+        text-transform: inherit;
+        line-height: 44px;
+        margin: 0 0 6px;
+    }
+}
+
+.statistic-list {
+    padding: 20px;
+    background: $primaryColor2;
+    margin: 0;
+    @include border-radius(5px);
+    &.black {
+        background-color: #000000;;
+    }
+    li {
+        color: #ffffff;
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: $font-alternative2;
+        margin-bottom: 6px;
+        &:before {
+            content: '\f058';
+            color: #ffffff;
+            font-size: 17px;
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 400;
+            margin-right: 10px;
+            float: left;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.about-section2 {
+    padding: 100px 0;
+    background: #edf8ff;
+    .highlight-box {
+        padding: 35px 40px 40px;
+        background-color: $primaryColor2;
+        @include border-radius(5px);
+        h2 {
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 31px;
+            margin-bottom: 12px;
+        }
+        p {
+            color: #ffffff;
+            font-size: 16px;
+            font-family: $font-alternative;
+            line-height: 22px;
+            font-weight: 400;
+            margin: 0;
+        }
+    }
+    .category-box {
+        margin-top: 60px;
+        margin-bottom: 70px;
+        .category-post {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 220px;
+            background: #ffffff;
+            @include border-radius(5px);
+            border: 1px solid #efe9f7;
+            margin-bottom: 30px;
+            .svg-holder {
+                width: 73px;
+                height: 73px;
+                padding: 20px;
+                background-color: $primaryColor2;
+                @include border-radius(50%);
+                margin-bottom: 14px;
+                svg {
+                    fill: #ffffff;
+                }
+            }
+            span {
+                color: $text-color;
+                font-size: 18px;
+                font-family: $font-default;
+                font-weight: 400;
+            }
+            &.diff-style .svg-holder {
+                background-color: transparent;
+                border: 1px solid #ebe8f7;
+                svg {
+                    fill: $primaryColor2;
+                }
+            }
+        }
+        
+    }
+    .about-steps {
+        .title-alternative {
+            margin-bottom: 26px;
+        }
+        .step-post {
+            background-color: #ffffff;
+            text-align: center;
+            padding-bottom: 26px;
+            @include border-radius(5px);
+            @include box-shadow(0 6px 21px rgba(165,210,237,0.42));
+            .image-holder {
+                position: relative;
+                margin-bottom: 26px;
+                img {
+                    width: 100%;
+                    height: 254px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                span.icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 110px;
+                    height: 110px;
+                    background-color: rgba($color: #ffffff, $alpha: 0.9);
+                    @include border-radius(50%);
+                    margin-left: -55px;
+                    margin-top: -55px;
+                    text-align: center;
+                    line-height: 110px;
+                    color: $primaryColor2;
+                    font-size: 42px;
+                    text-shadow: 0 3px 10px rgba(0,0,0,0.21);
+                }
+            }
+            h3 {
+                font-size: 20px;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 20px;
+                margin-bottom: 2px;
+            }
+            span {
+                color: $text-color;
+                font-size: 16px;
+                font-family: $font-alternative2;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,137 @@
+
+/*-------------------------------------------------
+ =  Default Variables
+-------------------------------------------------*/
+
+//  primary color of template
+$primaryColor: #eb4034;
+
+//  primary color of template
+$primaryColor2: #6228b1; 
+
+// menu text color
+$secondColor: #edf8ff;
+
+// title color used on content
+$title-color: #49495f;
+
+// text color used on content
+$text-color: #55558b;
+
+// Default font family used in template titles
+$font-default: 'Rubik', sans-serif;
+
+$font-alternative: 'Quando', serif;
+
+$font-alternative2: 'Play', sans-serif;
+
+
+/*-------------------------------------------------
+ =  different mixins
+-------------------------------------------------*/
+
+// transition speed
+@mixin transition($speed) {
+  transition: all $speed ease-in-out;
+  -moz-transition: all $speed ease-in-out;
+  -webkit-transition: all $speed ease-in-out;
+  -o-transition: all $speed ease-in-out;
+}
+
+// radius corners
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+// radius corners
+@mixin border-top-left-radius($radius) {
+    -webkit-border-top-left-radius: $radius;
+    -moz-border-top-left-radius: $radius;
+    -ms-border-top-left-radius: $radius;
+    border-top-left-radius: $radius;
+}
+
+// radius corners
+@mixin border-top-right-radius($radius) {
+    -webkit-border-top-right-radius: $radius;
+    -moz-border-top-right-radius: $radius;
+    -ms-border-top-right-radius: $radius;
+    border-top-right-radius: $radius;
+}
+
+// radius corners
+@mixin border-bottom-left-radius($radius) {
+    -webkit-border-bottom-left-radius: $radius;
+    -moz-border-bottom-left-radius: $radius;
+    -ms-border-bottom-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+}
+
+// radius corners
+@mixin border-bottom-right-radius($radius) {
+    -webkit-border-bottom-right-radius: $radius;
+    -moz-border-bottom-right-radius: $radius;
+    -ms-border-bottom-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+
+//animate transform rotate variable
+@mixin rotate($rotate) {
+    -webkit-transform: rotate($rotate);
+    -moz-transform: rotate($rotate);
+    -ms-transform: rotate($rotate);
+    -o-transform: rotate($rotate);
+    transform: rotate($rotate);
+}
+
+//box shadow 
+@mixin box-shadow($val) {
+  box-shadow: $val;
+  -webkit-box-shadow: $val;
+  -moz-box-shadow: $val;
+  -o-box-shadow: $val;
+}
+
+/*-------------------------------------------------
+ =  Responsive mixins
+-------------------------------------------------*/
+
+// phone devices view
+$phone-dev-width: 500px;
+
+// small devices view
+$small-dev-width: 768px;
+
+// medium devices view
+$medium-dev-width: 991px;
+
+// large devices view
+$large-dev-width: 1199px;
+
+
+@mixin phone {
+  @media (max-width: #{$phone-dev-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+    @media (max-width: #{$small-dev-width}) {
+      @content;
+    }
+}
+
+@mixin tablets {
+    @media (max-width: #{$medium-dev-width}) {
+      @content;
+    }
+}
+
+@mixin desktop {
+    @media (max-width: #{$large-dev-width}) {
+      @content;
+    }
+}

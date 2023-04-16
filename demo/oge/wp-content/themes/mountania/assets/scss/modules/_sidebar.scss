@@ -1,0 +1,205 @@
+
+/*-------------------------------------------------
+ =  Sidebar Style
+-------------------------------------------------*/
+
+.sidebar {
+    position: sticky;
+    top: 112px;
+}
+
+.sidebar-widget {
+    padding: 30px;
+    background: #ffffff;
+    margin-bottom: 35px;
+    @include box-shadow(0 6px 21px rgba(165,210,237,0.42));
+    &:last-child {
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 21px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+}
+
+.category-widget {
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: block;
+            margin-bottom: 16px;
+            a {
+                color: $text-color;
+                font-size: 17px;
+                font-family: $font-alternative2;
+                font-weight: 400;
+                text-decoration: underline !important;
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    width: 14px;
+                    height: 14px;
+                    background-color: $primaryColor2;
+                    margin-right: 14px;
+                }
+            }
+            
+            a:hover {
+                color: $primaryColor;
+            }
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.tags-widget {
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-block;
+            margin-right: 7px;
+            margin-bottom: 10px;
+            a {
+                display: inline-block;
+                color: $text-color;
+                font-size: 13px;
+                font-family: $font-alternative2;
+                font-weight: 400;
+                padding: 8px 16px;
+                background-color: #f6f6f9;
+                text-decoration: underline !important;
+                @include border-radius(5px);
+            }
+            a:hover {
+                color: #fff;
+                background: $primaryColor;
+            }
+        }
+    }
+}
+
+.social-widget {
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-block;
+            margin-right: 12px;
+            a {
+                display: inline-block;
+                color: $text-color;
+                font-size: 17px;
+                width: 48px;
+                height: 48px;
+                line-height: 48px;
+                text-align: center;
+                background-color: #f6f6f9;
+                @include border-radius(50%);
+            }
+            a:hover {
+                color: #fff;
+                background: $primaryColor;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+.text-widget {
+    img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.search-widget input[type="text"] {
+    margin: 0;
+    padding: 16px 28px;
+    border: 1px solid #f2f2f2;
+    width: 100%;
+    outline: none;
+    color: $text-color;
+    font-size: 16px;
+    font-family: $font-default;
+    font-weight: 300;
+    background: #fff;
+    @include border-radius(5px);
+    @include transition(0.2s);
+}
+.search-widget button {
+    background: transparent;
+    border: none;
+    float: right;
+    margin-top: -42px;
+    margin-right: 14px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.search-widget button i {
+    color: $primaryColor2;
+    font-size: 17px;
+}
+
+.sidebar .popular-widget {
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            list-style: none;
+            margin-bottom: 30px;
+            img {
+                float: left;
+                width: 90px;
+                height: 90px;
+                padding: 10px;
+                background: #ffffff;
+                object-fit: cover;
+                object-position: center;
+                @include border-radius(50%);
+                @include box-shadow(5px 4px 15px rgba(0,0,0,0.1));
+            }
+            .side-content {
+                margin-left: 110px;
+                padding-top: 5px;
+                h4 {
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 700;
+                    margin-bottom: 8px;
+                    a {
+                        color: $title-color;
+                    }
+                    a:hover {
+                        color: $primaryColor;
+                    }
+                }
+                span {
+                    display: inline-block;
+                    margin: 0;
+                    color: $primaryColor2;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-family: $font-alternative2;
+                    font-weight: 400;
+                    padding: 4px;
+                    background: #f4fbff;
+                    @include border-radius(5px);
+                }
+            }
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
