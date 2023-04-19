@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="https://gmpg.org/xfn/11">
 
-<title>1 задание ОГЭ по информатике &#8212; ИНФОРМАТИКА</title>
+<title>5 задание ОГЭ по информатике &#8212; ИНФОРМАТИКА</title>
 <script src='menu.js' id='menue-js'></script>
 <meta name='robots' content='noindex, nofollow' />
 <link rel="alternate" type="application/rss+xml" title="ИНФОРМАТИКА &raquo; Лента" href="?feed=rss2" />
@@ -128,7 +128,7 @@ class="post-1 post type-post status-publish format-standard hentry category-3 as
 		<header class="entry-header ">
 
 			
-			<h1 class="entry-title" itemprop="headline">1 задание ОГЭ по информатике</h1>
+			<h1 class="entry-title" itemprop="headline">5 задание ОГЭ по информатике</h1>
 			
 		</header><!-- .entry-header -->
 
@@ -147,31 +147,99 @@ class="post-1 post type-post status-publish format-standard hentry category-3 as
 
 
 
-<h5 class="wp-block-heading">Единицы измерения информации</h5>
+<h4 class="wp-block-heading">Простой линейный алгоритм для формального исполнителя</h4>
 
 
 
-<p><strong>1 байт =  8 бит <strong>—</strong></strong>  <strong><strong>2<sup>3</sup> байт</strong></strong></p>
+<p></p>
 
 
 
-<p><strong>1 Кбайт (килобайт) = 1024 байта —</strong>  <strong><strong>2<sup>10 </sup>байт</strong></strong></p>
+<h4 class="wp-block-heading">1)</h4>
 
 
 
-<p><strong>1 Мбайт (мегабайт) = 1024 Кбайта</strong> —  <strong>2<sup>10 </sup>Кбайт</strong></p>
+<p>У исполнителя Альфа две команды. которым присвоены номера:</p>
 
 
 
-<p><strong>1 Гбайт (гигабайт) = 1024 Мбайта —</strong>  <strong><strong>2<sup>10 </sup>Мбайт</strong></strong></p>
+<p><strong>1. Вычти&nbsp;<em>b;</em></strong></p>
 
 
 
-<p><strong>1 Тбайт (терабайт) = 1024 Гбайта</strong> —  <strong>2<sup>40 </sup>байта</strong></p>
+<p><strong>2. Умножь на 5.</strong></p>
 
 
 
-<p><strong>1 Пбайт (петабайт) = 1024 Тбайта</strong> —  <strong>2<sup>50 </sup>байта</strong></p>
+<p>(<em>b</em>  — неизвестное натуральное число).</p>
+
+
+
+<p>Выполняя первую из них, Альфа уменьшает число на экране на&nbsp;<em>b</em>, а выполняя вторую, умножает это число на 5. Программа для исполнителя Альфа  — это последовательность номеров команд. Известно, что программа 21121 переводит число 2 в число 17. Определите значение&nbsp;<em>b</em>.</p>
+
+
+
+<p><strong>Пример</strong>. </p>
+
+
+
+<p>21121</p>
+
+
+
+<ol>
+<li>2 x 5 = 10</li>
+
+
+
+<li>10 &#8212; b = ?</li>
+
+
+
+<li>? &#8212; b = ?</li>
+
+
+
+<li>? x 5 = ?</li>
+
+
+
+<li>? &#8212; b = 17</li>
+</ol>
+
+
+
+<p><strong>Решение.</strong> Находим <em>b</em>  — неизвестное натуральное число</p>
+
+
+
+<p>21121</p>
+
+
+
+<ol>
+<li>2 x 5 = 10      </li>
+
+
+
+<li>10 &#8212; 3 = 7</li>
+
+
+
+<li>7 &#8212; 3 = 4</li>
+
+
+
+<li>4 x 5 = 20</li>
+
+
+
+<li>20 &#8212; 3 = 17</li>
+</ol>
+
+
+
+<p>Ответ: b = 3</p>
 
 
 
@@ -183,7 +251,85 @@ class="post-1 post type-post status-publish format-standard hentry category-3 as
 
 
 
-<p></p>
+<h4 class="wp-block-heading">2)</h4>
+
+
+
+<p>У исполнителя Делитель две команды, которым присвоены номера:</p>
+
+
+
+<p><strong>1. раздели на 2</strong></p>
+
+
+
+<p><strong>2.  вычти 1</strong></p>
+
+
+
+<p>Первая из них уменьшает число на экране в 2 раза, вторая уменьшает его на 1. Исполнитель работает только с натуральными числами. Составьте алгоритм получения&nbsp;<strong>из чиcла 65 числа 4</strong>, содержащий не более 5 команд. В ответе запишите только номера команд.</p>
+
+
+
+<p><em>(Например, 12112 – это алгоритм:</em></p>
+
+
+
+<p><em>раздели на 2</em></p>
+
+
+
+<p><em>вычти 1</em></p>
+
+
+
+<p><em>раздели на 2</em></p>
+
+
+
+<p><em>раздели на 2</em></p>
+
+
+
+<p><em>вычти 1,</em></p>
+
+
+
+<p><em>который преобразует число 42 в число 4.)</em></p>
+
+
+
+<p>Если таких алгоритмов более одного, то запишите любой из них.</p>
+
+
+
+<p><strong>Решение.</strong> </p>
+
+
+
+<p>Алгоритм содержащий не более пяти команд</p>
+
+
+
+<ol>
+<li>65 &#8212; 1 = 64 </li>
+
+
+
+<li>64 : 2 = 32 </li>
+
+
+
+<li>32 : 2 = 16</li>
+
+
+
+<li>16 : 2 = 8</li>
+
+
+
+<li>8 : 2 = 4 </li>
+</ol>
 
 
 
@@ -191,48 +337,11 @@ class="post-1 post type-post status-publish format-standard hentry category-3 as
 
 
 
-<p></p>
+<p>Ответ: 21111 </p>
 
 
 
-<p></p>
-
-
-
-<p></p>
-
-
-
-<h4 class="wp-block-heading">Степень двойки</h4>
-
-
-
-<figure class="wp-block-table"><table><tbody><tr><td>2<sup>0</sup></td><td>2<sup>1</sup></td><td>2<sup>2</sup></td><td>2<sup>3</sup></td><td>2<sup>4</sup></td><td>2<sup>5</sup></td><td>2<sup>6</sup></td><td>2<sup>7</sup></td><td>2<sup>8</sup></td><td>2<sup>9</sup></td><td>2<sup>10</sup></td><td>2<sup>11</sup></td></tr><tr><td>1</td><td>2</td><td>4</td><td>8</td><td>16</td><td>32</td><td>64</td><td>128</td><td>256</td><td>512</td><td>1024</td><td>2048</td></tr></tbody></table></figure>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-
-<p><em>Уровень сложности — базовый,</em><br><em>Максимальный балл — 1,</em><br><em>Примерное время выполнения — 3 минуты.</em></p>
+<p><em>Уровень сложности — базовый,</em><br><em>Максимальный балл — 1,</em><br><em>Примерное время выполнения — 6 минут.</em></p>
 
 
 <p></p>

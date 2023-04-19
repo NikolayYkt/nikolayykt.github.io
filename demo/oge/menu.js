@@ -41,8 +41,8 @@ if($esli == '5'){
 				document.write('<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-grid-center-col-layout">');
 											document.write('<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">');
 									document.write('<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">');
-											document.write('<div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope"				>');
-					document.write('<span class="site-logo-img"><a href="index.html" class="custom-logo-link transparent-custom-logo" rel="home" itemprop="url" aria-label="Готовцевой Нюргустааны Семеновны"><img width="70" height="70" src="wp-content/uploads/2021/02/logo-1-70x70.png" class="custom-logo" alt="" decoding="async" loading="lazy" srcset="wp-content/uploads/2021/02/logo-1-70x70.png 70w, wp-content/uploads/2021/02/logo-1-150x150.png 150w, wp-content/uploads/2021/02/logo-1.png 200w" sizes="(max-width: 70px) 100vw, 70px" /></a></span>				</div>');
+											document.write('<div class="'+$bolt+' site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope"				>');
+					document.write('<span class="site-title" itemprop="name"><a href="index.html" rel="home" itemprop="url" >ИНФОРМАТИКА</a></span>			</div>');
 	
 					document.write('</div>');
 												document.write('<div class="site-header-primary-section-left-center site-header-section ast-flex ast-grid-left-center-section">');
@@ -51,21 +51,7 @@ if($esli == '5'){
 																			document.write('<div class="site-header-primary-section-center site-header-section ast-flex ast-grid-section-center">');
 										document.write('<div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">');
 			document.write('<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation-desktop" aria-label="Навигация по сайту" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border stack-on-mobile"><li id="menu-item-5468" class="'+$bolt+' menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-5461 current_page_item menu-item-5468"><a href="index.html" aria-current="page" class="menu-link">Главная</a></li>');
-document.write('<li id="menu-item-5898" class="'+$bol+' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5898"><a href="#" class="menu-link">Мой класс</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Переключатель меню</span><span class="ast-icon icon-arrow"></span></button>');
-document.write('<ul class="sub-menu">');
-	document.write('<li id="menu-item-5669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5669"><a href="photogallery.html" class="menu-link">Фотогалерея</a></li>');
-	document.write('<li id="menu-item-5897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5897"><a href="dostijeniya.html" class="menu-link">Достижения учащихся</a></li>');
-document.write('</ul>');
-document.write('</li>');
-document.write('<li id="menu-item-5673" class="'+$bor+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5673"><a href="videogallery.html" class="menu-link">Видеогалерея</a></li>');
-document.write('<li id="menu-item-5740" class="'+$boss+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="portfolio.html" class="menu-link">Портфолио</a></li>');
-document.write('<li id="menu-item-5675" class="'+$boc+' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5675"><a href="#" class="menu-link">Гостевая книга</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Переключатель меню</span><span class="ast-icon icon-arrow"></span></button>');
-document.write('<ul class="sub-menu">');
-	document.write('<li id="menu-item-5672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="meropriyatiya.html" class="menu-link">Мероприятия</a></li>');
-	document.write('<li id="menu-item-5671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5671"><a href="nashi.html" class="menu-link">Наши будни</a></li>');
-	document.write('<li id="menu-item-5670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5670"><a href="metod.html" class="menu-link">Метод разработка </a></li>');
-	document.write('<li id="menu-item-5668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5668"><a href="rabotarod.html" class="menu-link">Работа с родителями</a></li>');
-document.write('</ul>');
+document.write('<li id="menu-item-5673" class="'+$bor+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5673"><a href="zadacha-1.html" class="menu-link">Задачи</a></li>');
 document.write('</li>');
 document.write('</ul></div></nav></div></div>		</div>');
 									document.write('</div>');
@@ -73,7 +59,7 @@ document.write('</ul></div></nav></div></div>		</div>');
 																	document.write('<div class="site-header-primary-section-right-center site-header-section ast-flex ast-grid-right-center-section">');
 																			document.write('</div>');
 											document.write('<div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-button-1" data-section="section-hb-button-1">');
-			document.write('<div class="ast-builder-button-wrap ast-builder-button-size-"><a class="ast-custom-button-link" href="#" target="_self" ><div class=ast-custom-button></div></a><a class="menu-link" href="#" target="_self" ></a></div>		</div>');
+			document.write('		</div>');
 									document.write('</div>');
 												document.write('</div>');
 					document.write('</div>');
@@ -89,7 +75,7 @@ document.write('<div id="ast-mobile-header" class="ast-mobile-header-wrap " data
 													document.write('<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">');
 										document.write('<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">');
 											document.write('<div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">');
-					document.write('<span class="site-logo-img"><a href="index.html" class="custom-logo-link transparent-custom-logo" rel="home" itemprop="url" aria-label="Готовцевой Нюргустааны Семеновны"><img width="70" height="70" src="wp-content/uploads/2021/02/logo-1-70x70.png" class="custom-logo" alt="" decoding="async" loading="lazy" srcset="wp-content/uploads/2021/02/logo-1-70x70.png 70w, wp-content/uploads/2021/02/logo-1-150x150.png 150w, wp-content/uploads/2021/02/logo-1.png 200w" sizes="(max-width: 70px) 100vw, 70px" /></a></span>				</div>');
+					document.write('<span class="site-title" itemprop="name"><a href="index.html" rel="home" itemprop="url" >ИНФОРМАТИКА</a></span>				</div>');
 
 					document.write('</div>');
 									document.write('</div>');
@@ -110,22 +96,7 @@ document.write('<div id="ast-mobile-header" class="ast-mobile-header-wrap " data
 		document.write('<div class="ast-mobile-header-content content-align-flex-start ">');
 				document.write('<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">');
 			document.write('<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="ast-mobile-site-navigation" aria-label="Навигация по сайту" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation"><ul id="ast-hf-mobile-menu" class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile"><li class="'+$bolt+' menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-5461 current_page_item menu-item-5468"><a href="index.html" aria-current="page" class="menu-link">Главная</a></li>');
-document.write('<li class="'+$bol+' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5898"><a href="#" class="menu-link">Мой класс</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Переключатель меню</span><span class="ast-icon icon-arrow"></span></button>');
-document.write('<ul class="sub-menu">');
-	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5669"><a href="photogallery.html" class="menu-link">Фотогалерея</a></li>');
-	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5897"><a href="dostijeniya.html" class="menu-link">Достижения учащихся</a></li>');
-document.write('</ul>');
-document.write('</li>');
-document.write('<li class="'+$bor+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5673"><a href="videogallery.html" class="menu-link">Видеогалерея</a></li>');
-document.write('<li class="'+$boss+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5740"><a href="portfolio.html" class="menu-link">Портфолио</a></li>');
-document.write('<li class="'+$boc+' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5675"><a href="#" class="menu-link">Гостевая книга</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Переключатель меню</span><span class="ast-icon icon-arrow"></span></button>');
-document.write('<ul class="sub-menu">');
-	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="meropriyatiya.html" class="menu-link">Мероприятия</a></li>');
-	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5671"><a href="nashi.html" class="menu-link">Наши будни</a></li>');
-	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5670"><a href="metod.html" class="menu-link">Метод разработка </a></li>');
-	document.write('<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5668"><a href="rabotarod.html" class="menu-link">Работа с родителями</a></li>');
-document.write('</ul>');
-document.write('</li>');
-document.write('</ul></div></nav></div></div>		</div>');
+document.write('<li class="'+$bor+' menu-item menu-item-type-post_type menu-item-object-page menu-item-5673"><a href="zadacha-1.html" class="menu-link">Задачи</a></li>');
+document.write('</div></nav></div></div>		</div>');
 			document.write('</div>');
 document.write('</div>');}
