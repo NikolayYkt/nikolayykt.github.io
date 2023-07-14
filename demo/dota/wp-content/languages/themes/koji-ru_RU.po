@@ -1,0 +1,501 @@
+# Translation of Themes - Koji in Russian
+# This file is distributed under the same license as the Themes - Koji package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-21 10:06:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Koji\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Koji is a clean and lightweight theme for bloggers. It features a masonry grid on the archive pages, a beautiful and minimal design, Block Editor/Gutenberg support, widget areas in the sidebar and the footer, infinite scroll loading that can be set to load more posts on button click or when the visitor reaches the bottom of the page, settings for what post meta to display on archive pages and on single posts, icon links to social media pages, custom logo support, a search overlay that can be accessed from any page, and much more. Demo: https://andersnoren.se/themes/koji/"
+msgstr "Коджи - это чистая и легкая тема для блогеров. Она имеет разметку в виде сетки на страницах архива, обладает красивым и минималистичным дизайном, и поддерживает редактор блоков и Гутенберг. Еще, она содержит в себе области для виджетов, которые находятся в боковой панели и нижнем калантитуле. А бесконечная загрузка записей при прокрутке, которая может быть настроена для загрузки при нажатии на кнопку или когда посетитель достигает нижней части страницы, сделает сайт еще более красивым. Настройки отображения метаинформации на страницах архива и страницах записи, ссылки значков на страницы социальных сетей, поддержка пользовательских логотипов, наложение поиска, доступ к которому можно получить с любой страницы, и многое другое дополняют образ идеальной темы. Демо: https://www.andersnoren.se/themes/koji/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Koji"
+msgstr "Коджи"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: header.php:226
+msgid "Hide the search overlay"
+msgstr "Скрыть наложение поиска"
+
+#: header.php:118 header.php:197
+msgid "Toggle the search field"
+msgstr "Кнопка формы поиска"
+
+#: header.php:34
+msgid "Skip to the main menu"
+msgstr "Перейти в главное меню"
+
+#: header.php:33
+msgid "Skip to the content"
+msgstr "Перейти к содержанию"
+
+#: functions.php:716
+msgid "Post author"
+msgstr "Автор записи"
+
+#: functions.php:427
+msgid "Fallback image"
+msgstr "Резервное изображение"
+
+#: content.php:73
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: content.php:61
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: functions.php:257
+msgid "Widgets in this area will be shown below the main menu."
+msgstr "Виджеты в этой области будут показаны ниже главного меню."
+
+#: functions.php:255
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:287
+msgid "Widgets in this area will be shown in the third footer column."
+msgstr "Виджеты в этой области будут показаны в третьей колонке подвала."
+
+#: functions.php:285
+msgid "Footer #3"
+msgstr "Подвал #3"
+
+#: functions.php:277
+msgid "Widgets in this area will be shown in the second footer column."
+msgstr "Виджеты в этой области будут показаны во второй колонке подвала."
+
+#: functions.php:275
+msgid "Footer #2"
+msgstr "Подвал #2"
+
+#: functions.php:267
+msgid "Widgets in this area will be shown in the first footer column."
+msgstr "Виджеты в этой области будут показаны в первой колонке подвала."
+
+#: functions.php:265
+msgid "Footer #1"
+msgstr "Подвал #1"
+
+#: inc/classes/class-koji-customize.php:210
+msgid "Check to hide the related posts section on single posts."
+msgstr "Установите флажок, чтобы скрыть раздел связанных записей в одиночных записях."
+
+#: inc/classes/class-koji-customize.php:209
+msgid "Disable Related Posts"
+msgstr "Отключить Похожие Записи"
+
+#: inc/classes/class-koji-customize.php:183
+msgid "Disable Search Toggle"
+msgstr "Отключить Кнопку Поиска"
+
+#: inc/classes/class-koji-customize.php:77
+msgid "Disable Fallback Image"
+msgstr "Отключить Резервные Изображения"
+
+#: inc/classes/class-koji-customize.php:50
+msgid "Checking this will decrease load times, but also make images look less sharp on high-resolution screens."
+msgstr "Отметьте для уменьшения времени загрузки, путем урезания качества изображения на больших экранах."
+
+#: inc/classes/class-koji-customize.php:49
+msgid "Use Low-Resolution Images"
+msgstr "Используйте изображения с низким разрешением"
+
+#: inc/classes/class-koji-customize.php:36
+msgid "Settings for images in Koji."
+msgstr "Настройки для изображений в Коджи."
+
+#: inc/classes/class-koji-customize.php:33
+msgid "Images"
+msgstr "Изображения"
+
+#: searchform.php:9
+msgctxt "Submit button"
+msgid "Search"
+msgstr "Поиск"
+
+#: searchform.php:8
+msgctxt "Placeholder"
+msgid "Enter your search query"
+msgstr "Введите текст и нажмите Enter"
+
+#: searchform.php:5
+msgctxt "Label"
+msgid "Search for:"
+msgstr "Искать:"
+
+#: inc/classes/class-koji-customize.php:192 related-posts.php:63
+msgid "Related Posts"
+msgstr "Похожие Записи"
+
+#: pagination.php:67
+msgid "Next Page &rarr;"
+msgstr "Следующая страница &rarr;"
+
+#: pagination.php:63
+msgid "&larr; Previous Page"
+msgstr "&larr; Предыдущая страница"
+
+#: pagination.php:39
+msgid "Nothing more to load."
+msgstr "Больше нечего грузить."
+
+#: pagination.php:37
+msgid "Load more"
+msgstr "Загрузить еще"
+
+#. Translators: %s = the number of results
+#: index.php:30
+msgctxt "%s = number of results"
+msgid "Found %s result matching your search."
+msgid_plural "Found %s results matching your search."
+msgstr[0] "Найден %s результат, соответствующий вашему запросу."
+msgstr[1] "Найдено %s результата, соответствующих вашему запросу."
+msgstr[2] "Найдено %s результатов, соответствующих вашему запросу."
+
+#: header.php:57
+msgid "Close"
+msgstr "Закрыть"
+
+#: header.php:56
+msgid "Menu"
+msgstr "Меню"
+
+#: functions.php:851
+msgctxt "Short name of the larger font size in the Gutenberg editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:850
+msgctxt "Name of the larger font size in Gutenberg"
+msgid "Larger"
+msgstr "Огромный"
+
+#: functions.php:845
+msgctxt "Short name of the large font size in the Gutenberg editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:844
+msgctxt "Name of the large font size in Gutenberg"
+msgid "Large"
+msgstr "Большой"
+
+#: functions.php:839
+msgctxt "Short name of the regular font size in the Gutenberg editor."
+msgid "N"
+msgstr "M"
+
+#: functions.php:838
+msgctxt "Name of the regular font size in Gutenberg"
+msgid "Normal"
+msgstr "Нормальный"
+
+#: functions.php:833
+msgctxt "Short name of the small font size in the Gutenberg editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:832
+msgctxt "Name of the small font size in Gutenberg"
+msgid "Small"
+msgstr "Маленький"
+
+#: functions.php:822
+msgctxt "Name of the white color in the Gutenberg palette"
+msgid "White"
+msgstr "Белый"
+
+#: functions.php:817
+msgctxt "Name of the lightest gray color in the Gutenberg palette"
+msgid "Lightest gray"
+msgstr "Чистый серый"
+
+#: functions.php:812
+msgctxt "Name of the light gray color in the Gutenberg palette"
+msgid "Light gray"
+msgstr "Светло-серый"
+
+#: functions.php:807
+msgctxt "Name of the gray color in the Gutenberg palette"
+msgid "Gray"
+msgstr "Серый"
+
+#: functions.php:802
+msgctxt "Name of the darker gray color in the Gutenberg palette"
+msgid "Darker Gray"
+msgstr "Темно-серый"
+
+#: functions.php:797
+msgctxt "Name of the darkest gray color in the Gutenberg palette"
+msgid "Darkest gray"
+msgstr "Грязно-серый"
+
+#: functions.php:792
+msgctxt "Name of the black color in the Gutenberg palette"
+msgid "Black"
+msgstr "Черный"
+
+#: inc/classes/class-koji-customize.php:184
+msgid "Check to remove the search toggle from the row of icons."
+msgstr "Отметьте для удаления кнопки поиска из ряда иконок."
+
+#: inc/classes/class-koji-customize.php:166
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/classes/class-koji-customize.php:157
+msgid "Previous and next page links"
+msgstr "Ссылки на предыдущую и следующую страницы"
+
+#: inc/classes/class-koji-customize.php:156
+msgid "Load more on scroll"
+msgstr "Загрузить еще при прокрутке страницы"
+
+#: inc/classes/class-koji-customize.php:155
+msgid "Load more on button click"
+msgstr "Загрузить еще при нажатии на кнопку"
+
+#: inc/classes/class-koji-customize.php:153
+msgid "Pagination Type:"
+msgstr "Вид пагинации:"
+
+#: inc/classes/class-koji-customize.php:139
+msgid "Choose which type of pagination to display."
+msgstr "Выберите тип пагинации для отображения записей."
+
+#: inc/classes/class-koji-customize.php:136
+msgid "Pagination"
+msgstr "Пагинация"
+
+#: inc/classes/class-koji-customize.php:127
+msgid "Select the post meta values to show in previews."
+msgstr "Отметьте метаинформацию записи, которую вы хотите показать при предварительном просмотре на странице архива."
+
+#: inc/classes/class-koji-customize.php:126
+msgid "Post Meta In Previews:"
+msgstr "Метаинформация записи при предварительном просмотре:"
+
+#: inc/classes/class-koji-customize.php:113
+msgid "Select the post meta values to show on single posts."
+msgstr "Отметьте метаинформацию записи, которые вы хотите показать на странице просмотра записи."
+
+#: inc/classes/class-koji-customize.php:112
+msgid "Post Meta On Single:"
+msgstr "Метаинформация на странице просмотра:"
+
+#: inc/classes/class-koji-customize.php:100
+msgid "Tags"
+msgstr "Теги"
+
+#: inc/classes/class-koji-customize.php:99
+msgid "Sticky status"
+msgstr "Прикрепленное"
+
+#: inc/classes/class-koji-customize.php:97
+msgid "Edit link (for logged in users)"
+msgstr "Редактировать ссылку (для зарегистрированных пользователей)"
+
+#: inc/classes/class-koji-customize.php:95
+msgid "Categories"
+msgstr "Рубрики"
+
+#: inc/classes/class-koji-customize.php:88
+msgid "Choose which meta information to display in Koji."
+msgstr "Выберите метаинформацию, которая будет отображаться в Коджи."
+
+#: inc/classes/class-koji-customize.php:85
+msgid "Post Meta"
+msgstr "Метаинформация"
+
+#: inc/classes/class-koji-customize.php:61
+msgid "The selected image will be used when a post is missing a featured image. A default fallback image included in the theme will be used if no image is set."
+msgstr "Выбранное изображение будет использоваться, если в записи не было выбрано изображения записи. Резервное изображение, по умолчанию включенное в тему, будет использоваться если изображение для записи не задано."
+
+#: inc/classes/class-koji-customize.php:60
+msgid "Fallback Image"
+msgstr "Резервное изображение "
+
+#: inc/classes/class-koji-customize.php:25
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Масштабирование логотипа до половины его загруженного размера, позволит сделать его резким на экранах с высоким разрешением."
+
+#: inc/classes/class-koji-customize.php:24
+msgid "Retina logo"
+msgstr "Логотип Retina"
+
+#: functions.php:613 functions.php:620
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:600
+msgid "Sticky post"
+msgstr "Прикрепленная запись"
+
+#: functions.php:588 inc/classes/class-koji-customize.php:96
+msgid "Comments"
+msgstr "Комментарии"
+
+#: functions.php:578
+msgid "Tagged with"
+msgstr "Отметить"
+
+#: functions.php:568
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+#: functions.php:555
+msgid "Posted by"
+msgstr "Автором"
+
+#: functions.php:545 inc/classes/class-koji-customize.php:98
+msgid "Post date"
+msgstr "Дата публикации"
+
+#: functions.php:377
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: functions.php:372
+msgid "Day"
+msgstr "День"
+
+#: functions.php:370
+msgid "Month"
+msgstr "Месяц"
+
+#: functions.php:368
+msgid "Year"
+msgstr "Год"
+
+#: functions.php:366 inc/classes/class-koji-customize.php:94
+msgid "Author"
+msgstr "Автор"
+
+#: functions.php:364
+msgid "Tag"
+msgstr "Тег"
+
+#: functions.php:362
+msgid "Category"
+msgstr "Рубрика"
+
+#: functions.php:345 functions.php:379
+msgid "Archives"
+msgstr "Архивы"
+
+#: functions.php:336
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Чаты"
+
+#: functions.php:334
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Аудио"
+
+#: functions.php:332
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Статусы"
+
+#: functions.php:330
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Ссылки"
+
+#: functions.php:328
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: functions.php:326
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Видео"
+
+#: functions.php:324
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Изображения"
+
+#: functions.php:322
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Галереи"
+
+#: functions.php:320
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Заметки"
+
+#: functions.php:45
+msgid "Social Menu"
+msgstr "Меню социальных ссылок"
+
+#: functions.php:44
+msgid "Mobile Menu"
+msgstr "Мобильное меню"
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#. Author of the theme
+#. Translators: $s = name of the theme developer
+#: footer.php:30
+msgid "Anders Norén"
+msgstr "Андерс Норен"
+
+#. Translators: $s = name of the theme developer
+#: footer.php:30
+msgctxt "Translators: $s = name of the theme developer"
+msgid "Theme by %s"
+msgstr "Тема от %s"
+
+#: comments.php:22
+msgid "Add Yours &rarr;"
+msgstr "Добавить свой комментарий &rarr;"
+
+#. Translators: %s = the number of comments
+#: comments.php:12
+msgctxt "Translators: %s = the number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Комментарий"
+msgstr[1] "%s Комментария"
+msgstr[2] "%s Комментариев"
+
+#: 404.php:13
+msgid "To the home page"
+msgstr "На главную страницу"
+
+#: 404.php:11
+msgid "The page you're looking for could not be found. It may have been removed, renamed, or maybe it didn't exist in the first place. You can return to the home page through the link."
+msgstr "Страница, которую вы ищете, не найдена. Возможно, ее удалили, переименовали, а может быть, она вообще не существовала. Вы можете вернуться на главную страницу по ссылке и вновь воспользоваться поиском."
+
+#: 404.php:9
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://andersnoren.se/teman/koji-wordpress-theme/"
+msgstr "https://www.andersnoren.se/teman/koji-wordpress-theme/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://andersnoren.se"
+msgstr "https://www.andersnoren.se"
