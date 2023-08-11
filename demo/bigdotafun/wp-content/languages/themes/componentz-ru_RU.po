@@ -1,0 +1,1582 @@
+# Translation of Themes - componentz in Russian
+# This file is distributed under the same license as the Themes - componentz package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-31 09:50:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - componentz\n"
+
+#. Description of the theme
+#: includes/admin/class-componentz-menu.php:166
+#, gp-priority: high
+msgid "Inspired by material design, based on flexible frameworks, designed with a passion for details. The theme you were looking for if you are an advanced developer or just a web enthusiast."
+msgstr "Вдохновленный материальным дизайном, основанный на гибких каркасах, разработанный с вниманием к деталям. Тема, которую вы искали, если вы продвинутый разработчик или просто веб-энтузиаст."
+
+#. Theme Name of the theme
+#: includes/admin/class-componentz-menu.php:108
+#: includes/admin/class-componentz-menu.php:163
+#: includes/admin/class-componentz-menu.php:375
+#: includes/class-componentz-get.php:686
+#, gp-priority: high
+msgid "componentz"
+msgstr "componentz"
+
+#: includes/admin/class-componentz-customizer.php:1182
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: includes/admin/class-componentz-customizer.php:1175
+msgid "Post/Page Meta Text Styling"
+msgstr "Стили метатекста сообщения/страницы"
+
+#: includes/class-componentz-ajax.php:113
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Не удалось подключиться к файловой системе. Пожалуйста, подтвердите свои учетные данные."
+
+#: includes/admin/class-componentz-customizer.php:1185
+msgid "Hover Categories/Author/Date Color ( :hover )"
+msgstr "Категории при наведении/Автор/Цвет даты ( :hover )"
+
+#: includes/admin/class-componentz-customizer.php:1184
+msgid "Author/Date Color ( :link )"
+msgstr "Автор/Цвет даты ( :link )"
+
+#: includes/admin/class-componentz-customizer.php:1183
+msgid "Categories Color ( :link )"
+msgstr "Категории Цвет ( :link )"
+
+#: includes/admin/class-componentz-customizer.php:1176
+msgid "Customize the post/page meta text color of the Jumbotron area"
+msgstr "Настроить цвет метатекста публикации/страницы в области Jumbotron"
+
+#: includes/admin/class-componentz-customizer.php:1154
+msgid "Select the post/page title/tagline font hover color"
+msgstr "Выберите цвет при наведении курсора для шрифта заголовка публикации/страницы/слогана"
+
+#: includes/admin/class-componentz-customizer.php:1153
+msgid "Link Styling ( :hover )"
+msgstr "Стиль ссылки ( :hover )"
+
+#: includes/admin/class-componentz-customizer.php:1132
+msgid "Customize the post/page title/tagline font of the Jumbotron area"
+msgstr "Настройте шрифт сообщения/заголовка страницы/слогана в области Jumbotron"
+
+#: includes/admin/class-componentz-customizer.php:1131
+msgid "Post/Page Title/Tagline Font"
+msgstr "Шрифт сообщения/заголовка страницы/слогана"
+
+#: includes/admin/class-componentz-customizer.php:1091
+msgid "Sticky Header/Hover Menu Text Color ( :link )"
+msgstr "Цвет текста липкого заголовка/всплывающего меню ( :link )"
+
+#: includes/admin/class-componentz-customizer.php:1084
+msgid "Select the site title font hover color"
+msgstr "Выберите цвет при наведении курсора на шрифт заголовка сайта"
+
+#: includes/admin/class-componentz-customizer.php:986
+msgid "Color ( :link )"
+msgstr "Цвет ( :link )"
+
+#: includes/admin/class-componentz-customizer.php:980
+msgid "Select dropdown menu text color"
+msgstr "Выбрать цвет текста раскрывающегося меню"
+
+#: includes/admin/class-componentz-customizer.php:975
+msgid "Dropdown Menu"
+msgstr "Выпадающее меню"
+
+#: includes/admin/class-componentz-customizer.php:937
+msgid "Sticky Header Text Color"
+msgstr "Цвет текста липкого заголовка"
+
+#: includes/admin/class-componentz-customizer.php:930
+msgid "Select menu font active/hover and sticky header text color"
+msgstr "Выбор активного шрифта меню/при наведении и цвет текста липкого заголовка"
+
+#: includes/admin/class-componentz-customizer.php:929
+#: includes/admin/class-componentz-customizer.php:979
+#: includes/admin/class-componentz-customizer.php:1083
+msgid "Link Styling"
+msgstr "Стиль ссылки"
+
+#: includes/admin/class-componentz-admin.php:194
+msgid "Thanks for installing componentz theme"
+msgstr "Спасибо за установку темы componentz"
+
+#: includes/admin/class-componentz-menu.php:314
+#: includes/admin/class-componentz-menu.php:417
+msgid "Premium Plugin"
+msgstr "Премиум плагин"
+
+#: includes/admin/class-componentz-menu.php:306
+msgid "Kirki Customizer Framework enables all available options in the theme customizer which lets you set many useful settings."
+msgstr "Kirki Customizer Framework включает все доступные параметры в настройщике тем, который позволяет вам устанавливать множество полезных настроек."
+
+#: includes/admin/class-componentz-menu.php:297
+#: includes/admin/class-componentz-menu.php:337
+#: includes/admin/class-componentz-menu.php:433
+msgid "Plugin installed but not active"
+msgstr "Плагин установлен, но не активен"
+
+#: includes/admin/class-componentz-menu.php:277
+msgid "Free Plugin"
+msgstr "Бесплатный плагин"
+
+#: includes/admin/class-componentz-menu.php:275
+#: includes/admin/class-componentz-menu.php:277
+msgid "Kirki Customizer Framework"
+msgstr "Фреймворк для настройки Kirki"
+
+#: includes/admin/class-componentz-menu.php:274
+msgid "Recommended Plugin Extensions"
+msgstr "Рекомендуемые расширения плагинов"
+
+#: includes/admin/class-componentz-menu.php:223
+msgid "To enable all these theme options please install the Kirki Customizer Framework plugin first"
+msgstr "Чтобы включить все эти параметры темы, сначала установите плагин Kirki Customizer Framework"
+
+#: includes/admin/class-componentz-menu.php:222
+msgid "Kirki Customizer Framework Plugin Required"
+msgstr "Требуется плагин Kirki Customizer Framework"
+
+#: includes/admin/class-componentz-menu.php:203
+msgid "Become a volunteer and help us in the journey by translating the theme to your language. It's much appreciated."
+msgstr "Станьте волонтером и помогите нам в путешествии, переведя тему на ваш язык. Это очень ценится."
+
+#: includes/admin/class-componentz-menu.php:201
+msgid "Contribute"
+msgstr "Способствовать"
+
+#: includes/admin/class-componentz-menu.php:197
+msgid "Child Theme"
+msgstr "Дочерняя тема"
+
+#: includes/admin/class-componentz-menu.php:194
+msgid "Development Docs"
+msgstr "Документы для разработчиков"
+
+#: includes/admin/class-componentz-menu.php:192
+msgid "Learn more about the theme structure and all its available functions. Begin a new project with our premade child theme which will speed up your development."
+msgstr "Узнайте больше о структуре темы и всех ее доступных функциях. Начните новый проект с нашей готовой дочерней темой, которая ускорит ваше развитие."
+
+#: includes/admin/class-componentz-menu.php:190
+msgid "Development & Child Theme"
+msgstr "Развитие и детская тема"
+
+#: includes/admin/class-componentz-menu.php:183
+msgid "Basics Docs"
+msgstr "Основные документы"
+
+#: includes/admin/class-componentz-menu.php:181
+msgid "We've created extensive documentation for all the available settings of the theme so you can learn how to set it in a not time. If you still are not able to handle it, please use our free forums support to ask any questions."
+msgstr "Мы создали обширную документацию для всех доступных настроек темы, чтобы вы могли быстро узнать, как их установить. Если вы все еще не можете справиться с этим, воспользуйтесь нашей бесплатной поддержкой на форуме, чтобы задать любые вопросы."
+
+#: includes/admin/class-componentz-menu.php:179
+msgid "Support & Documentation"
+msgstr "Поддержка и документация"
+
+#: includes/admin/class-componentz-menu.php:173
+msgid "Rate it on wordpress.org"
+msgstr "Оцените это на wordpress.org"
+
+#: includes/admin/class-componentz-menu.php:171
+msgid "Do you enjoy using the theme and you would like to share it with others? We would love to see it too."
+msgstr "Вам нравится использовать эту тему, и вы хотели бы поделиться ею с другими? Мы тоже хотели бы это увидеть."
+
+#: includes/admin/class-componentz-menu.php:169
+msgid "Spread The Love"
+msgstr "Распространять любовь"
+
+#: includes/admin/class-componentz-menu.php:163
+#: includes/admin/class-componentz-menu.php:375
+msgid "Free Theme"
+msgstr "Бесплатная тема"
+
+#: comments.php:130
+msgid "Next Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:129
+msgid "Previous Comments"
+msgstr "Предыдущие комментарии"
+
+#: includes/class-componentz-blog.php:195
+msgid "Next Posts"
+msgstr "Следующие сообщения"
+
+#: includes/class-componentz-blog.php:191
+msgid "Previous Posts"
+msgstr "Предыдущие сообщения"
+
+#: includes/admin/class-componentz-customizer.php:1523
+msgid "Check the box to enable the page preloader effect"
+msgstr "Установите флажок, чтобы включить эффект предварительного загрузчика страницы."
+
+#: includes/admin/class-componentz-customizer.php:1522
+msgid "Enable page preloader effect"
+msgstr "Включить эффект предварительного загрузчика страницы"
+
+#: includes/admin/class-componentz-customizer.php:1432
+msgid "Front Page Header Content - Jumbotron"
+msgstr "Контент заголовка первой страницы - Jumbotron"
+
+#: includes/admin/class-componentz-customizer.php:895
+msgid "Customize the header navigation font"
+msgstr "Настроить шрифт навигации заголовка"
+
+#: includes/admin/class-componentz-customizer.php:894
+msgid "Header Navigation Font ( :link )"
+msgstr "Шрифт навигации заголовка ( :link )"
+
+#: includes/admin/class-componentz-customizer.php:590
+msgid "Check the box to enable the sticky header navigation"
+msgstr "Установите флажок, чтобы включить навигацию по липкому заголовку"
+
+#: includes/admin/class-componentz-customizer.php:589
+msgid "Enable Sticky Header Navigation"
+msgstr "Включить навигацию по закрепленным заголовкам"
+
+#: includes/admin/class-componentz-customizer.php:402
+msgid "Page Preloader Effect"
+msgstr "Эффект предварительного загрузчика страницы"
+
+#: includes/admin/class-componentz-customizer.php:388
+#: includes/admin/class-componentz-menu.php:253
+msgid "Front Page & Blog"
+msgstr "Первая страница и блог"
+
+#: includes/admin/class-componentz-customizer.php:267
+#: includes/admin/class-componentz-menu.php:261
+msgid "Effects & Features"
+msgstr "Эффекты и особенности"
+
+#: includes/admin/class-componentz-customizer.php:463
+#: includes/admin/class-componentz-customizer.php:578
+#: includes/admin/class-componentz-customizer.php:713
+#: includes/admin/class-componentz-customizer.php:845
+#: includes/admin/class-componentz-customizer.php:886
+#: includes/admin/class-componentz-customizer.php:1050
+#: includes/admin/class-componentz-customizer.php:1123
+#: includes/admin/class-componentz-customizer.php:1226
+#: includes/admin/class-componentz-customizer.php:1342
+#: includes/admin/class-componentz-customizer.php:1421
+#: includes/admin/class-componentz-customizer.php:1453
+#: includes/admin/class-componentz-customizer.php:1510
+#: includes/admin/class-componentz-customizer.php:1537
+#: includes/admin/class-componentz-customizer.php:1571
+#: includes/admin/customizer/class-componentz-premium.php:96
+msgid "Go Premium"
+msgstr "Перейти Премиум"
+
+#: includes/admin/class-componentz-customizer.php:463
+#: includes/admin/class-componentz-customizer.php:578
+#: includes/admin/class-componentz-customizer.php:713
+#: includes/admin/class-componentz-customizer.php:845
+#: includes/admin/class-componentz-customizer.php:886
+#: includes/admin/class-componentz-customizer.php:1050
+#: includes/admin/class-componentz-customizer.php:1123
+#: includes/admin/class-componentz-customizer.php:1226
+#: includes/admin/class-componentz-customizer.php:1342
+#: includes/admin/class-componentz-customizer.php:1421
+#: includes/admin/class-componentz-customizer.php:1453
+#: includes/admin/class-componentz-customizer.php:1510
+#: includes/admin/class-componentz-customizer.php:1537
+#: includes/admin/class-componentz-customizer.php:1571
+#: includes/admin/customizer/class-componentz-premium.php:95
+msgid "Get More Options"
+msgstr "Получите больше возможностей"
+
+#: header.php:50
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: comments.php:74
+msgid "Comments are closed"
+msgstr "комментарии закрыты"
+
+#: comments.php:57 comments.php:64
+msgid "% Comments"
+msgstr "% Комментарии"
+
+#: comments.php:56 comments.php:63
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: 404.php:32
+msgid "Oops! That page can&rsquo;t be found"
+msgstr "Ой! Эта страница не может быть найдена"
+
+#. translators: %d: ID of a post.
+#: includes/class-componentz-page-walker.php:127
+msgid "#%d (no title)"
+msgstr "#%d (без названия)"
+
+#: includes/class-componentz-post-meta.php:132
+msgid "on"
+msgstr "на"
+
+#: includes/class-componentz-post-meta.php:131
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: includes/class-componentz-post-meta.php:100
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+#: includes/class-componentz-post-meta.php:74
+msgid "Posted by"
+msgstr "Сообщение от"
+
+#: includes/class-componentz-walker-comment.php:121
+msgid "Reply"
+msgstr "Ответить"
+
+#: includes/class-componentz-walker-comment.php:98
+msgid "Your comment is awaiting moderation"
+msgstr "Ваш комментарий ожидает проверки"
+
+#: includes/class-componentz-walker-comment.php:71
+msgid "says:"
+msgstr "говорит:"
+
+#: includes/admin/customizer/class-componentz-choices.php:213
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/admin/customizer/class-componentz-choices.php:212
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/admin/customizer/class-componentz-choices.php:211
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/admin/customizer/class-componentz-choices.php:180
+msgid "Search Field"
+msgstr "Поле поиска"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/admin/class-componentz-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка подключаемого модуля %1$s (%2$d/%3$d)"
+
+#: includes/admin/class-componentz-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Все инсталляции завершены."
+
+#. translators: 1: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: includes/admin/class-componentz-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Начался процесс установки, он может занять некоторое время, особенно на медленных серверах, будьте терпеливы."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/admin/class-componentz-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация подключаемого модуля %1$s (%2$d/%3$d)"
+
+#: includes/admin/class-componentz-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#. translators: 1: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:3509
+#: includes/admin/class-componentz-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#. translators: 1: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:3509
+#: includes/admin/class-componentz-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Показать детали"
+
+#. translators: 1: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s успешно установлен и активирован."
+
+#: includes/admin/class-componentz-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Началась установка и активация. Этот процесс может занять некоторое время, особенно на медленных серверах, будьте терпеливы."
+
+#. translators: 1: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Не удалось установить %1$s."
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/admin/class-componentz-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ошибка при установке %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/admin/class-componentz-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление подключаемого модуля %1$s (%2$d/%3$d)"
+
+#: includes/admin/class-componentz-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Не удалось активировать плагин."
+
+#: includes/admin/class-componentz-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "В настоящее время нет доступных плагинов для активации."
+
+#: includes/admin/class-componentz-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Плагины для активации не выбраны. Никаких действий не принимается."
+
+#: includes/admin/class-componentz-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "В настоящее время нет доступных плагинов для обновления."
+
+#: includes/admin/class-componentz-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "В настоящее время нет доступных плагинов для установки."
+
+#: includes/admin/class-componentz-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Плагины для обновления не выбраны. Никаких действий не принимается."
+
+#: includes/admin/class-componentz-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Плагины для установки не выбраны. Никаких действий не принимается."
+
+#: includes/admin/class-componentz-plugin-activation.php:2723
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/admin/class-componentz-menu.php:290
+#: includes/admin/class-componentz-plugin-activation.php:2717
+msgid "Install"
+msgstr "Установить"
+
+#: includes/admin/class-componentz-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/admin/class-componentz-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/admin/class-componentz-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/admin/class-componentz-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: includes/admin/class-componentz-plugin-activation.php:2554
+msgid "Status"
+msgstr "Статус"
+
+#: includes/admin/class-componentz-plugin-activation.php:2549
+msgid "Type"
+msgstr "Тип"
+
+#: includes/admin/class-componentz-plugin-activation.php:2548
+msgid "Source"
+msgstr "Источник"
+
+#: includes/admin/class-componentz-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: includes/admin/class-componentz-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: includes/admin/class-componentz-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Минимальная необходимая версия:"
+
+#: includes/admin/class-componentz-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: includes/admin/class-componentz-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестно"
+
+#. translators: 1: number of plugins.
+#: includes/admin/class-componentz-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Для активации <span class=\"count\">(%s)</span>"
+msgstr[1] "Для активации <span class=\"count\">(%s)</span>"
+msgstr[2] ""
+
+#. translators: 1: number of plugins.
+#: includes/admin/class-componentz-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступно обновление <span class=\"count\">(%s)</span>"
+msgstr[1] "Доступно обновление <span class=\"count\">(%s)</span>"
+msgstr[2] ""
+
+#. translators: 1: number of plugins.
+#: includes/admin/class-componentz-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Для установки <span class=\"count\">(%s)</span>"
+msgstr[1] "Для установки <span class=\"count\">(%s)</span>"
+msgstr[2] ""
+
+#. translators: 1: number of plugins.
+#: includes/admin/class-componentz-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все <span class=\"count\">(%s)</span>"
+msgstr[1] "Все <span class=\"count\">(%s)</span>"
+msgstr[2] ""
+
+#. translators: 1: install status, 2: update status
+#: includes/admin/class-componentz-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/admin/class-componentz-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Обновление рекомендуется"
+
+#: includes/admin/class-componentz-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: includes/admin/class-componentz-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: includes/admin/class-componentz-plugin-activation.php:2321
+msgid "Active"
+msgstr "Активный"
+
+#: includes/admin/class-componentz-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Установленные но не активированы"
+
+#: includes/admin/class-componentz-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Не установлено"
+
+#: includes/admin/class-componentz-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Предварительно упакованный"
+
+#: includes/admin/class-componentz-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: includes/admin/class-componentz-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: includes/admin/class-componentz-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "рекомендуемые"
+
+#: includes/admin/class-componentz-plugin-activation.php:2273
+msgid "Required"
+msgstr "необходимые"
+
+#. translators: %s: version number
+#: includes/admin/class-componentz-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: includes/admin/class-componentz-plugin-activation.php:1121
+#: includes/admin/class-componentz-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#: includes/admin/class-componentz-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Пакет удаленного плагина состоит из более чем одного файла, но файлы не упакованы в папку."
+
+#: includes/admin/class-componentz-plugin-activation.php:934
+#: includes/admin/class-componentz-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Свяжитесь с поставщиком плагина и попросите его упаковать плагин в соответствии с рекомендациями WordPress."
+
+#: includes/admin/class-componentz-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Пакет удаленного плагина не содержит папки с нужным слагом, и переименование не сработало."
+
+#: includes/admin/class-componentz-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: includes/admin/class-componentz-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Этот плагин необходимо обновить, чтобы он был совместим с вашей темой."
+
+#: includes/admin/class-componentz-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь за помощью к администратору этого сайта."
+
+#: includes/admin/class-componentz-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Существует один или несколько обязательных или рекомендуемых подключаемых модулей для установки, обновления или активации."
+
+#: includes/admin/class-componentz-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Закрыть это уведомление"
+
+#. translators: 1: dashboard link.
+#: includes/admin/class-componentz-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины успешно установлены и активированы. %1$s"
+
+#. translators: 1: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Плагин не активирован. Для этой темы требуется более поздняя версия %s. Пожалуйста, обновите плагин."
+
+#. translators: 1: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не принимается. Плагин %1$s уже был активен."
+
+#: includes/admin/class-componentz-plugin-activation.php:388
+#: includes/admin/class-componentz-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Следующий плагин был успешно активирован:"
+msgstr[1] "Следующие плагины были успешно активированы:"
+msgstr[2] ""
+
+#: includes/admin/class-componentz-plugin-activation.php:387
+#: includes/admin/class-componentz-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: includes/admin/class-componentz-plugin-activation.php:386
+#: includes/admin/class-componentz-plugin-activation.php:827
+#: includes/admin/class-componentz-plugin-activation.php:2533
+#: includes/admin/class-componentz-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Вернуться на панель управления"
+
+#: includes/admin/class-componentz-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику требуемых плагинов"
+
+#: includes/admin/class-componentz-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начать активацию плагина"
+msgstr[1] "Начните активировать плагины"
+msgstr[2] ""
+
+#: includes/admin/class-componentz-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начать обновление плагина"
+msgstr[1] "Начать обновление плагинов"
+msgstr[2] ""
+
+#: includes/admin/class-componentz-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начните установку плагина"
+msgstr[1] "Начните установку плагинов"
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/admin/class-componentz-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующий рекомендуемый плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие рекомендуемые плагины в настоящее время неактивны: %1$s."
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/admin/class-componentz-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следующий необходимый плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие необходимые плагины в настоящее время неактивны: %1$s."
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/admin/class-componentz-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Доступно обновление для: %1$s."
+msgstr[1] "Доступны обновления для следующих подключаемых модулей: %1$s."
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/admin/class-componentz-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Чтобы обеспечить максимальную совместимость с этой темой, необходимо обновить следующий плагин до последней версии: %1$s."
+msgstr[1] "Следующие плагины необходимо обновить до последней версии, чтобы обеспечить максимальную совместимость с этой темой: %1$s."
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/admin/class-componentz-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Эта тема рекомендует следующий плагин: %1$s."
+msgstr[1] "Эта тема рекомендует следующие плагины: %1$s."
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/admin/class-componentz-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Для этой темы требуется следующий плагин: %1$s."
+msgstr[1] "Для этой темы требуются следующие плагины: %1$s."
+msgstr[2] ""
+
+#: includes/admin/class-componentz-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+#. translators: %s: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина: %s"
+
+#. translators: %s: plugin name.
+#: includes/admin/class-componentz-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: includes/admin/class-componentz-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: includes/admin/class-componentz-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Установить необходимые плагины"
+
+#: includes/admin/class-componentz-customizer.php:1498
+msgid "Open url in new tab?"
+msgstr "Открыть URL в новой вкладке?"
+
+#: includes/admin/class-componentz-customizer.php:1494
+msgid "Enter social media page url"
+msgstr "Введите URL страницы в социальной сети"
+
+#: includes/admin/class-componentz-customizer.php:1493
+msgid "Page URL"
+msgstr "URL страницы"
+
+#: includes/admin/class-componentz-customizer.php:1488
+msgid "Select social media type"
+msgstr "Выберите тип социальной сети"
+
+#: includes/admin/class-componentz-customizer.php:1487
+msgid "Select Social Media"
+msgstr "Выберите социальные сети"
+
+#: includes/admin/class-componentz-customizer.php:1472
+msgid "Add new icon"
+msgstr "Добавить новый значок"
+
+#: includes/admin/class-componentz-customizer.php:1469
+msgid " Social media"
+msgstr " Социальные медиа"
+
+#: includes/admin/class-componentz-customizer.php:1464
+msgid "Social Icons"
+msgstr "Социальные иконки"
+
+#: includes/admin/class-componentz-customizer.php:1441
+msgid "None"
+msgstr "Нет"
+
+#: includes/admin/class-componentz-customizer.php:1440
+msgid "Website Tagline"
+msgstr "Слоган веб-сайта"
+
+#: includes/admin/class-componentz-customizer.php:1439
+msgid "Sticky Recent Post"
+msgstr "Прикрепленное недавнее сообщение"
+
+#: includes/admin/class-componentz-customizer.php:1438
+msgid "Recent Post"
+msgstr "Недавний пост"
+
+#: includes/admin/class-componentz-customizer.php:1433
+msgid "Select what content to display in the front page header - Jumbotron"
+msgstr "Выберите, какой контент отображать в заголовке главной страницы - Jumbotron"
+
+#: includes/admin/class-componentz-customizer.php:1351
+msgid "Set the buttons color"
+msgstr "Установите цвет кнопок"
+
+#: includes/admin/class-componentz-customizer.php:1350
+msgid "Buttons Color"
+msgstr "Цвет кнопок"
+
+#: includes/admin/class-componentz-customizer.php:1264
+msgid "Set the color of links on hover"
+msgstr "Установить цвет ссылок при наведении"
+
+#: includes/admin/class-componentz-customizer.php:936
+#: includes/admin/class-componentz-customizer.php:987
+#: includes/admin/class-componentz-customizer.php:1090
+#: includes/admin/class-componentz-customizer.php:1263
+msgid "Hover Color ( :hover )"
+msgstr "Цвет при наведении ( :hover )"
+
+#: includes/admin/class-componentz-customizer.php:1247
+msgid "Set the color of body links"
+msgstr "Установите цвет основных ссылок"
+
+#: includes/admin/class-componentz-customizer.php:1246
+msgid "Body Color ( :link )"
+msgstr "Цвет корпуса ( :link )"
+
+#: includes/admin/class-componentz-customizer.php:1242
+msgid "Links"
+msgstr "Ссылки"
+
+#: includes/admin/class-componentz-customizer.php:1059
+msgid "Customize the site title font in the header area"
+msgstr "Настройте шрифт заголовка сайта в области заголовка"
+
+#: includes/admin/class-componentz-customizer.php:1058
+msgid "Title Font ( :link )"
+msgstr "Шрифт заголовка ( :link )"
+
+#: includes/admin/class-componentz-customizer.php:858
+msgid "Customize the body font"
+msgstr "Настроить шрифт основного текста"
+
+#: includes/admin/class-componentz-customizer.php:857
+msgid "Body Font"
+msgstr "Шрифт тела"
+
+#: includes/admin/class-componentz-customizer.php:699
+#: includes/admin/customizer/class-componentz-choices.php:181
+msgid "My Account"
+msgstr "Мой счет"
+
+#: includes/admin/class-componentz-customizer.php:676
+msgid "Mobile Menu Item"
+msgstr "Пункт мобильного меню"
+
+#: includes/admin/class-componentz-customizer.php:671
+msgid "Select the items which will be shown in the mobile menu"
+msgstr "Выберите элементы, которые будут отображаться в мобильном меню"
+
+#: includes/admin/class-componentz-customizer.php:670
+msgid "Menu Items"
+msgstr "Пункты меню"
+
+#: includes/admin/class-componentz-customizer.php:666
+msgid "Mobile Menu"
+msgstr "Мобильное меню"
+
+#: includes/admin/class-componentz-customizer.php:642
+msgid "Menu Item - Right Side"
+msgstr "Пункт меню - правая сторона"
+
+#: includes/admin/class-componentz-customizer.php:637
+msgid "Select the items which will be shown on the right side of menu"
+msgstr "Выберите элементы, которые будут отображаться в правой части меню."
+
+#: includes/admin/class-componentz-customizer.php:636
+msgid "Right Side"
+msgstr "Правая сторона"
+
+#: includes/admin/class-componentz-customizer.php:627
+#: includes/admin/class-componentz-customizer.php:695
+#: includes/admin/customizer/class-componentz-choices.php:178
+#: includes/admin/customizer/class-componentz-choices.php:210
+msgid "-- Select --"
+msgstr "-- Выбрать --"
+
+#: includes/admin/class-componentz-customizer.php:625
+#: includes/admin/class-componentz-customizer.php:655
+#: includes/admin/class-componentz-customizer.php:693
+msgid "Select menu item"
+msgstr "Выберите пункт меню"
+
+#: includes/admin/class-componentz-customizer.php:624
+#: includes/admin/class-componentz-customizer.php:654
+#: includes/admin/class-componentz-customizer.php:692
+msgid "Select Item"
+msgstr "Выберите предмет"
+
+#: includes/admin/class-componentz-customizer.php:608
+#: includes/admin/class-componentz-customizer.php:645
+#: includes/admin/class-componentz-customizer.php:679
+msgid "Add new item"
+msgstr "Добавить новый элемент"
+
+#: includes/admin/class-componentz-customizer.php:605
+msgid "Menu Item - Left Side"
+msgstr "Пункт меню - левая сторона"
+
+#: includes/admin/class-componentz-customizer.php:600
+msgid "Select the items which will be shown on the left side of menu"
+msgstr "Выберите элементы, которые будут отображаться в левой части меню."
+
+#: includes/admin/class-componentz-customizer.php:599
+msgid "Left Side"
+msgstr "Левая сторона"
+
+#: includes/admin/class-componentz-customizer.php:805
+msgid "Sticky Logo Max Height (px)"
+msgstr "Максимальная высота липкого логотипа (px)"
+
+#: includes/admin/class-componentz-customizer.php:763
+#: includes/admin/class-componentz-customizer.php:806
+msgid "Set logo max-height in pixels"
+msgstr "Установить максимальную высоту логотипа в пикселях"
+
+#: includes/admin/class-componentz-customizer.php:762
+msgid "Logo Max Height (px)"
+msgstr "Максимальная высота логотипа (px)"
+
+#: includes/admin/class-componentz-customizer.php:749
+msgid "Upload custom logo for menu hover/sticky header"
+msgstr "Загрузите собственный логотип для меню при наведении курсора/липком заголовке"
+
+#: includes/admin/class-componentz-customizer.php:748
+msgid "Logo For Menu Hover/Sticky Header"
+msgstr "Логотип для наведения курсора на меню/липкого заголовка"
+
+#: includes/admin/class-componentz-customizer.php:735
+msgid "Upload custom logo"
+msgstr "Загрузить собственный логотип"
+
+#: includes/admin/class-componentz-customizer.php:734
+#: includes/admin/customizer/class-componentz-choices.php:112
+msgid "Logo"
+msgstr "Логотип"
+
+#: includes/admin/class-componentz-customizer.php:725
+msgid "Select if display logo or site title"
+msgstr "Выберите отображение логотипа или названия сайта"
+
+#: includes/admin/class-componentz-customizer.php:724
+msgid "Logo / Site Title"
+msgstr "Логотип / Название сайта"
+
+#: includes/admin/class-componentz-customizer.php:1549
+msgid "Select the footer widgets layout"
+msgstr "Выберите макет виджетов нижнего колонтитула"
+
+#: includes/admin/class-componentz-customizer.php:1548
+msgid "Widgets Layout"
+msgstr "Макет виджетов"
+
+#: includes/admin/class-componentz-customizer.php:552
+msgid "Bottom"
+msgstr "Снизу"
+
+#: includes/admin/class-componentz-customizer.php:551
+msgid "Center"
+msgstr "По центру"
+
+#: includes/admin/class-componentz-customizer.php:550
+msgid "Top"
+msgstr "Сверху"
+
+#: includes/admin/class-componentz-customizer.php:544
+msgid "Select the position for the header background image"
+msgstr "Выберите положение для фонового изображения заголовка"
+
+#: includes/admin/class-componentz-customizer.php:543
+msgid "Header Image Position"
+msgstr "Положение изображения заголовка"
+
+#: includes/admin/class-componentz-customizer.php:517
+msgid "Set the header color on the right side"
+msgstr "Установите цвет заголовка с правой стороны"
+
+#: includes/admin/class-componentz-customizer.php:516
+msgid "Header Color #2 - Right Side"
+msgstr "Цвет заголовка №2 - правая сторона"
+
+#: includes/admin/class-componentz-customizer.php:490
+msgid "Set the header color on the left side"
+msgstr "Установите цвет заголовка слева"
+
+#: includes/admin/class-componentz-customizer.php:489
+msgid "Header Color #1 - Left Side"
+msgstr "Цвет заголовка №1 - левая сторона"
+
+#: includes/admin/class-componentz-customizer.php:483
+msgid "Header Image + Color Overlay"
+msgstr "Изображение заголовка + цветное наложение"
+
+#: includes/admin/class-componentz-customizer.php:481
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/admin/class-componentz-customizer.php:475
+msgid "Select the background style of the header"
+msgstr "Выберите стиль фона заголовка"
+
+#: includes/admin/class-componentz-customizer.php:474
+msgid "Header Background Style"
+msgstr "Стиль фона заголовка"
+
+#: includes/admin/class-componentz-customizer.php:443
+msgid "Select the content layout type"
+msgstr "Выберите тип макета контента"
+
+#: includes/admin/class-componentz-customizer.php:442
+msgid "Content Layout"
+msgstr "Макет содержимого"
+
+#: includes/admin/class-componentz-customizer.php:395
+#: includes/admin/class-componentz-customizer.php:698
+#: includes/admin/class-componentz-menu.php:257
+#: includes/admin/customizer/class-componentz-choices.php:179
+msgid "Social Media Links"
+msgstr "Ссылки на социальные сети"
+
+#: includes/admin/class-componentz-customizer.php:380
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: includes/admin/class-componentz-customizer.php:375
+msgid "Main Colors"
+msgstr "Основные цвета"
+
+#: includes/admin/class-componentz-customizer.php:360
+#: includes/admin/class-componentz-customizer.php:364
+#: includes/admin/customizer/class-componentz-choices.php:111
+msgid "Site Title"
+msgstr "Название сайта"
+
+#: includes/admin/class-componentz-customizer.php:352
+msgid "Body"
+msgstr "Тело"
+
+#: includes/admin/class-componentz-customizer.php:345
+#: includes/admin/class-componentz-menu.php:241
+msgid "Logo & Site Title"
+msgstr "Логотип и название сайта"
+
+#: includes/admin/class-componentz-customizer.php:338
+#: includes/admin/class-componentz-customizer.php:356
+#: includes/admin/class-componentz-menu.php:237
+msgid "Header Navigation"
+msgstr "Заголовок навигации"
+
+#: includes/admin/class-componentz-customizer.php:324
+#: includes/admin/class-componentz-menu.php:229
+msgid "Main Layout"
+msgstr "Основной макет"
+
+#: includes/admin/class-componentz-customizer.php:294
+#: includes/admin/class-componentz-customizer.php:410
+#: includes/admin/class-componentz-menu.php:265
+msgid "Footer"
+msgstr "Подвал"
+
+#: includes/admin/class-componentz-customizer.php:287
+#: includes/admin/class-componentz-menu.php:249
+msgid "Colors & Styling"
+msgstr "Цвета и стиль"
+
+#: includes/admin/class-componentz-customizer.php:280
+#: includes/admin/class-componentz-menu.php:245
+msgid "Typography"
+msgstr "Типографика"
+
+#: includes/admin/class-componentz-customizer.php:274
+#: includes/admin/class-componentz-customizer.php:331
+#: includes/admin/class-componentz-customizer.php:368
+#: includes/admin/class-componentz-menu.php:233
+msgid "Header"
+msgstr "Заголовок"
+
+#: includes/admin/class-componentz-admin.php:196
+msgid "Dismiss"
+msgstr "Закрыть"
+
+#: includes/admin/class-componentz-admin.php:196
+msgid "Let's get started"
+msgstr "Давайте начнем"
+
+#: includes/admin/class-componentz-menu.php:350
+msgid "Translate Plugin"
+msgstr "Плагин Translate"
+
+#: includes/admin/class-componentz-menu.php:359
+msgid "Premium Support Forums"
+msgstr "Форумы поддержки Premium"
+
+#: includes/admin/class-componentz-menu.php:281
+#: includes/admin/class-componentz-menu.php:321
+msgid "Plugin active"
+msgstr "Плагин активен"
+
+#: includes/admin/class-componentz-menu.php:300
+#: includes/admin/class-componentz-menu.php:340
+#: includes/admin/class-componentz-menu.php:436
+#: includes/admin/class-componentz-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/admin/class-componentz-menu.php:311
+#: includes/admin/class-componentz-menu.php:314
+#: includes/admin/class-componentz-menu.php:417
+msgid "componentz Extras"
+msgstr "componentz Дополнительно"
+
+#: includes/admin/class-componentz-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Плагин"
+
+#: includes/admin/class-componentz-menu.php:330
+#: includes/admin/class-componentz-menu.php:426
+msgid "Learn More"
+msgstr "Учить больше"
+
+#: includes/admin/class-componentz-menu.php:346
+msgid "componentz Extras turns the componentz theme to the next level with many great features which will help you to build an awesome site."
+msgstr "componentz Extras выводит тему componentz на новый уровень с множеством замечательных функций, которые помогут вам создать отличный сайт."
+
+#: includes/admin/class-componentz-menu.php:287
+#: includes/admin/class-componentz-menu.php:327
+#: includes/admin/class-componentz-menu.php:423
+msgid "Plugin not installed"
+msgstr "Плагин не установлен"
+
+#: includes/admin/class-componentz-menu.php:205
+#: includes/admin/class-componentz-menu.php:353
+msgid "Help us to translate"
+msgstr "Помогите нам перевести"
+
+#: includes/admin/class-componentz-menu.php:215
+msgid "Start to customize"
+msgstr "Начать настройку"
+
+#: includes/admin/class-componentz-menu.php:213
+msgid "Set the theme options the way you like."
+msgstr "Установите параметры темы так, как вам нравится."
+
+#: includes/admin/class-componentz-menu.php:211
+msgid "Theme Live Customizer"
+msgstr "Настройка темы Live"
+
+#: includes/admin/class-componentz-menu.php:186
+msgid "Free Support Forums"
+msgstr "Бесплатные форумы поддержки"
+
+#: includes/admin/class-componentz-menu.php:357
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/admin/class-componentz-menu.php:164
+#: includes/admin/class-componentz-menu.php:316
+#: includes/admin/class-componentz-plugin-activation.php:2553
+msgid "Version"
+msgstr "Версия"
+
+#: includes/admin/class-componentz-menu.php:159
+msgid "componentz Theme"
+msgstr "componentz Тема"
+
+#: includes/admin/class-componentz-menu.php:158
+msgid "Theme homepage"
+msgstr "Домашняя страница темы"
+
+#: includes/admin/class-componentz-menu.php:129
+msgid "Changelog"
+msgstr "Журнал изменений"
+
+#: includes/admin/class-componentz-menu.php:124
+msgid "Get Started"
+msgstr "Начать"
+
+#: includes/admin/class-componentz-menu.php:121
+msgid "componentz menu"
+msgstr "componentz меню"
+
+#: includes/admin/class-componentz-menu.php:112
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/admin/class-componentz-menu.php:108
+msgid "Control Panel"
+msgstr "Панель управления"
+
+#: includes/class-componentz-core.php:514
+msgid "Appears on footer 4 area."
+msgstr "Появляется в области нижнего колонтитула 4."
+
+#: includes/class-componentz-core.php:513
+msgid "Footer 4"
+msgstr "Нижний колонтитул 4"
+
+#: includes/class-componentz-core.php:503
+msgid "Appears on footer 3 area."
+msgstr "Отображается в области нижнего колонтитула 3."
+
+#: includes/class-componentz-core.php:502
+msgid "Footer 3"
+msgstr "Нижний колонтитул 3"
+
+#: includes/class-componentz-core.php:492
+msgid "Appears on footer 2 area."
+msgstr "Появляется в области нижнего колонтитула 2."
+
+#: includes/class-componentz-core.php:491
+msgid "Footer 2"
+msgstr "Нижний колонтитул 2"
+
+#: includes/class-componentz-core.php:482
+msgid "Appears on footer 1 area."
+msgstr "Отображается в области нижнего колонтитула 1."
+
+#: includes/class-componentz-core.php:481
+msgid "Footer 1"
+msgstr "Нижний колонтитул 1"
+
+#: includes/class-componentz-core.php:472
+msgid "Appears on WooCommerce pages."
+msgstr "Появляется на страницах WooCommerce."
+
+#: includes/class-componentz-core.php:471
+msgid "WooCommerce Sidebar"
+msgstr "Боковая панель WooCommerce"
+
+#: includes/class-componentz-core.php:462
+msgid "Appears on posts and pages."
+msgstr "Появляется в сообщениях и на страницах."
+
+#: includes/class-componentz-core.php:461
+msgid "Main Sidebar"
+msgstr "Основная боковая панель"
+
+#: includes/admin/class-componentz-customizer.php:628
+#: includes/admin/class-componentz-customizer.php:696
+#: includes/class-componentz-core.php:223
+msgid "Side Menu"
+msgstr "Боковое меню"
+
+#: includes/admin/class-componentz-customizer.php:629
+#: includes/admin/class-componentz-customizer.php:697
+#: includes/class-componentz-core.php:222
+msgid "Primary Menu"
+msgstr "основное меню"
+
+#: includes/admin/class-componentz-customizer.php:482
+#: includes/class-componentz-core.php:212
+#: includes/class-componentz-header-image.php:101
+msgid "Header Image"
+msgstr "Изображение заголовка"
+
+#: includes/class-componentz-get.php:683
+msgid "theme by"
+msgstr "тема по"
+
+#: includes/class-componentz-get.php:680 includes/class-componentz-get.php:681
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-componentz-get.php:680
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
+
+#: includes/class-componentz-header-jumbotron.php:674
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: includes/class-componentz-header-jumbotron.php:646
+msgid "Posts"
+msgstr "Записи"
+
+#: includes/class-componentz-header-jumbotron.php:644
+msgid "Products"
+msgstr "Продукты"
+
+#: includes/class-componentz-header-jumbotron.php:636
+msgid "Forums"
+msgstr "Форумы"
+
+#: includes/class-componentz-header-jumbotron.php:632
+msgid "Post"
+msgstr "Запись"
+
+#: includes/class-componentz-header-jumbotron.php:630
+msgid "Product"
+msgstr "Продукт"
+
+#: includes/class-componentz-header-jumbotron.php:626
+msgid "Topic"
+msgstr "Тема"
+
+#: includes/class-componentz-header-jumbotron.php:622
+msgid "Forum"
+msgstr "Форум"
+
+#: includes/class-componentz-header-jumbotron.php:577
+msgid "Archive"
+msgstr "Архив"
+
+#: includes/class-componentz-header-jumbotron.php:570
+msgid "Tag"
+msgstr "Метка"
+
+#: includes/class-componentz-header-jumbotron.php:564
+msgid "Category"
+msgstr "Рубрика"
+
+#: includes/class-componentz-header-jumbotron.php:558
+msgid "Author"
+msgstr "Автор"
+
+#: includes/class-componentz-header-jumbotron.php:529
+msgid "Search Results"
+msgstr "результаты поиска"
+
+#: includes/class-componentz-header-jumbotron.php:490
+#: includes/class-componentz-header-jumbotron.php:640
+msgid "Topics"
+msgstr "Темы"
+
+#: includes/class-componentz-header-jumbotron.php:488
+msgid "1 Topic"
+msgstr "1 тема"
+
+#: includes/class-componentz-header-jumbotron.php:228
+msgid "Comments"
+msgstr "Комментарии"
+
+#: includes/class-componentz-header-jumbotron.php:224
+msgid "Comment"
+msgstr "Комментарий"
+
+#: includes/class-componentz-header-jumbotron.php:220
+msgid "Leave a Comment"
+msgstr "Добавить комментарий"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: includes/class-componentz-header-jumbotron.php:158
+msgid "%1$s Edit <span class=\"screen-reader-text\">%2$s</span>"
+msgstr "%1$s Изменить <span class=\"screen-reader-text\">%2$s</span>"
+
+#: includes/class-componentz-filters.php:155
+msgid "Add comment"
+msgstr "Добавить комментарий"
+
+#: includes/class-componentz-filters.php:153
+msgid "Add your comment"
+msgstr "Добавьте свой комментарий"
+
+#: includes/admin/customizer/class-componentz-choices.php:214
+#: includes/class-componentz-get.php:369
+#: includes/class-componentz-helper.php:316
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/componentz-functions.php:65
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: includes/componentz-functions.php:47
+msgid "Header V1"
+msgstr "Заголовок V1"
+
+#: includes/componentz-actions.php:470
+msgid "Hit enter to search or ESC to close"
+msgstr "Нажмите Enter для поиска или ESC, чтобы закрыть"
+
+#: includes/componentz-actions.php:466
+msgid "search"
+msgstr "поиск"
+
+#: includes/componentz-actions.php:460
+msgid "Close search form"
+msgstr "Закрыть форму поиска"
+
+#: includes/componentz-actions.php:402
+msgid "Toggle Sidebar"
+msgstr "Переключить боковую панель"
+
+#: includes/componentz-actions.php:217
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: includes/class-componentz-blog.php:161
+msgid "Explore post tags"
+msgstr "Изучите теги сообщений"
+
+#. Template Name of the theme
+msgid "Wide Width"
+msgstr "Широкая ширина"
+
+#. Template Name of the theme
+msgid "Empty"
+msgstr "Ключ не указан"
+
+#: single.php:75
+msgid "Previous post:"
+msgstr "Предыдущий пост:"
+
+#: single.php:74
+msgid "Previous Post"
+msgstr "Предыдущая запись"
+
+#: single.php:72
+msgid "Next post:"
+msgstr "Следующее сообщение:"
+
+#: single.php:71
+msgid "Next Post"
+msgstr "Следующая запись"
+
+#: includes/class-componentz-post-meta.php:120 single.php:53
+msgid "Published in"
+msgstr "Опубликовано в"
+
+#: template-parts/header/header-v1.php:222
+msgid "Toggle account menu"
+msgstr "Переключить меню учетной записи"
+
+#: includes/componentz-actions.php:464 searchform.php:26 searchform.php:27
+#: template-parts/header/header-v1.php:198
+msgid "Search the website"
+msgstr "Искать на сайте"
+
+#: template-parts/header/header-v1.php:157
+#: template-parts/header/header-v1.php:158
+#: template-parts/header/header-v1.php:275
+#: template-parts/header/header-v1.php:277
+msgid "Logout"
+msgstr "Выйти"
+
+#: template-parts/header/header-v1.php:153
+#: template-parts/header/header-v1.php:248
+msgid "Lost Password"
+msgstr "Забыли пароль?"
+
+#: template-parts/header/header-v1.php:148
+#: template-parts/header/header-v1.php:244
+msgid "Sign Up"
+msgstr "Подписаться"
+
+#: template-parts/header/header-v1.php:141
+#: template-parts/header/header-v1.php:237
+msgid "Login"
+msgstr "Авторизоваться"
+
+#: template-parts/header/header-v1.php:117
+#: template-parts/header/header-v1.php:189
+msgid "Follow"
+msgstr "следить"
+
+#: template-parts/header/header-v1.php:116
+#: template-parts/header/header-v1.php:188
+msgid "Social media icons"
+msgstr "Иконки социальных сетей"
+
+#: template-parts/header/header-v1.php:107
+msgid "Toggle mobile menu"
+msgstr "Переключить мобильное меню"
+
+#: template-parts/header/header-v1.php:91
+msgid "Toggle navigation"
+msgstr "Переключить навигацию"
+
+#: template-parts/header/header-v1.php:74
+msgid "Toggle side menu"
+msgstr "Переключить боковое меню"
+
+#: template-parts/content/content-page.php:36
+#: template-parts/content/content-single.php:50
+#: template-parts/content/content.php:100
+msgid "Pages:"
+msgstr "Страницы:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content/content-single.php:37
+#: template-parts/content/content.php:87
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее <span class=\"screen-reader-text\">\"%s\"</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: includes/class-componentz-walker-comment.php:106
+#: template-parts/content/content.php:62
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/class-componentz-header-jumbotron.php:311
+#: includes/class-componentz-header-jumbotron.php:449
+#: template-parts/content/content-excerpt.php:37
+#: template-parts/content/content.php:43
+msgctxt "post"
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: template-parts/content/content-none.php:67
+msgid "Oops! We could not find it"
+msgstr "Ой! Мы не смогли найти это"
+
+#: template-parts/content/content-none.php:62
+msgid "0 Results"
+msgstr "0 результатов"
+
+#: template-parts/content/content-none.php:53
+msgid "No content to display yet"
+msgstr "Нет контента для отображения"
+
+#: template-parts/content/content-none.php:51
+msgid "No more posts to display"
+msgstr "Больше нет сообщений для отображения"
+
+#: template-parts/content/content-none.php:32
+msgid "Ready to publish your first post?"
+msgstr "Готовы опубликовать свой первый пост?"
+
+#: template-parts/content/content-none.php:30
+#: template-parts/content/content-none.php:32
+msgid "Get started here"
+msgstr "Начните здесь"
+
+#: template-parts/content/content-none.php:30
+msgid "Ready to publish your second post?"
+msgstr "Готовы опубликовать свой второй пост?"
+
+#: bbpress/form-search.php:23 searchform.php:28
+msgid "Search"
+msgstr "Поиск"
+
+#: bbpress/form-search.php:20
+msgid "Search for:"
+msgstr "Искать:"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://componentz.co"
+msgstr "https://componentz.co"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "componentz.co"
+msgstr "componentz.co"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://componentz.co/theme"
+msgstr "https://componentz.co/theme"
