@@ -1,0 +1,23 @@
+.header-inner{
+	display: flex;
+	justify-content: space-between;
+	background-color: #000;
+}
+
+.header-inner .logo{
+	margin: 0 20px;
+}
+
+.logo{
+	font-size: 44px;
+	color: #fff;
+}
+
+.menu {
+   display: flex;
+   vertical-align: middle;
+}
+
+.menu li{
+	margin: 0 10px;
+}
