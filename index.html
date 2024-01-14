@@ -3,19 +3,21 @@
     <head>
         <title>Пробный сайт</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="assets/css/styles.css" rel="stylesheet">
         <link href="assets/css/media.css" rel="stylesheet">
         <link href="assets/css/header.css" rel="stylesheet">
         <link href="assets/css/mobmenu.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
     </head>
     <body>
-    	<div id="wrapper">
+    	<div id="wrapper"><!--Wrapper-->
     		<header class="header">
                <div class="container">   
                  		<div class="header-inner">
                  			<a href="#" class="logo">KoKo</a>
                  			<nav>
+                 				 <!--Menu PC-->
                  			   <ul class="menu">
                  				   <li><a href="#">Главная</a></li>
                  				   <li><a href="#">Игры</a></li>
@@ -23,6 +25,8 @@
                  				   <li><a href="#">Программы</a></li>
                  				   <li><a href="#">Контакты</a></li>
                  			   </ul>
+                            </nav>  
+                 			   <!--End Menu PC-->
                  			        <!--Mobile Menu-->
 									<section class="top-nav">
 									<input id="menu-toggle" type="checkbox" />
@@ -38,11 +42,20 @@
 									</ul>
 									</section>
 									<!--End Mobile Menu-->
-                 		    </nav>  
+  
                  		</div>      		
               </div> 
-            </header>  
-        </div>
+            </header>
+
+              <main class="main">
+              	<div class="container"> 
+                  <div class="box">
+              		<p>Главная</p>
+              	   </div>
+                 </div>
+              </main>
+
+        </div><!--Wrapper End-->
      <script src='assets/js/custom.js'></script>        
     </body>    
 </html>
