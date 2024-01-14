@@ -6,7 +6,9 @@
 body, html{
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	background-color: #c2c8c8;
+	color: #fff;
+	font-size: 14px;
 }
 
 li{list-style: none;}
@@ -26,5 +28,5 @@ a{
 .container{
 	max-width: 1200px;
 	margin: 0px auto;
-	padding: 0px 15px;
+    padding: 0px 15px;
 }

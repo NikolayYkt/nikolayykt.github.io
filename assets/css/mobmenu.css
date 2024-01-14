@@ -34,10 +34,15 @@ html, body {
   padding: 0;
 }
 
-.menu-mob > li {
+.menu-mob > li > a{
   margin: 0 1rem;
   overflow: hidden;
 }
+
+.menu-mob a {
+    display:block;
+}
+
 
 .menu-button-container {
   display: none;
@@ -103,20 +108,21 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #menu-toggle ~ .menu-mob li {
+  #menu-toggle ~ .menu-mob li a {
     height: 0;
     margin: 0;
     padding: 0;
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #menu-toggle:checked ~ .menu-mob li {
+  #menu-toggle:checked ~ .menu-mob li a{
     border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    width: 100vh;
   }
-  .menu-mob > li {
+  .menu-mob > li > a {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -125,7 +131,7 @@ html, body {
     color: white;
     background-color: #222;
   }
-  .menu-mob > li:not(:last-child) {
+  .menu-mob > li a:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 }
