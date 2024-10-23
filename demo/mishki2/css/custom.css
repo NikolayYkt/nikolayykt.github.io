@@ -13,7 +13,7 @@ h1{font-family:'ZingScriptRustSB';font-size: 23px;border: 2px #000000 solid;
 padding: 12px 9px;}
 .phone{font-family: 'Montserrat-Medium';font-size: 24px;padding-top: 30px;}
 .call{margin-top: 32px;}
-.call a{border-bottom: 0.19em red dotted;font-family: 'Montserrat-Medium';font-size: 14px;color: #000000;}
+.call a{font-family: 'Montserrat-Medium';font-size: 14px;color: #000000;}
 .call a:hover{text-decoration: none;border-bottom: 0.19em red dotted;}
 .call a:focus{text-decoration: none;}
 .man img{border-radius: 35px;float: left;margin-right: 15px;}
@@ -24,7 +24,7 @@ h4{font-size: 16px;padding-top: 10px;}
 .title{height: 115px;margin-top: 40px;background-image:url('../img/banner.png');background-size: contain;background-position: top center;background-repeat: no-repeat;}
 h2{font-family: 'Bebas Neue Bold';font-size: 72px;text-align: center;padding-top: 15px;}
 h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top: 0}
-.mishki .img-1{width: 100%;margin-top: -20px;}
+.mishki .img-1{width: 100%;margin-top: -70px;}
 .mishki .img-2{width: 93px;height: 103px;position: absolute;z-index: 1;margin-top: -50px;margin-left: -80px;}
 .block-border{font-family: 'Bebas Neue Bold';color: #fff;z-index: 0;
   border-radius: 80px;background-color: #BE314F;
@@ -36,11 +36,11 @@ h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top:
 .price-top{font-family: 'Open Sans';font-size:16px;padding-top: 20px;}
 .price{font-size: 60px;margin-top: -20px;}
 .price-bottom{font-family: 'Open Sans';font-size:16px;margin-top: -20px;}
-.m-1{margin-left: 210px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-1{margin-left: 190px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
 .m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
 .m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
 .form{ 
-  -moz-box-shadow:0 40px 180px -30px #c00; -webkit-box-shadow:0 40px 180px -30px #c00; box-shadow: 0 40px 180px -30px #c00; border-radius: 15px;padding: 15px;margin-top: 55px;background-color: #fff;}
+  -moz-box-shadow:0 40px 180px -30px #c00; -webkit-box-shadow:0 40px 180px -30px #c00; box-shadow: 0 40px 180px -30px #c00; border-radius: 15px;padding: 15px;margin-top: 25px;background-color: #fff;}
 .form .f{margin-top: 10px;text-align:center;font-size: 12px;font-family: 'Montserrat-Regular';}
 .form .xx{margin-top: 20px;text-align:center;font-size: 10px;font-family: 'Montserrat-Regular';}
 .form .x{width: 100%;margin-top: 10px;text-align:left;font-size: 8px;font-family: 'Montserrat-Regular';}
@@ -50,9 +50,7 @@ h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top:
 .form input[type=checkbox] {
    height: 18px;width: 11%;float: left;
 }
-
-.mob-f{padding-left:0;padding-right:0;}
-.mishki-mob img{width: 100%;height:auto;padding-right:30px;}
+.mishki-mob img{width: 100%;height:auto;}
 .banner{
     border: 1px;
     border-style:solid;
@@ -61,7 +59,7 @@ h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top:
     border-left-color:transparent;
     border-right-color:transparent;
     min-height: 128px;
-    margin-top: 170px;
+    margin-top: 120px;
 }
 .banner-block{margin-top: 20px;font-family: 'Bebas Neue Bold';font-size: 24px;}
 .banner-block img{margin-top: 10px;margin-right: 15px;float: left;width: 44px;height: 44px;}
@@ -72,12 +70,11 @@ h3{font-family: 'Bebas Neue Bold';font-size: 27px;text-align: center;margin-top:
 .form button{font-size:10px;}
 h4{font-size: 12px;}  
 .form h3{font-size:23px;}
-.m-1{margin-left: 130px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-1{margin-left: 100px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
 .m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
 .m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;}  
 }
 @media (max-width: 997px) {
-.banner{margin-top:120px;}
 .form h3{font-size:27px;}  
 .man p{font-size: 12px;}
 .form button{font-size:12px;}
@@ -85,9 +82,11 @@ h4{font-size: 16px;}
 .phone{font-size:24px;}  
  .man img{float:none;margin: 0;} 
  .man{text-align: center;margin-top: 50px;}
- .form{margin-top: 500px;}
+ .form{margin-top: 400px;}
  #footer{text-align: center;}
-
+.m-1{margin-left: 120px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
+.m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
+.m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;} 
   }
 
   /*Mobile and */
@@ -95,45 +94,17 @@ h4{font-size: 16px;}
 .m-1{margin-left: 70px;text-align: center;margin-top: -170px;margin-bottom: 50px;}
 .m-2{margin-left: 25px;text-align: center;margin-top: -170px;}
 .m-3{margin-left: 25px;text-align: center;margin-top: -170px;margin-bottom: 50px;} 
-.call{margin-bottom: 40px;}
-.title{background-image:url('../img/banner_mobile.png');background-size: contain;background-position: top center;background-repeat: no-repeat;}
+.form{margin-top: 400px;}
 }
+
   /*Mobile and */
 @media (max-width: 650px) {
 h2{font-size: 54px;margin-bottom: 0px;}
-.form{margin-top: 400px;}
-.mishki .img-1{margin-top:0;}
-.price{font-size: 30px;}
-.price-bottom{font-size: 12px;    padding-bottom: 20px;}
+.form{margin-top: 330px;}
 }
-@media (max-width: 512px) {
-.form{margin-top: 300px;}
-}
+
   /*Mobile and */
 @media (max-width: 480px) {
 h2{font-size: 34px;margin-bottom: 0px;}
-.form{margin-top: 250px;}
-.block-price-mob .sharp{height:120px;}
-}
-.modal-footer form {margin-top:0 !important;}
-.modal-title{font-family: 'Bebas Neue Bold';text-align:center;font-size:30px;}
-
- .block-price-mob{text-align:center;color:#fff;font-family: 'Open Sans';font-size:10px;}
-.modal-body{padding:0;}
-.block-price-mob .sharp{
-    border-radius: 80px;background-color: #BE314F;
-  width: 100%;
-  height: auto;
-  margin-top: -20px;
-  margin-bottom: 50px;
-}
-
-
-.hidden{display:none;}
-.bb-form{background-color: transparent;}
-@media (min-width: 768px){
-.modal-dialog {
-    width: 500px;
-    margin: 30px auto;
-}
+.form{margin-top: 200px;}
 }
